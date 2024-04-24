@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Nhân Viên</title>
+    <link rel="stylesheet" href="casestydy.css">
+</head>
+
+<body>
+    <div id="loginForm">
+        <div class="header">
+            <div class="logo">
+                <h1>Cty TNHH PV</h1>
+            </div>
+            <div class="banner">
+                <table style="float: right;">
+                    <tr>
+                        <td>Tên tài khoản</td>
+                        <td><input type="text" placeholder="admin" id="acc"></td>
+                    </tr>
+                    <tr>
+                        <td>Mật khẩu</td>
+                        <td><input type="password" placeholder="admin" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button onclick="login()">Login</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainContent" style="display: none;">
+        <div class="header">
+            <div class="logo">
+                <h1>Cty TNHH PV</h1>
+            </div>
+            <div class="banner">
+                <h4 style="margin-right: 10px;">Xin chào Admin</h4>
+            </div>
+        </div>
+        <div class="home">
+            <div class="menu">
+                <section>
+                    <input type="text" placeholder="Tìm kiếm nhân viên" id="searchInput"> <button
+                        onclick="timkiem()">Tìm kiếm</button>
+                </section>
+                <button onclick="list()" style="border: none; width: 100%;background-color: gold;">
+                    <h3>Danh sách nhân viên</h3>
+                </button>
+                <button onclick="edit()" style="border: none; width: 100%;background-color: gold;">
+                    <h3>Chỉnh sửa danh sách</h3>
+                </button>
+                <button onclick="add()" style="border: none; width: 100%;background-color: gold;">
+                    <h3>Thêm nhân viên mới</h3>
+                </button>
+            </div>
+            <div class="main" id="main">
+                <h2>Chào mừng bạn đến với trang quản lý nhân viên công ty TNHH VP</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="casestudy.js"></script>
+</body>
+
+</html>
