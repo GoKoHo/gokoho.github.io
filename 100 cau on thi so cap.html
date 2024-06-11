@@ -10,18 +10,25 @@
     h1 {
         font-family: 'Kosugi Maru', sans-serif;
     }
-    span {
+    span.red {
         color: red;
+    }
+    span.blue {
+        color: blue;
     }
 </style>
 
 <body>
     <table>
         <tr>
-            <td>1</td>;
-            <td><h1><span>うすい</span>ぬのをぬうときはおさえをつよくします。</h1></td>;
-            <td><h2><span>Usui</span> nu no wo nuutokiwaosaewo tsuyokushimasu.</h2></td>;
-            <td><h3>Khi may vải <span>mỏng</span> thì chỉnh chân vịt đè chặt.</h3></td>;
+            <td rowspan="3"><h1>1</h1></td>;
+            <td><h1><span class="red">うすい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1></td>;
+        </tr>
+        <tr>
+            <td><h2><span class="red">Usui</span> nu no wo nuutokiwaosaewo <span class="blue">tsuyoku</span>shimasu.</h2></td>
+        </tr>
+        <tr>
+            <td><h3>Khi may vải <span class="red">mỏng</span> thì chỉnh chân vịt đè <span class="blue">chặt</span>.</h3></td>
         </tr>
     </table>    
     
