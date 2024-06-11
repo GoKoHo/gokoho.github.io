@@ -33,6 +33,7 @@
         padding: 10px;
         /* Khoảng cách giữa nội dung và đường viền */
     }
+
     img {
         height: 200px;
     }
@@ -49,10 +50,13 @@
                 <h1><span class="red">うすい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1>
                 <h2><span class="red">Usui</span> nu no wo nuutokiwa osae wo <span class="blue">tsuyoku</span>shimasu.
                 </h2>
-                <h3>Khi may vải <span class="red">mỏng</span> thì chỉnh chân vịt đè <span class="blue">chặt</span>.</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">mỏng</span> thì chỉnh chân vịt
+                    đè <span class="blue">chặt</span>.</h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>ꓫ</h1>
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
 
@@ -64,10 +68,13 @@
                 <h1><span class="red">あつい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1>
                 <h2><span class="red">Atsui</span> nu no wo nuu toki wa osae wo <span class="blue">tsuyoku</span>
                     shimasu.</h2>
-                <h3>Khi may vải <span class="red">dày</span> thì chỉnh chân vịt đè <span class="blue">chặt</span>.</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">dày</span> thì chỉnh chân vịt
+                    đè <span class="blue">chặt</span>.</h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>◯</h1>
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
 
@@ -79,10 +86,14 @@
                 <h1><span class="red">うすい</span> きじを ぬうときは いとや はりを <span class="blue">ふとく</span> すると よいです。</h1>
                 <h2><span class="red">Usui</span> kiji wo nuutokiwa itoya hariwo <span class="blue">futoku</span> suruto
                     yoidesu.</h2>
-                <h3>Khi may vải <span class="red">mỏng</span>, chỉ và kim <span class="blue">to</span> thì tốt.</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">mỏng</span>, chỉ và kim <span
+                        class="blue">to</span> thì tốt.</h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>ꓫ</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
 
@@ -94,10 +105,14 @@
                 <h1><span class="red">うすい</span> きじを ぬうときは いとや はりを <span class="blue">ほそく</span> すると よいです。</h1>
                 <h2><span class="red">Usui</span> kiji wo nuutokiwa itoya hariwo <span class="blue">hosoku</span> suruto
                     yoidesu.</h2>
-                <h3>Khi may vải <span class="red">mỏng</span>, chỉ và kim <span class="blue">nhỏ</span> thì tốt</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">mỏng</span>, chỉ và kim <span
+                        class="blue">nhỏ</span> thì tốt</h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>◯</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
 
@@ -109,11 +124,15 @@
                 <h1>ミシンいとは ばんごうが <span class="red">おおきく</span> なるほど <span class="blue">ふとく</span>なります。</h1>
                 <h2>Mishin ito wa bangou ga <span class="red">ookiku</span> nareba naruhodo <span
                         class="blue">futoku</span> narimasu.</h2>
-                <h3>Chỉ máy may số càng <span class="red">lớn</span> thì sợi chỉ càng <span class="blue">to</span> .
+                <h3 class="meaning" style="display: none;">Chỉ máy may số càng <span class="red">lớn</span> thì sợi chỉ
+                    càng <span class="blue">to</span>.
                 </h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>ꓫ</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
 
@@ -125,11 +144,15 @@
                 <h1>ミシンいとは ばんごうが <span class="red">お おき</span>くなるほど <span class="blue">ほそく</span>なりま す。</h1>
                 <h2>Mishin ito wa bangou ga <span class="red">ookiku</span> naruhodo <span class="blue">hosoku</span>
                     narimasu.</h2>
-                <h3>Chỉ máy may có số càng <span class="red">lớn</span> thì chỉ càng <span class="blue">mảnh</span>.
+                <h3 class="meaning" style="display: none;">Chỉ máy may có số càng <span class="red">lớn</span> thì chỉ
+                    càng <span class="blue">mảnh</span>.
                 </h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>◯</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
 
@@ -140,11 +163,15 @@
             <td style="width: 80%;">
                 <h1>この ワイヤロープは つかっては いけません。</h1>
                 <h2>Kono waiya ropu wa tsukattewa ikemasen.</h2>
-                <h3>Dây cáp này không được sử dụng.</span>.</h3>
-                <img src="hinh anh 100 cau/waiyaropu.jpg" alt="">
+                <h3 class="meaning" style="display: none;">Dây cáp này không được sử dụng.</span>.</h3>
+                <img src="hinh anh 100 cau/waiyaropu.jpg" alt=""> <button onclick="toggleMeaning(this)">Xem ý
+                    nghĩa</button>
+
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>◯</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
 
@@ -155,11 +182,14 @@
             <td style="width: 80%;">
                 <h1>この ワイヤロープは つかって も よいです。</h1>
                 <h2>Kono waiyaroupu wa tsukattemo yoidesu.</h2>
-                <h3>Dây cáp này dùng cũng được.</h3>
+                <h3 class="meaning" style="display: none;">Dây cáp này dùng cũng được.</h3>
                 <img src="hinh anh 100 cau/waiyaropu.jpg" alt="">
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>ꓫ</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
 
@@ -170,11 +200,15 @@
             <td style="width: 80%;">
                 <h1>こうじようシートの アイレットの かんかくは <span class="blue">90cmいか</span> です。</h1>
                 <h2>Koujiyou shi-to no airetto no kankaku wa <span class="blue">90cm ika</span> desu.</h2>
-                <h3>Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là <span class="blue">90cm trở
+                <h3 class="meaning" style="display: none;">Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công
+                    trường là <span class="blue">90cm trở
                         xuống</span> .</h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>ꓫ</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
 
@@ -185,17 +219,43 @@
             <td style="width: 80%;">
                 <h1>こうじようシートの アイレットの かんかくは <span class="blue">60cmいか</span> です。</h1>
                 <h2>Koujiyou shi-to no airetto no kankaku wa <span class="blue">60cm ika</span> desu.</h2>
-                <h3>Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là <span class="blue">60cm trở
-                        xuống</span> .
+                <h3 class="meaning" style="display: none;">Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công
+                    trường là <span class="blue">60cm trở
+                        xuống</span> .</h3>
+                <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
-                <h1>ꓫ</h1>
+
+                <button onclick="toggleAnswer(this)">Xem đáp án</button>
+                <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
 
     </table>
+    <script>
+        function toggleAnswer(button) {
+            var answer = button.parentNode.querySelector(".answer");
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+                button.textContent = "Ẩn đáp án";
+            } else {
+                answer.style.display = "none";
+                button.textContent = "Xem đáp án";
+            }
+        }
+
+        function toggleMeaning(button) {
+            var meaning = button.parentNode.querySelector(".meaning");
+            if (meaning.style.display === "none") {
+                meaning.style.display = "block";
+                button.textContent = "Ẩn ý nghĩa";
+            } else {
+                meaning.style.display = "none";
+                button.textContent = "Xem ý nghĩa";
+            }
+        }
+    </script>
 
 </body>
-<script></script>
 
 </html>
