@@ -14,15 +14,24 @@
         color: red;
     }
     span.blue {
-        color: blue;
+        color: blue
+    }
+    table {
+        border-collapse: collapse; /* Gộp đường viền của các ô lại */
+        width: 100%; /* Chiều rộng bảng 100% */
+    }
+    td {
+        border: 1px solid black; /* Đường viền đen, liền nét, độ dày 1px */
+        padding: 10px; /* Khoảng cách giữa nội dung và đường viền */
     }
 </style>
 
 <body>
     <table>
         <tr>
-            <td rowspan="3"><h1>1</h1></td>;
-            <td><h1><span class="red">うすい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1></td>;
+            <td style="width: 10%; text-align: center;" rowspan="3"><h1>1</h1></td>
+            <td><h1><span class="red">うすい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1></td>
+            <td style="width: 10%; text-align: center;" rowspan="3"><h1>X</h1></td>
         </tr>
         <tr>
             <td><h2><span class="red">Usui</span> nu no wo nuutokiwaosaewo <span class="blue">tsuyoku</span>shimasu.</h2></td>
