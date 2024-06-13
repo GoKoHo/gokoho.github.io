@@ -11,18 +11,6 @@
         font-family: 'Kosugi Maru', sans-serif;
     }
 
-    span.red {
-        color: red;
-    }
-
-    span.blue {
-        color: blue
-    }
-
-    span.green {
-        color: green;
-    }
-
     table {
         border-collapse: collapse;
         width: 100%;
@@ -41,17 +29,18 @@
 
 <body>
     <h1>Chào mừng các bạn đến với trang đề cương ôn thi sơ cấp</h1>
+    <button id="showH3">Hiển thị ý nghĩa</button>
     <table>
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>1</h1>
             </td>
             <td style="width: 80%;">
-                <h1><span class="red">うすい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1>
-                <h2><span class="red">Usui</span> nu no wo nuutokiwa osae wo <span class="blue">tsuyoku</span>shimasu.
+                <h1>うすい ぬの を ぬうとき は おさえ を つよく します。</h1>
+                <h2>Usui nu no wo nuutokiwa osae wo tsuyokushimasu.
                 </h2>
-                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">mỏng</span> thì chỉnh chân vịt
-                    đè <span class="blue">chặt</span>.</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải mỏng thì chỉnh chân vịt
+                    đè chặt.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -65,11 +54,11 @@
                 <h1>2</h1>
             </td>
             <td style="width: 80%;">
-                <h1><span class="red">あつい</span>ぬのをぬうときはおさえを<span class="blue">つよく</span>します。</h1>
-                <h2><span class="red">Atsui</span> nu no wo nuu toki wa osae wo <span class="blue">tsuyoku</span>
+                <h1>あつい ぬの を ぬうとき は おさえ を つよく します。</h1>
+                <h2>Atsui nu no wo nuu toki wa osae wo tsuyoku
                     shimasu.</h2>
-                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">dày</span> thì chỉnh chân vịt
-                    đè <span class="blue">chặt</span>.</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải dày thì chỉnh chân vịt
+                    đè chặt.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -83,11 +72,11 @@
                 <h1>3</h1>
             </td>
             <td style="width: 80%;">
-                <h1><span class="red">うすい</span> きじを ぬうときは いとや はりを <span class="blue">ふとく</span> すると よいです。</h1>
-                <h2><span class="red">Usui</span> kiji wo nuutokiwa itoya hariwo <span class="blue">futoku</span> suruto
+                <h1>うすい きじを ぬうときは いとや はりを ふとく すると よいです。</h1>
+                <h2>Usui kiji wo nuutokiwa itoya hariwo futoku suruto
                     yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">mỏng</span>, chỉ và kim <span
-                        class="blue">to</span> thì tốt.</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải mỏng, chỉ và kim to thì
+                    tốt.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -102,11 +91,10 @@
                 <h1>4</h1>
             </td>
             <td style="width: 80%;">
-                <h1><span class="red">うすい</span> きじを ぬうときは いとや はりを <span class="blue">ほそく</span> すると よいです。</h1>
-                <h2><span class="red">Usui</span> kiji wo nuutokiwa itoya hariwo <span class="blue">hosoku</span> suruto
+                <h1>うすい きじを ぬうときは いとや はりを ほそく すると よいです。</h1>
+                <h2>Usui kiji wo nuutokiwa itoya hariwo hosoku suruto
                     yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Khi may vải <span class="red">mỏng</span>, chỉ và kim <span
-                        class="blue">nhỏ</span> thì tốt</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải mỏng, chỉ và kim nhỏ thì tốt</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -121,11 +109,10 @@
                 <h1>5</h1>
             </td>
             <td style="width: 80%;">
-                <h1>ミシンいとは ばんごうが <span class="red">おおきく</span> なるほど <span class="blue">ふとく</span>なります。</h1>
-                <h2>Mishin ito wa bangou ga <span class="red">ookiku</span> nareba naruhodo <span
-                        class="blue">futoku</span> narimasu.</h2>
-                <h3 class="meaning" style="display: none;">Chỉ máy may số càng <span class="red">lớn</span> thì sợi chỉ
-                    càng <span class="blue">to</span>.
+                <h1>ミシンいとは ばんごうが おおきく なるほど ふとく なります。</h1>
+                <h2>Mishin ito wa bangou ga ookiku nareba naruhodo futoku narimasu.</h2>
+                <h3 class="meaning" style="display: none;">Chỉ máy may số càng lớn thì sợi chỉ
+                    càng to.
                 </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -141,11 +128,11 @@
                 <h1>6</h1>
             </td>
             <td style="width: 80%;">
-                <h1>ミシンいとは ばんごうが <span class="red">お おき</span>くなるほど <span class="blue">ほそく</span>なりま す。</h1>
-                <h2>Mishin ito wa bangou ga <span class="red">ookiku</span> naruhodo <span class="blue">hosoku</span>
+                <h1>ミシンいとは ばんごうが お おきくなるほど ほそく なりま す。</h1>
+                <h2>Mishin ito wa bangou ga ookiku naruhodo hosoku
                     narimasu.</h2>
-                <h3 class="meaning" style="display: none;">Chỉ máy may có số càng <span class="red">lớn</span> thì chỉ
-                    càng <span class="blue">mảnh</span>.
+                <h3 class="meaning" style="display: none;">Chỉ máy may có số càng lớn thì chỉ
+                    càng mảnh.
                 </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -163,7 +150,7 @@
             <td style="width: 80%;">
                 <h1>この ワイヤロープは つかっては いけません。</h1>
                 <h2>Kono waiya ropu wa tsukattewa ikemasen.</h2>
-                <h3 class="meaning" style="display: none;">Dây cáp này không được sử dụng.</span>.</h3>
+                <h3 class="meaning" style="display: none;">Dây cáp này không được sử dụng.</h3>
                 <img src="hinh anh 100 cau/waiyaropu.jpg" alt=""> <button onclick="toggleMeaning(this)">Xem ý
                     nghĩa</button>
 
@@ -198,11 +185,10 @@
                 <h1>9</h1>
             </td>
             <td style="width: 80%;">
-                <h1>こうじようシートの アイレットの かんかくは <span class="blue">90cmいか</span> です。</h1>
-                <h2>Koujiyou shi-to no airetto no kankaku wa <span class="blue">90cm ika</span> desu.</h2>
+                <h1>こうじようシートの アイレットの かんかくは 90cmいか です。</h1>
+                <h2>Koujiyou shi-to no airetto no kankaku wa 90cm-ika desu.</h2>
                 <h3 class="meaning" style="display: none;">Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công
-                    trường là <span class="blue">90cm trở
-                        xuống</span> .</h3>
+                    trường là 90cm trở xuống.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -217,11 +203,10 @@
                 <h1>10</h1>
             </td>
             <td style="width: 80%;">
-                <h1>こうじようシートの アイレットの かんかくは <span class="blue">60cmいか</span> です。</h1>
-                <h2>Koujiyou shi-to no airetto no kankaku wa <span class="blue">60cm ika</span> desu.</h2>
+                <h1>こうじようシートの アイレットの かんかくは 60cmいか です。</h1>
+                <h2>Koujiyou shi-to no airetto no kankaku wa 60cm-ika desu.</h2>
                 <h3 class="meaning" style="display: none;">Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công
-                    trường là <span class="blue">60cm trở
-                        xuống</span> .</h3>
+                    trường là 60cm trở xuống.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -236,10 +221,10 @@
                 <h1>11</h1>
             </td>
             <td style="width: 80%;">
-                <h1>シートに アイレットリングを う つときは <span class="blue">うら</span>に ざがねが くる ように うちます。</h1>
-                <h2>Shiito airettoringuwo utsutokiwa <span class="blue">ura</span>ni zaganega kuru youni uchimasu.</h2>
+                <h1>シートに アイレットリングを う つときは うら に ざがねが くる ように うちます。</h1>
+                <h2>Shiito airettoringuwo utsutokiwa ura ni zaganega kuru youni uchimasu.</h2>
                 <h3 class="meaning" style="display: none;">Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở
-                    <span class="blue">mặt trái</span>
+                    mặt trái
                 </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -255,11 +240,11 @@
                 <h1>12</h1>
             </td>
             <td style="width: 80%;">
-                <h1>シートに アイレットリングを う つときは <span class="blue">おもて</span>に ざがねが くる ように うちます。</h1>
-                <h2>Shiito airettoringuwo utsutokiwa <span class="blue">omote</span>ni zaganega kuru youni uchimasu.
+                <h1>シートに アイレットリングを う つときは おもて に ざがねが くる ように うちます。</h1>
+                <h2>Shiito airettoringuwo utsutokiwa omote ni zaganega kuru youni uchimasu.
                 </h2>
                 <h3 class="meaning" style="display: none;">Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở
-                    <span class="blue">mặt phải.</span>
+                    mặt phải.
                 </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -275,10 +260,10 @@
                 <h1>13</h1>
             </td>
             <td style="width: 80%;">
-                <h1> ミシンの <span class="blue">うわいと</span>が きれる げんいん には はり の ふりょう が あります。</h1>
-                <h2>Mishin no <span class="blue">uwaito</span> ga kireru genin niwa hari no huryou ga arimasu.</h2>
-                <h3 class="meaning" style="display: none;">Trong các nguyên nhân gây đứt <span class="blue">chỉ
-                        trên</span> của máy may, có nguyên nhân do kim bị hỏng.</h3>
+                <h1> ミシンの うわいと が きれる げんいん には はり の ふりょう が あります。</h1>
+                <h2>Mishin no uwaito ga kireru genin niwa hari no huryou ga arimasu.</h2>
+                <h3 class="meaning" style="display: none;">Trong các nguyên nhân gây đứt chỉ
+                    trên của máy may, có nguyên nhân do kim bị hỏng.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -294,8 +279,9 @@
             </td>
             <td style="width: 80%;">
                 <h1> ミシンの したいと が きれる げんいん には はりの ふりょう が あります。</h1>
-                <h2>Mishin no shitaitoga kireru genin niwa hari no furyo ga arimasu.</h2>
-                <h3 class="meaning" style="display: none;">Nguyên nhân chỉ dưới của máy may bị đứt là do kim không tốt.</h3>
+                <h2>Mishin no shitaito ga kireru genin niwa hari no furyo ga arimasu.</h2>
+                <h3 class="meaning" style="display: none;">Nguyên nhân chỉ dưới của máy may bị đứt là do kim không tốt.
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -309,7 +295,7 @@
                 <h1>15</h1>
             </td>
             <td style="width: 80%;">
-                <h1> はんぷには たていと と よこい と が あります。</h1>
+                <h1> はんぷには たていと と よこいと が あります。</h1>
                 <h2>Hanpuniwa tateito to yokoito ga arimasu.</h2>
                 <h3 class="meaning" style="display: none;">Vải dù có sợi dọc và sợi ngang</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -325,7 +311,7 @@
                 <h1>16</h1>
             </td>
             <td style="width: 80%;">
-                <h1> はんぷには たていと と よこい と が ありません。</h1>
+                <h1> はんぷには たていと と よこいと が ありません。</h1>
                 <h2>Hanpuniwa tateito to yokoito ga arimasen.</h2>
                 <h3 class="meaning" style="display: none;">Vải dù không có sợi dọc và sợi ngang</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -341,9 +327,9 @@
                 <h1>17</h1>
             </td>
             <td style="width: 80%;">
-                <h1> これは みつおり（みつまき）ぬい です。</h1>
+                <h1> これは みつおり （みつまき）ぬい です。</h1>
                 <h2>Korewa mitsuori ( mitsumaki ) nui desu.</h2>
-                <h3 class="meaning" style="display: none;">Đây là may gấp 2 lần  (có 3 lớp)</h3>
+                <h3 class="meaning" style="display: none;">Đây là may gấp 2 lần (có 3 lớp)</h3>
                 <img src="hinh anh 100 cau/honnui.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -358,9 +344,10 @@
                 <h1>18</h1>
             </td>
             <td style="width: 80%;">
-                <h1> これは ひらぬいです。</h1>
+                <h1> これは ひらぬい です。</h1>
                 <h2>Kore wa hiranui desu.</h2>
-                <h3 class="meaning" style="display: none;">Đây là may song song (sử dụng máy 2 kim, và may đường chỉ thẳng)</h3>
+                <h3 class="meaning" style="display: none;">Đây là may song song (sử dụng máy 2 kim, và may đường chỉ
+                    thẳng)</h3>
                 <img src="hinh anh 100 cau/honnui.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -375,9 +362,10 @@
                 <h1>19</h1>
             </td>
             <td style="width: 80%;">
-                <h1> これは ひらぬいです。</h1>
+                <h1> これは ひらぬい です。</h1>
                 <h2>Kore wa hiranui desu.</h2>
-                <h3 class="meaning" style="display: none;">Đây là may song song (sử dụng máy 2 kim, và may đường chỉ thẳng)</h3>
+                <h3 class="meaning" style="display: none;">Đây là may song song (sử dụng máy 2 kim, và may đường chỉ
+                    thẳng)</h3>
                 <img src="hinh anh 100 cau/mistuori.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -424,9 +412,10 @@
                 <h1>22</h1>
             </td>
             <td style="width: 80%;">
-                <h1> あつい きじを ぬうときは ミシン の かいてんすうを おそくすると よいです。</h1>
+                <h1> あつい きじを ぬうときは ミシン の かいてんすうを おそく すると よいです。</h1>
                 <h2>Atsui kijiwo nuutokiwa mishinno kaiten suuwo osokusuruto yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Khi may vải dày, nên để tốc độ quay của máy may chậm thì tốt</h3>
+                <h3 class="meaning" style="display: none;">Khi may vải dày, nên để tốc độ quay của máy may chậm thì tốt
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -441,8 +430,8 @@
                 <h1>23</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは しゃもんおり（あやおり） です</h1>
-                <h2>Korewa Shamon-ori ( Ayaori ) desu.</h2>
+                <h1>これは しゃもんおり （あやおり） です</h1>
+                <h2>Korewa shamon-ori ( ayaori ) desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là dệt thoi vân chéo(Long 2).</h3>
                 <img src="hinh anh 100 cau/shamonori.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -453,13 +442,13 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>24</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは ひらおりです。</h1>
+                <h1>これは ひらおり です。</h1>
                 <h2>Kore wa hiraori desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là vải dệt thoi ( long 1 )</h3>
                 <img src="hinh anh 100 cau/hiraori.png" alt="">
@@ -471,14 +460,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>25</h1>
             </td>
             <td style="width: 80%;">
                 <h1>これ は しゅすおり です。</h1>
-                <h2>kore wa Shusu-ori desu.</h2>
+                <h2>kore wa shusu-ori desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là dệt vân đoạn (long 4)</h3>
                 <img src="hinh anh 100 cau/shamonori.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -489,14 +478,14 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>26</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これはらっせるおりです。</h1>
-                <h2>Kore wa Rasseru-ori desu.</h2>
+                <h1>これは らっせるおり です。</h1>
+                <h2>Kore wa rasseru-ori desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là dệt russel ( len dệt kim)</h3>
                 <img src="hinh anh 100 cau/shamonori.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -507,13 +496,13 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>27</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これ は ドームがたテントです。</h1>
+                <h1>これ は ドームがたテント です。</h1>
                 <h2>Kore wa domugata-tento desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là lều dạng mái vòm</h3>
                 <img src="hinh anh 100 cau/domugata.jpg" alt="">
@@ -525,13 +514,13 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>28</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは こていしきテント で す。</h1>
+                <h1>これは こていしき テント です。</h1>
                 <h2>Korewa koteishiki tento desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là lều dạng cố định</h3>
                 <img src="hinh anh 100 cau/kouteishikitento.png" alt="">
@@ -543,14 +532,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>29</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは そうしょくようテントです。</h1>
-                <h2>Korewa soushoku you tento desu.</h2>
+                <h1>これは そうしょくようテント です。</h1>
+                <h2>Korewa soushoku-youtento desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là lều trang trí</h3>
                 <img src="hinh anh 100 cau/soushoku.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -561,7 +550,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>30</h1>
@@ -579,7 +568,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>31</h1>
@@ -597,14 +586,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>32</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは テントそうこ の こうぞ うず です。</h1>
-                <h2>Korewa tento souko no kouzouzu desu.</h2>
+                <h1>これは テントそうこ の こうぞうず です。</h1>
+                <h2>Korewa tentosouko no kouzouzu desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là bản vẽ kết cấu của lều nhà kho</h3>
                 <img src="hinh anh 100 cau/tentosokozu.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -615,14 +604,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>33</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは まどよう ひよけテント です。</h1>
-                <h2>Kore wa mado you hiyoke tento desu.</h2>
+                <h1>これは まどよう ひよけ テント です。</h1>
+                <h2>Kore wa madoyou hiyoke tento desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là lều che nắng, dùng cho cửa sổ.</h3>
                 <img src="hinh anh 100 cau/madoyo.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -633,14 +622,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>34</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは キャンプよう テント で す。</h1>
-                <h2>Korewa kyanpu you tento desu.</h2>
+                <h1>これは キャンプよう テント です。</h1>
+                <h2>Korewa kyanpuyou tento desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là lều cắm trại.</h3>
                 <img src="hinh anh 100 cau/kyanpu.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -651,14 +640,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>35</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは かどうしきテント です。</h1>
-                <h2>Korewa kadoushiki tento desu.</h2>
+                <h1>これは かどうしき テント です。</h1>
+                <h2>Korewa kadoshiki tento desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là liều di động</h3>
                 <img src="hinh anh 100 cau/kouteitento.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -669,14 +658,14 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>36</h1>
             </td>
             <td style="width: 80%;">
-                <h1>これは オーニングの ほねぐみ です。</h1>
-                <h2>Korewa ooninguno honegumi desu.</h2>
+                <h1>これは オーニング の ほねぐみ です。</h1>
+                <h2>Korewa ooningu no honegumi desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là khung mái hiên</h3>
                 <img src="hinh anh 100 cau/oningu.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -687,15 +676,16 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>37</h1>
             </td>
             <td style="width: 80%;">
-                <h1>オーニングには しゅどうしきと でんどうしき が あります。</h1>
+                <h1>オーニングには しゅどうしき と でんどうしき が あります。</h1>
                 <h2>Ooningu niwa shudoushiki to dendoushiki ga arimasu.</h2>
-                <h3 class="meaning" style="display: none;">Mái hiên có loại điều khiển bằng tay quay và có loại điều khiển bằng điện.</h3>
+                <h3 class="meaning" style="display: none;">Mái hiên có loại điều khiển bằng tay quay và có loại điều
+                    khiển bằng điện.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -704,13 +694,13 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>38</h1>
             </td>
             <td style="width: 80%;">
-                <h1> まきあげしきテントは おもに ひ よけ あめよけ に つかわれます。</h1>
+                <h1> まきあげしきテントは おもに ひよけ あめよけ に つかわれます。</h1>
                 <h2>Makiageshiki tento wa omoni hiyoke ameyoke ni tsukawaremasu.</h2>
                 <h3 class="meaning" style="display: none;">Lều dạng mái bạt cuốn chủ yếu dùng để che nắng che mưa</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -721,13 +711,13 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>39</h1>
             </td>
             <td style="width: 80%;">
-                <h1>とざんようテント に つかわれる きじは なるべく あついものが よいです。</h1>
+                <h1>とざんようテント に つかわれる きじは なるべく あつい ものが よいです。</h1>
                 <h2>Tozanyou tento ni tsukawareru kijiwa kiji wa narubeku atsui mono ga yoidesu.</h2>
                 <h3 class="meaning" style="display: none;">Vải dùng làm lều leo núi nên dùng vải dày</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -738,7 +728,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>40</h1>
@@ -746,7 +736,8 @@
             <td style="width: 80%;">
                 <h1>しゅうかいよう テント は おも に うんどうかい や てんじかい など に つかわれます。</h1>
                 <h2>Shukaiyou tentowa omoni undoukai ya tenjikai nado ni tsukawaremasu.</h2>
-                <h3 class="meaning" style="display: none;">Lều tập thể chủ yếu được dùng ở đại hội thể thao, hội chợ triển lãm, v.v.</h3>
+                <h3 class="meaning" style="display: none;">Lều tập thể chủ yếu được dùng ở đại hội thể thao, hội chợ
+                    triển lãm, v.v.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -755,14 +746,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>41</h1>
             </td>
             <td style="width: 80%;">
                 <h1>テントそうこ は すべて こていしき です。</h1>
-                <h2>Tento souko wa subete kotei shiki desu.</h2>
+                <h2>Tentosouko wa subete koteishiki desu.</h2>
                 <h3 class="meaning" style="display: none;">Lều nhà kho, toàn bộ đều là dạng cố định</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -772,7 +763,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>42</h1>
@@ -780,7 +771,8 @@
             <td style="width: 80%;">
                 <h1>せんぱくようシート は きょうど や ぼうすいせい は とくに ひつよう ありません。</h1>
                 <h2>Senpaku you shi--to wa kyodo ya bousuisei wa tokuni hitsuyou arimasen.</h2>
-                <h3 class="meaning" style="display: none;">Tấm bạt che tàu thuyền không cần có độ bền và tính chống thấm.</h3>
+                <h3 class="meaning" style="display: none;">Tấm bạt che tàu thuyền không cần có độ bền và tính chống
+                    thấm.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -789,7 +781,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>43</h1>
@@ -806,15 +798,16 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>44</h1>
             </td>
             <td style="width: 80%;">
                 <h1>ちょくせんぬい には ちどりミシン が てきして います。</h1>
-                <h2>hokusen nui niwa chidori mishin ga tekishite imasu.</h2>
-                <h3 class="meaning" style="display: none;">Để may đường thẳng thì dùng máy may dích dắc là thích hợp. </h3>
+                <h2>Chokusennui niwa chidorimishin ga tekishite imasu.</h2>
+                <h3 class="meaning" style="display: none;">Để may đường thẳng thì dùng máy may dích dắc là thích hợp.
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -823,7 +816,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>45</h1>
@@ -840,15 +833,16 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>46</h1>
             </td>
             <td style="width: 80%;">
-                <h1>こうしゅうはウエルダーを つかうと きは やけどに ちゅういします。</h1>
-                <h2>Koshu-ha Ueruda- wo tsukau toki wa yakedo ni chuui shimasu.</h2>
-                <h3 class="meaning" style="display: none;">Khi sử dụng máy hàn cao tần thì phải cẩn thận để tránh bị bỏng</h3>
+                <h1>こうしゅうはウエルダー を つかうと きは やけどに ちゅういします。</h1>
+                <h2>Koshu-ha-ueruda- wo tsukau toki wa yakedo ni chuui shimasu.</h2>
+                <h3 class="meaning" style="display: none;">Khi sử dụng máy hàn cao tần thì phải cẩn thận để tránh bị
+                    bỏng</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -857,15 +851,15 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>47</h1>
             </td>
             <td style="width: 80%;">
-                <h1>こうしゅうは ウェルダー は よ うちゃくき では ありません。</h1>
-                <h2>Koushu wa uerudaa wa youchakuki dewa arimasen .</h2>
-                <h3 class="meaning" style="display: none;">Máy hàn cao tần  không phải là máy hàn nóng chảy</h3>
+                <h1>こうしゅうはウエルダー は よ うちゃくき では ありません。</h1>
+                <h2>Koushu-ha-ueruda- wa youchakuki dewa arimasen .</h2>
+                <h3 class="meaning" style="display: none;">Máy hàn cao tần không phải là máy hàn nóng chảy</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -874,15 +868,16 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>48</h1>
             </td>
             <td style="width: 80%;">
-                <h1>けんちくこうじようシートには めんはんぷきじを つかっても よいです。</h1>
+                <h1>けんちくこうじようシート には めんはんぷ きじを つかっても よいです。</h1>
                 <h2>Kenchiku koujiyou shiitoniwa menhanpu kijiwo tsukattemo yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Có thể sử dụng vải bố cho các tấm bạt công trình xây dựng.</h3>
+                <h3 class="meaning" style="display: none;">Có thể sử dụng vải bố cho các tấm bạt công trình xây dựng.
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -891,7 +886,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>49</h1>
@@ -908,7 +903,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>50</h1>
@@ -926,7 +921,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>51</h1>
@@ -943,7 +938,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>52</h1>
@@ -961,7 +956,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>53</h1>
@@ -978,13 +973,13 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>54</h1>
             </td>
             <td style="width: 80%;">
-                <h1>めんはんぷ は いっぱんに ひらお り です。</h1>
+                <h1>めんはんぷ は いっぱんに ひらおり です。</h1>
                 <h2>Menhanpu wa ippanni hiraori desu.</h2>
                 <h3 class="meaning" style="display: none;">Vải bố, thông thường là vải dệt thoi.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -995,15 +990,15 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>55</h1>
             </td>
             <td style="width: 80%;">
-                <h1>いどうしき あしば（ローリング タワー）の うえ ではきゃたつ を つかっても よいです。</h1>
-                <h2>Idousiki ashiba ( rouringu tawaa ) no ue dewa kyatatsu wo tsukattemo yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Có thể dùng được thang chữ A  trên giàn giáo di động.</h3>
+                <h1>いどうしきあしば （ローリング タワー）の うえ ではきゃたつ を つかっても よいです。</h1>
+                <h2>Idousikiashiba ( rouringu tawaa ) no ue dewa kyatatsu wo tsukattemo yoidesu.</h2>
+                <h3 class="meaning" style="display: none;">Có thể dùng được thang chữ A trên giàn giáo di động.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1012,14 +1007,14 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>56</h1>
             </td>
             <td style="width: 80%;">
                 <h1>きかいの そうじ や きゅうゆ を するとき は きかいを とめてから します。</h1>
-                <h2>Kikai no souji ya kuyuyu wo surutoki wa kikai wo tomete kara shimasu.</h2>
+                <h2>Kikai no souji ya kyuuyu wo surutoki wa kikai wo tomete kara shimasu.</h2>
                 <h3 class="meaning" style="display: none;">Dừng máy khi vệ sinh máy hay cung cấp dầu </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -1029,13 +1024,13 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>57</h1>
             </td>
             <td style="width: 80%;">
-                <h1>この ひょうしきが あるところで は ほごぼう は かぶらなくても よいです。</h1>
+                <h1>この ひょうしき が あるところで は ほごぼう は かぶらなくても よいです。</h1>
                 <h2>Kono hyoushiki ga arutokoro dewa hogobou wa kaburanakute mo yoidesu.</h2>
                 <h3 class="meaning" style="display: none;">Tại nơi có biển báo này, không cần đội mũ bảo hiểm</h3>
                 <img src="hinh anh 100 cau/hogobou.jpg" alt="">
@@ -1047,13 +1042,13 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>58</h1>
             </td>
             <td style="width: 80%;">
-                <h1>この ひょうしきが あるところ では かんでんの きけん は ありません。</h1>
+                <h1>この ひょうしき が あるところ では かんでんの きけん は ありません。</h1>
                 <h2>Kono hyoushiki ga arutokoro dewa kanden no kiken wa arimasen.</h2>
                 <h3 class="meaning" style="display: none;">Tại nơi có biển báo này, không có nguy cơ bị điện giật</h3>
                 <img src="hinh anh 100 cau/hyosiki.jpg" alt="">
@@ -1065,14 +1060,14 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>59</h1>
             </td>
             <td style="width: 80%;">
-                <h1>この ひょうしきが あるところ には はいっても よいです。</h1>
-                <h2>Kono hyoshiki ga arutokoro niwa haittemo yoidesu.</h2>
+                <h1>この ひょうしき が あるところ には はいって も よいです。</h1>
+                <h2>Kono hyoshiki ga arutokoro niwa haitte mo yoidesu.</h2>
                 <h3 class="meaning" style="display: none;">Nơi có biển báo này thì có thể vào được.</h3>
                 <img src="hinh anh 100 cau/hyosikihito.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -1083,13 +1078,13 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>60</h1>
             </td>
             <td style="width: 80%;">
-                <h1>この ひょうしきが あるところは あんぜんです。</h1>
+                <h1>この ひょうしき が あるところは あんぜん です。</h1>
                 <h2>Kono hyoshiki ga arutokoro wa anzen desu.</h2>
                 <h3 class="meaning" style="display: none;">Nơi có biển báo này thì an toàn.</h3>
                 <img src="hinh anh 100 cau/hyosiki.jpg" alt="">
@@ -1101,13 +1096,13 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>61</h1>
             </td>
             <td style="width: 80%;">
-                <h1>このひょうしきが あるところには はいっては いけません。</h1>
+                <h1>この ひょうしき が あるところには はいって は いけません。</h1>
                 <h2>Kono hyoshiki ga arutokoro niwa haitte ha ikemasen.</h2>
                 <h3 class="meaning" style="display: none;">Không được vào chỗ có biển báo này.</h3>
                 <img src="hinh anh 100 cau/hyosikihito.jpg" alt="">
@@ -1119,14 +1114,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>62</h1>
             </td>
             <td style="width: 80%;">
-                <h1>このひょうしきが あるところ では たばこを すっても よいです。</h1>
-                <h2>Kono hyoushiki ga arutokoro dewa tabako wo sutte mo yoidesu.</h2>
+                <h1>この ひょうしき が あるところ では たばこ を すっても よいです。</h1>
+                <h2>Kono hyoshiki ga arutokoro dewa tabako wo sutte mo yoidesu.</h2>
                 <h3 class="meaning" style="display: none;">Bạn có thể hút thuốc lá ở chỗ có biển báo này.</h3>
                 <img src="hinh anh 100 cau/hi.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -1137,14 +1132,14 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>63</h1>
             </td>
             <td style="width: 80%;">
-                <h1>このひょうしきが あるところ では たばこを すってはいけません。</h1>
-                <h2>Kono hyoushiki ga arutokoro dewa tabako wo sutte wa ikemasen.</h2>
+                <h1>この ひょうしき が あるところ では たばこ を すってはいけません。</h1>
+                <h2>Kono hyoshiki ga arutokoro dewa tabako wo sutte wa ikemasen.</h2>
                 <h3 class="meaning" style="display: none;">Không được hút thuốc ở chỗ có biển báo này.</h3>
                 <img src="hinh anh 100 cau/tabako.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -1155,15 +1150,16 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>64</h1>
             </td>
             <td style="width: 80%;">
-                <h1>けんちく こうじょう シートに は ぼうえ ん かこうを しなくて も よいです。</h1>
-                <h2>Kenchiku koujiyou shiito niwa bouen kakouwo shinakutemo yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Không cần thiết phải gia công chống cháy đối với bạt phủ xây dựng </h3>
+                <h1>けんちくこうじょうシート に は ぼうえん かこう を しなくて も よいです。</h1>
+                <h2>Kenchikukoujiyou shiito niwa bouen kakouwo shinakutemo yoidesu.</h2>
+                <h3 class="meaning" style="display: none;">Không cần thiết phải gia công chống cháy đối với bạt phủ xây
+                    dựng </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1172,7 +1168,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>65</h1>
@@ -1190,14 +1186,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>66</h1>
             </td>
             <td style="width: 80%;">
-                <h1>こうしゅうはウェルダーは ねっぷう をつかった ようちゃくき です。</h1>
-                <h2>Koushuu wa uerudaa wa neppuuwo tsukatta youchakuki desu.</h2>
+                <h1>こうしゅうはウエルダー は ねっぷう をつかった ようちゃく き です。</h1>
+                <h2>Koushu-ha-ueruda- wa neppuuwo tsukatta youchaku ki desu.</h2>
                 <h3 class="meaning" style="display: none;">Máy hàn cao tần là máy hàn nóng chảy sử dụng khí nóng</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -1207,14 +1203,14 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>67</h1>
             </td>
             <td style="width: 80%;">
-                <h1>ようちゃくかこうを したときは めどめしょりをします。</h1>
-                <h2>Youchakukakou wo shitatokiwa mejimeshori wo shimasu.</h2>
+                <h1>ようちゃく かこうを したときは めどめしょりをします。</h1>
+                <h2>Youchaku kakou wo shitatokiwa mejimeshori wo shimasu.</h2>
                 <h3 class="meaning" style="display: none;">Khi gia công hàn nóng chảy, phải xử lý chống rò.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -1224,7 +1220,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>68</h1>
@@ -1241,14 +1237,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>69</h1>
             </td>
             <td style="width: 80%;">
-                <h1>アイレットリングの 25ばんは 30ばんより おおきいです。</h1>
-                <h2>Airettoringu no nijuugoban wa sanjuuban yori ookidesu.</h2>
+                <h1>アイレットリングの 25ばんは 30ばんより おおきい です。</h1>
+                <h2>Airettoringu no nijuugoban wa sanjuuban yori ookii desu.</h2>
                 <h3 class="meaning" style="display: none;">Khoen bọc lỗ số 25 lớn hơn khoen số 30</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -1258,7 +1254,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>70</h1>
@@ -1275,7 +1271,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>71</h1>
@@ -1292,7 +1288,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>72</h1>
@@ -1300,7 +1296,8 @@
             <td style="width: 80%;">
                 <h1>こもの の さいだんに は まる ばしき は てきしません。</h1>
                 <h2>Komono no saidanni wa marubashiki wa tekishimasen.</h2>
-                <h3 class="meaning" style="display: none;">Khi cắt các phụ kiện nhỏ, máy cắt lưỡi tròn không thích  hợp</h3>
+                <h3 class="meaning" style="display: none;">Khi cắt các phụ kiện nhỏ, máy cắt lưỡi tròn không thích hợp
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1309,14 +1306,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>73</h1>
             </td>
             <td style="width: 80%;">
                 <h1>ずは りょうながれぬい です。</h1>
-                <h2>Zu wa Ryounagare-nui desu. euchi wa kiji wo kiru dougu desu.</h2>
+                <h2>Zu wa ryounagare-nui desu. euchi wa kiji wo kiru dougu desu.</h2>
                 <h3 class="meaning" style="display: none;">Hình vẽ bên là may sóng đôi (Ryo nagare nui)</h3>
                 <img src="hinh anh 100 cau/ryonaganui.png" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -1327,7 +1324,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>74</h1>
@@ -1335,7 +1332,8 @@
             <td style="width: 80%;">
                 <h1>うわいと したいと の ちょうし が つよすぎる と ぬいちぢみ に なります。</h1>
                 <h2>Uwaito shitaito no choushi ga tsuyosugiru to nuichijimi ninarimasu.</h2>
-                <h3 class="meaning" style="display: none;">Nếu chỉ trên và chỉ dưới quá chặt sẽ khiến đường may bị rút.</h3>
+                <h3 class="meaning" style="display: none;">Nếu chỉ trên và chỉ dưới quá chặt sẽ khiến đường may bị rút.
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1344,7 +1342,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>75</h1>
@@ -1361,7 +1359,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>76</h1>
@@ -1378,7 +1376,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>77</h1>
@@ -1386,7 +1384,8 @@
             <td style="width: 80%;">
                 <h1>せんぷうきの はね で ろうどう しゃ に きけん を あたえる おそれ の あるもの は かこい を します。</h1>
                 <h2>Senpuukino hane de roudousha ni kiken wo ataeru osore no arumono wa kakoi wo shimasu.</h2>
-                <h3 class="meaning" style="display: none;">Những cánh quạt có thể gây nguy hiểm cho công nhân thì bọc lại.</h3>
+                <h3 class="meaning" style="display: none;">Những cánh quạt có thể gây nguy hiểm cho công nhân thì bọc
+                    lại.</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1395,7 +1394,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>78</h1>
@@ -1412,7 +1411,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>79</h1>
@@ -1429,7 +1428,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>80</h1>
@@ -1446,14 +1445,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>81</h1>
             </td>
             <td style="width: 80%;">
-                <h1>ハンドタイプの ようちゃくきには ねっぷうしきと ちょうおんぱしきが あります。 </h1>
-                <h2>Handotaipu no youchakuki niwa neppuushiki to chouonpashiki ga arimasu.</h2>
+                <h1>ハンドタイプ の ようちゃく き には ねっぷうしき と ちょうおんぱしき が あります。 </h1>
+                <h2>Handotaipu no youchaku ki niwa neppuushiki to chouonpashiki ga arimasu.</h2>
                 <h3 class="meaning" style="display: none;">Máy hàn cầm tay có loại máy hơi nóng và máy siêu âm</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -1463,15 +1462,16 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>82</h1>
             </td>
             <td style="width: 80%;">
-                <h1>ほんぬいの ミシンは うわいと と したいとの からみで ぬい ます。</h1>
+                <h1>ほんぬいの ミシンは うわいと と したいと の からみで ぬい ます。</h1>
                 <h2>Honnui no mishin wa uwaito to shitaito no karamide nuimasu.</h2>
-                <h3 class="meaning" style="display: none;">Máy may cơ bản may bằng cách móc giữa chỉ trên và  chỉ dưới</h3>
+                <h3 class="meaning" style="display: none;">Máy may cơ bản may bằng cách móc giữa chỉ trên và chỉ dưới
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1480,7 +1480,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>83</h1>
@@ -1498,7 +1498,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>84</h1>
@@ -1515,7 +1515,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>85</h1>
@@ -1532,7 +1532,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>86</h1>
@@ -1549,7 +1549,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>87</h1>
@@ -1566,7 +1566,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>88</h1>
@@ -1583,14 +1583,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>89</h1>
             </td>
             <td style="width: 80%;">
-                <h1>さぎょうだいの あかるさ は 150ルクス いじょうです。</h1>
-                <h2>Sagyoudai no akarusa wa hyakugojuu rukusu ijoudesu.</h2>
+                <h1>さぎょうだいの あかるさ は 150ルクス いじょう です。</h1>
+                <h2>Sagyoudai no akarusa wa hyakugojuu rukusu ijou desu.</h2>
                 <h3 class="meaning" style="display: none;">Độ sáng của bàn làm việc là hơn 150 Lux</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
@@ -1600,7 +1600,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>90</h1>
@@ -1608,7 +1608,8 @@
             <td style="width: 80%;">
                 <h1>さぎょうをするときは、うごきや すければどのようなふくそうをし てもよいです。</h1>
                 <h2>Sagyou wo surutoki wa ugoki yasukere ba donoyou na hukusou wo shitemo yoidesu.</h2>
-                <h3 class="meaning" style="display: none;">Khi làm việc, miễn là dễ cử động thì mặc đồ như thế nào cũng được</h3>
+                <h3 class="meaning" style="display: none;">Khi làm việc, miễn là dễ cử động thì mặc đồ như thế nào cũng
+                    được</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1617,13 +1618,13 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>91</h1>
             </td>
             <td style="width: 80%;">
-                <h1>せまいところではつうろをかくほ しなくてもよいです。</h1>
+                <h1>せまい ところではつうろをかくほ しなくてもよいです。</h1>
                 <h2>Semai tokoro dewa tsuro wo kakuho shinakutemo yoidesu.</h2>
                 <h3 class="meaning" style="display: none;">Ở chỗ hẹp thì không chừa lối đi cũng được</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -1634,15 +1635,15 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>92</h1>
             </td>
             <td style="width: 80%;">
                 <h1>ちどりミシン は ふちぬいよう ミシン です。</h1>
-                <h2>Chidori mishin wa fuchi-nui you mishin desu.</h2>
-                <h3 class="meaning" style="display: none;">Máy may dích dắc là máy dùng để  may viền</h3>
+                <h2>Chidorimishin wa fuchi-nui you mishin desu.</h2>
+                <h3 class="meaning" style="display: none;">Máy may dích dắc là máy dùng để may viền</h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1651,7 +1652,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>93</h1>
@@ -1668,7 +1669,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>94</h1>
@@ -1685,7 +1686,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>95</h1>
@@ -1702,7 +1703,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>96</h1>
@@ -1719,7 +1720,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>97</h1>
@@ -1727,7 +1728,8 @@
             <td style="width: 80%;">
                 <h1>ミシンを かけるときの しせい が わるいと せいかくに ぬえま せん。</h1>
                 <h2>Mishin wo kakerutokino shiseiga warui to seikakuni nuemasen.</h2>
-                <h3 class="meaning" style="display: none;">Tư thế ngồi may không tốt thì không thể may chính xác được.</h3>
+                <h3 class="meaning" style="display: none;">Tư thế ngồi may không tốt thì không thể may chính xác được.
+                </h3>
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
             </td>
             <td style="width: 10%; text-align: center;">
@@ -1736,7 +1738,7 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>98</h1>
@@ -1753,7 +1755,7 @@
                 <h1 class="answer" style="display: none;">ꓫ</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>99</h1>
@@ -1770,14 +1772,14 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
         <tr>
             <td style="width: 10%; text-align: center;">
                 <h1>100</h1>
             </td>
             <td style="width: 80%;">
                 <h1>これは しゅすおり です。 </h1>
-                <h2> Korewa shusuori desu.</h2>
+                <h2> Korewa shusu-ori desu.</h2>
                 <h3 class="meaning" style="display: none;">Đây là dệt vân đoạn (long 4)</h3>
                 <img src="hinh anh 100 cau/shusuori.jpg" alt="">
                 <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
@@ -1788,10 +1790,19 @@
                 <h1 class="answer" style="display: none;">◯</h1>
             </td>
         </tr>
-        
+
 
     </table>
     <script>
+        const showH3Button = document.getElementById("showH3");
+        showH3Button.addEventListener("click", function() {
+            const h3Elements = document.querySelectorAll(".meaning");
+            h3Elements.forEach(h3 => {
+                h3.style.display = "block"; // Hiển thị h3
+            });
+            this.disabled = true; // Vô hiệu hóa button sau khi click
+        });
+
         function toggleAnswer(button) {
             var answer = button.parentNode.querySelector(".answer");
             if (answer.style.display === "none") {
@@ -1813,6 +1824,67 @@
                 button.textContent = "Xem ý nghĩa";
             }
         }
+
+        const colors = ['blue', 'red', 'green', 'yellow', 'orange', 'purple', 'pink', 'cyan'];
+        let currentColorIndex = 0;
+
+        // Hàm tô màu chữ
+        function colorWords(element) {
+            let text = element.textContent;
+            let words = text.split(' ');
+            let coloredText = "";
+            let colorIndex = currentColorIndex;
+
+            for (let i = 0; i < words.length; i++) {
+                let word = words[i];
+                let wordLowercase = word.toLowerCase();
+
+                // Danh sách các từ khóa cần tô màu
+                let keywords = ["うすい", "あつい", "つよく", "よわく", "おおきく", "ちいさい", "うわいと", "したいと", "ふとく", "ほそく", "90cmいか", "60cmいか"
+                    , "うら", "おもて", "たていと", "よこいと", "みつおり", "ひらぬい", "しゃもんおり", "ひらおり", "しゅすおり", "らっせるおり", "ドームがたテント", "こていしき",
+                    "そうしょくようテント", "ひよけ", "しゅうかいよう", "テントそうこ", "こうぞうず", "まどよう", "キャンプよう", "かどうしき", "オーニング", "しゅどうしき",
+                    "でんどうしき", "あめよけ", "きょうど", "ぼうすいせい", "ちょくせんぬい", "ちどりミシン", "めんはんぷ", "こうしゅうはウエルダー", "ようちゃく", "めうち",
+                    "いどうしきあしば", "うえ", "そうじ", "きゅうゆ", "ひょうしき", "ほごぼう", "きけん", "はいって", "あんぜん", "たばこ", "けんちくこうじょうシート",
+                    "おおきい", "りょうながれぬい", "いじょう", "せまい", "オーバーロックミシン", "ほそい",
+
+                    "usui", "atsui", "tsuyoku", "yowaku", "ookiku", "chiisai", "uwaito", "shitaito", "futoku", "hosoku", "90cm-ika", "60cm-ika",
+                    "ura", "omote", "tateito", "yokoito", "mitsuori", "hiranui", "shamon-ori", "hiraori", "shusu-ori", "rasseru-ori", "domugata-tento", "koteishiki",
+                    "soushoku-youtento", "hiyoke", "shukaiyou", "tentosouko", "kouzouzu", "madoyou", "kyanpuyou", "kadoshiki", "ooningu", "shudoushiki",
+                    "dendoushiki", "ameyoke", "kyodo", "bousuisei", "chokusennui", "chidorimishin", "menhanpu", "koushuhauerudaa", "youchaku", "meuchi",
+                    "idoushikiashiba", "ue", "souji", "kyuuyu", "hyoshiki", "hogobou", "kiken", "haitte", "anzen", "tabako", "kenchikukoujiyoushiito",
+                    "ookii", "ryounagare-nui", "ijou", "semai", "ooba-rokku-mishin", "hosoi",
+
+                    "mỏng","dày","chặt","nhẹ","lớn","to","nhỏ","chỉ trên","chỉ dưới"
+                ];
+
+                if (keywords.includes(wordLowercase)) {
+                    // Sử dụng màu kế tiếp trong mảng colors
+                    coloredText += `<span style="color:${colors[colorIndex]}">${word}</span> `;
+                    colorIndex = (colorIndex + 1) % colors.length;
+                } else {
+                    coloredText += word + " ";
+                }
+            }
+            element.innerHTML = coloredText;
+        }
+
+        // Tô màu cho các thẻ h1
+        let h1Elements = document.querySelectorAll('h1');
+        for (let i = 0; i < h1Elements.length; i++) {
+            colorWords(h1Elements[i]);
+        }
+        let h2Elements = document.querySelectorAll('h2');
+        for (let i = 0; i < h2Elements.length; i++) {
+            colorWords(h2Elements[i]);
+        }
+        let h3Elements = document.querySelectorAll('h3');
+        for (let i = 0; i < h3Elements.length; i++) {
+            colorWords(h3Elements[i]);
+        }
+
+        // Tăng index màu cho lần tô màu kế tiếp
+        currentColorIndex = (currentColorIndex + 1) % colors.length;
+
     </script>
 
 </body>
