@@ -832,65 +832,65 @@ const questions = [
     },
     {
         id: 91,
-        jp: "せまい ところではつうろをかくほ しなくてもよいです。",
+        jp: "せまい ところでは つうろをかくほしなくて もよいです。",
         romaji: "Semai tokoro dewa tsuro wo kakuho shinakutemo yoidesu.",
         meaning: "Ở chỗ hẹp thì không chừa lối đi cũng được",
         answer: "ꓫ",
-        keywords: ["せまい", "つうろ", "かくほ", "semai", "tsuro", "kakuho", "hẹp", "lối đi", "chừa"],
+        keywords: ["せまい","semai", "hẹp"],
         image: null
     },
     {
         id: 92,
         jp: "ちどりミシン は ふちぬいよう ミシン です。",
-        romaji: "Chidorimishin wa fuchi-nui you mishin desu.",
-        meaning: "Máy may dích dắc là máy dùng để may viền",
+        romaji: "Chidorimishin wa fuchi-nuiyou mishin desu.",
+        meaning: "Máy may dích-dắc là máy dùng để may-viền",
         answer: "ꓫ",
-        keywords: ["ちどりミシン", "ふちぬいよう", "ミシン", "chidorimishin", "fuchi-nui you", "mishin", "máy may dích dắc", "may viền"],
+        keywords: ["ちどりミシン", "ふちぬいよう", "chidorimishin", "fuchi-nuiyou", "dích-dắc", "may-viền"],
         image: null
     },
     {
         id: 93,
-        jp: "オーバーロックミシン は ふちぬいよ う ミシン です。",
-        romaji: "O-ba-rokku mishin wa fuchinui you mishin desu.",
-        meaning: "Máy vắt sổ là máy để may viền",
+        jp: "オーバーロック ミシン は ふちぬいよう ミシン です。",
+        romaji: "O-ba-rokku mishin wa fuchinuiyou mishin desu.",
+        meaning: "Máy vắt-sổ là máy để may-viền",
         answer: "◯",
-        keywords: ["オーバーロックミシン", "ふちぬいよう", "ミシン", "o-ba-rokku mishin", "fuchinui you", "mishin", "máy vắt sổ", "may viền"],
+        keywords: ["オーバーロック", "ふちぬいよう", "o-ba-rokku", "fuchinuiyou", "vắt-sổ", "may-viền"],
         image: null
     },
     {
         id: 94,
-        jp: "ミシンを つかう まえや つかった あとには てんけんを します。",
+        jp: "ミシンを つかう まえや つかった あとには てんけん を します。",
         romaji: "Mishin wo tsukau mae ya tsukatta ato niwa tenken wo shimasu.",
-        meaning: "Trước và sau khi sử dụng máy may phải kiểm tra máy.",
+        meaning: "Trước và sau khi sử dụng máy may phải kiểm-tra máy.",
         answer: "◯",
-        keywords: ["ミシン", "つかう", "まえ", "あと", "てんけん", "mishin", "tsukau", "mae", "ato", "tenken", "máy may", "sử dụng", "trước", "sau", "kiểm tra"],
+        keywords: ["てんけん","tenken","kiểm-tra"],
         image: null
     },
     {
         id: 95,
-        jp: "ミシンを つかうときは はりの しょう めんに すわります。",
-        romaji: "Mishin wo tsukautoki wa hari no syoumen ni suwari masu.",
+        jp: "ミシンを つかうときは はりの しょうめん に すわります。",
+        romaji: "Mishin wo tsukautoki wa hari no shoumen ni suwari masu.",
         meaning: "Khi dùng máy may, ngồi trước kim máy may",
         answer: "◯",
-        keywords: ["ミシン", "つかう", "はり", "しょうめん", "すわる", "mishin", "tsukau", "hari", "shoumen", "suwaru", "máy may", "sử dụng", "kim", "ngồi trước"],
+        keywords: ["しょうめん","shoumen","trước"],
         image: null
     },
     {
         id: 96,
-        jp: "オーバーロックミシンは ちょく せんぬいミシンです。",
-        romaji: "O-ba-rokku mishin wa chokusen nui mishin desu.",
-        meaning: "Máy vắt sổ là máy may đường thẳng.",
+        jp: "オーバーロック ミシンは ちょくせんぬい ミシンです。",
+        romaji: "O-ba-rokku mishin wa chokusennui mishin desu.",
+        meaning: "Máy vắt-sổ là máy may đường-thẳng.",
         answer: "ꓫ",
-        keywords: ["オーバーロックミシン", "ちょくせんぬいミシン", "o-ba-rokku mishin", "chokusen nui mishin", "máy vắt sổ", "máy may đường thẳng"],
+        keywords: ["オーバーロック", "ちょくせんぬい", "o-ba-rokku", "chokusennui", "vắt-sổ", "đường-thẳng."],
         image: null
     },
     {
         id: 97,
-        jp: "ミシンを かけるときの しせい が わるいと せいかくに ぬえま せん。",
-        romaji: "Mishin wo kakerutokino shiseiga warui to seikakuni nuemasen.",
-        meaning: "Tư thế ngồi may không tốt thì không thể may chính xác được.",
+        jp: "ミシンを かけるときの しせい が わるい と せいかく に ぬえません。",
+        romaji: "Mishin wo kakerutokino shisei ga warui to seikaku ni nuemasen.",
+        meaning: "Tư-thế ngồi may không-tốt thì không thể may chính-xác được.",
         answer: "◯",
-        keywords: ["ミシン", "かける", "しせい", "わるい", "せいかく", "ぬう", "mishin", "kakeru", "shisei", "warui", "seikaku", "nuu", "máy may", "tư thế ngồi may", "tốt", "chính xác"],
+        keywords: ["しせい", "わるい", "せいかく", "shisei", "warui", "seikaku","tư-thế", "không-tốt", "chính-xác"],
         image: null
     },
     {
@@ -899,25 +899,25 @@ const questions = [
         romaji: "Mishin ito no hachiban ha nijuuban yori hosoi desu.",
         meaning: "Chỉ may số 8 mỏng hơn chỉ may số 20.",
         answer: "ꓫ",
-        keywords: ["ミシンいと", "8ばん", "20ばん", "ほそい", "mishin ito", "hachiban", "nijuuban", "hosoi", "chỉ may", "số 8", "số 20", "mỏng"],
+        keywords: ["ほそい","hosoi","mỏng"],
         image: null
     },
     {
         id: 99,
         jp: "ミシン の はりさき が まるく なって いると ぬいずれ の げんいん と なります。",
-        romaji: "Mishin no harisaki ga marukunatte iruto nuizure no genin to narimasu.",
-        meaning: "Đầu kim của máy may bị tròn là nguyên nhân may bị chệch",
+        romaji: "Mishin no harisaki ga maruku natte iruto nuizure no genin to narimasu.",
+        meaning: "Đầu kim của máy may bị tròn là nguyên-nhân may bị lệch",
         answer: "◯",
-        keywords: ["ミシン", "はりさき", "まるく", "ぬいずれ", "げんいん", "mishin", "harisaki", "maruku", "nuizure", "genin", "đầu kim", "máy may", "tròn", "may bị chệch", "nguyên nhân"],
+        keywords: ["まるく", "ぬいずれ", "げんいん","maruku", "nuizure", "genin", "tròn", "lệch", "nguyên-nhân"],
         image: null
     },
     {
         id: 100,
         jp: "これは しゅすおり です。",
         romaji: "Korewa shusu-ori desu.",
-        meaning: "Đây là dệt vân đoạn (long 4)",
+        meaning: "Đây là dệt vân-đoạn (long 4)",
         answer: "◯",
-        keywords: ["しゅすおり", "shusu-ori", "dệt vân đoạn", "long 4"],
+        keywords: ["しゅすおり", "shusu-ori", "vân-đoạn"],
         image: "hinh anh 100 cau/shusuori.jpg"
     }
 ];
