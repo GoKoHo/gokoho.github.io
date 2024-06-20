@@ -474,9 +474,9 @@ const questions = [
         id: 51,
         jp: "めうち は きじ を きる どうぐ です。",
         romaji: "Meuchi wa kiji wo kiru dougu desu.",
-        meaning: "Cây dùi lỗ là dụng cụ để cắt vải.",
+        meaning: "Cây-dùi-lỗ là dụng cụ để cắt vải.",
         answer: "ꓫ",
-        keywords: ["めうち", "きじ", "きる", "どうぐ", "meuchi", "kiji", "kiru", "dougu", "cây dùi lỗ", "vải", "cắt"],
+        keywords: ["めうち", "meuchi", "cây-dùi-lỗ"],
         image: null
     },
     {
@@ -485,43 +485,43 @@ const questions = [
         romaji: "kore wa honnui mishin no nuime wo arawasite imasu.",
         meaning: "Cái này thể hiện đường may của máy may cơ bản.",
         answer: "◯",
-        keywords: ["ほんぬいミシン", "ぬいめ", "あらわす", "honnui mishin", "nuime", "arawasu", "máy may cơ bản", "đường may", "thể hiện"],
+        keywords: [],
         image: "hinh anh 100 cau/honnuizu.jpg"
     },
     {
         id: 53,
-        jp: "アイレットリングを うつときは リ ングより ちいさい あなを あけま す。",
+        jp: "アイレットリング を うつときは リ ングより ちいさい あなを あけま す。",
         romaji: "Airettoringu wo utsutoki wa ringu yori chiisai anawo akemasu.",
         meaning: "Khi dùi lỗ để gắn khoen tròn, thì dùi lỗ nhỏ hơn khoen.",
         answer: "◯",
-        keywords: ["アイレットリング", "うつ", "リング", "ちいさい", "あな", "あける", "airettoringu", "utsu", "ringu", "chiisai", "ana", "akeru", "khoen tròn", "dùi lỗ", "nhỏ hơn", "khoen"],
+        keywords: ["アイレットリング", "ちいさい", "airettoringu","chiisai","khoen","nhỏ"],
         image: null
     },
     {
         id: 54,
         jp: "めんはんぷ は いっぱんに ひらおり です。",
         romaji: "Menhanpu wa ippanni hiraori desu.",
-        meaning: "Vải bố, thông thường là vải dệt thoi.",
+        meaning: "Vải-bố , thông thường là vải-dệt-thoi.",
         answer: "◯",
-        keywords: ["めんはんぷ", "ひらおり", "menhanpu", "hiraori", "vải bố", "vải dệt thoi"],
+        keywords: ["めんはんぷ", "ひらおり", "menhanpu", "hiraori", "vải-bố", "vải-dệt-thoi."],
         image: null
     },
     {
         id: 55,
-        jp: "いどうしきあしば （ローリング タワー）の うえ ではきゃたつ を つかっても よいです。",
+        jp: "いどうしきあしば （ローリング タワー）の うえ では きゃたつ を つかっても よいです。",
         romaji: "Idousikiashiba ( rouringu tawaa ) no ue dewa kyatatsu wo tsukattemo yoidesu.",
-        meaning: "Có thể dùng được thang chữ A trên giàn giáo di động.",
+        meaning: "Có thể dùng được thang-chữ-A trên giàn-giáo-di-động.",
         answer: "ꓫ",
-        keywords: ["いどうしきあしば", "ローリング タワー", "うえ", "きゃたつ", "つかう", "idousikiashiba", "rourigu tawaa", "ue", "kyatatsu", "tsukau", "giàn giáo di động", "thang chữ A", "sử dụng"],
+        keywords: ["いどうしきあしば","うえ", "きゃたつ", "idousikiashiba","ue", "kyatatsu","giàn-giáo-di-động.", "thang-chữ-a", "trên"],
         image: null
     },
     {
         id: 56,
         jp: "きかいの そうじ や きゅうゆ を するとき は きかいを とめてから します。",
-        romaji: "Kikai no souji ya kyuuyu wo surutoki wa kikai wo tomete kara shimasu.",
-        meaning: "Dừng máy khi vệ sinh máy hay cung cấp dầu.",
+        romaji: "Kikai no souji ya kyuuyu wo surutoki wa kikai wo tometekara shimasu.",
+        meaning: "Dừng máy khi vệ-sinh máy hay cung-cấp-dầu.",
         answer: "◯",
-        keywords: ["きかい", "そうじ", "きゅうゆ", "とめる", "kikai", "souji", "kyuuyu", "tomeru", "máy", "vệ sinh", "cung cấp dầu", "dừng"],
+        keywords: ["そうじ", "きゅうゆ", "とめてから", "souji", "kyuuyu", "tometekara","vệ-sinh", "cung-cấp-dầu.", "dừng"],
         image: null
     },
     {
