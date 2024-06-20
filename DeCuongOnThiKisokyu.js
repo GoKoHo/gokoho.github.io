@@ -528,9 +528,9 @@ const questions = [
         id: 57,
         jp: "この ひょうしき が あるところで は ほごぼう は かぶらなくても よいです。",
         romaji: "Kono hyoushiki ga arutokoro dewa hogobou wa kaburanakute mo yoidesu.",
-        meaning: "Tại nơi có biển báo này, không cần đội mũ bảo hiểm",
+        meaning: "Tại nơi có biển-báo này, không cần đội mũ-bảo-hiểm",
         answer: "ꓫ",
-        keywords: ["ひょうしき", "ほごぼう", "かぶる", "hyoushiki", "hogobou", "kaburu", "biển báo", "mũ bảo hiểm", "đội"],
+        keywords: ["ひょうしき", "ほごぼう", "hyoushiki", "hogobou","biển-báo", "mũ-bảo-hiểm"],
         image: "hinh anh 100 cau/hogobou.jpg"
     },
     {
