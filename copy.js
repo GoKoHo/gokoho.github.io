@@ -1,20 +1,5 @@
-// Hàm tô màu từ khóa
-function highlightKeywords(text, keywords) {
-    let highlightedText = text;
-  
-    // Duyệt qua các nhóm từ khóa
-    for (const groupName in keywords) {
-      const group = keywords[groupName];
-      const color = groupName === "group1" ? "blue" : groupName === "group2" ? "red" : "orange"; // Xác định màu dựa trên tên nhóm
-      // Duyệt qua các từ khóa trong mỗi nhóm
-      group.forEach(keyword => {
-        // Tìm và thay thế từ khóa bằng thẻ span có màu
-        highlightedText = highlightedText.replace(new RegExp(keyword, "g"), `<span style="color: ${color}">${keyword}</span>`);
-      });
-    }
-  
-    return highlightedText;
-  }
+// script.js
+
 const questions = [
     {
         id: 1,
@@ -1265,6 +1250,41 @@ const questions = [
         image: null
     }
 ];
+
+// Hàm tô màu từ khóa
+function highlightKeywords(text, keywords) {
+    let words = text.split(/[\s\-]+/); 
+    let coloredText = "";
+    const colors = ['blue', 'red', 'orange', 'purple', 'cyan'];
+    let colorIndex = 0;
+  
+    // Duyệt qua từng từ trong chuỗi text
+    for (let i = 0; i < words.length; i++) {
+      let word = words[i];
+      let wordLowercase = word.toLowerCase();
+      let isColored = false; 
+  
+      // Duyệt qua từng nhóm keywords
+      for (const groupName in keywords) {
+        const group = keywords[groupName];
+  
+        // Kiểm tra xem từ có nằm trong nhóm này không
+        if (group.includes(wordLowercase)) {
+          coloredText += `<span class="keyword" style="color:${colors[colorIndex]}">${word}</span> `;
+          isColored = true;
+          colorIndex = (colorIndex + 1) % colors.length;
+          break; 
+        }
+      }
+  
+      // Nếu từ chưa được tô màu, thêm vào chuỗi text bình thường
+      if (!isColored) {
+        coloredText += word + " ";
+      }
+    }
+  
+    return coloredText;
+  }
   
   const questionTable = document.getElementById("questionTable");
   
@@ -1291,20 +1311,21 @@ const questions = [
     });
   
     row.innerHTML = `
-           <td style="width: 10%; text-align: center;">
-            <h1>${question.id}</h1>
-        </td>
-        <td style="width: 80%;">
-            <h1>${highlightKeywords(question.jp, question.keywords)}</h1>
-            <h2>${highlightKeywords(question.romaji, question.keywords)}</h2>
-            <h3 class="meaning" style="display: none;">${highlightKeywords(question.meaning, question.keywords)}</h3>
-            ${imageHTML} <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
-        </td>
-        <td style="width: 10%; text-align: center;">
-            <button onclick="toggleAnswer(this)">Xem đáp án</button>
-            <h1 class="answer" style="display: none;">${question.answer}</h1>
-        </td>
-    `;
+          <td style="width: 10%; text-align: center;">
+              <h1>${question.id}</h1>
+          </td>
+          <td style="width: 80%;">
+              <h1>${highlightKeywords(question.jp, question.keywords)}</h1>
+              <h2>${highlightKeywords(question.romaji, question.keywords)}</h2>
+              <h3 class="meaning" style="display: none;">${highlightKeywords(question.meaning, question.keywords)}</h3>
+              ${imageHTML}
+              ${meaningButton.outerHTML}
+          </td>
+          <td style="width: 10%; text-align: center;">
+              ${answerButton.outerHTML}
+              <h1 class="answer" style="display: none;">${question.answer}</h1>
+          </td>
+      `;
   
     return row;
   }
@@ -1335,25 +1356,3 @@ const questions = [
   });
   
   // Hàm xử lý sự kiện click
-  // Hàm xử lý sự kiện click cho nút "Xem đáp án"
-function toggleAnswer(button) {
-    var answer = button.parentNode.querySelector(".answer");
-    if (answer.style.display === "none") {
-        answer.style.display = "block";
-        button.textContent = "Ẩn đáp án";
-    } else {
-        answer.style.display = "none";
-        button.textContent = "Xem đáp án";
-    }
-}
-// Hàm xử lý sự kiện click cho nút "Xem ý nghĩa"
-function toggleMeaning(button) {
-    var meaning = button.parentNode.querySelector(".meaning");
-    if (meaning.style.display === "none") {
-        meaning.style.display = "block";
-        button.textContent = "Ẩn ý nghĩa";
-    } else {
-        meaning.style.display = "none";
-        button.textContent = "Xem ý nghĩa";
-    }
-}
