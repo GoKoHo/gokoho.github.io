@@ -521,7 +521,7 @@ const questions = [
         romaji: "Kikai no souji ya kyuuyu wo surutoki wa kikai wo tometekara shimasu.",
         meaning: "Dừng máy khi vệ-sinh máy hay cung-cấp-dầu.",
         answer: "◯",
-        keywords: ["そうじ", "きゅうゆ", "とめてから", "souji", "kyuuyu", "tometekara","vệ-sinh", "cung-cấp-dầu.", "dừng"],
+        keywords: ["そうじ", "souji","vệ-sinh", "きゅうゆ", "kyuuyu", "cung-cấp-dầu.", "とめてから", "tometekara",, "dừng"],
         image: null
     },
     {
@@ -926,7 +926,7 @@ const questions = [
         romaji: "Meuchi wa aijirushi to saidanzuno tokino zuredome ni tsukaimasu.",
         meaning: "Dùi-lỗ được sử dụng để đánh dấu và chống lệch trong quá trình cắt.",
         answer: "ꓫ",
-        keywords: ["めうち", "Meuchi", "dùi-lỗ"]
+        keywords: ["めうち", "meuchi", "dùi-lỗ"]
     },
     {
         id: 102,
