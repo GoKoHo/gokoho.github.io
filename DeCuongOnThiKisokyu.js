@@ -1,31 +1,4 @@
 // script.js
-// Hàm tô màu từ khóa
-function highlightKeywords(text, keywords) {
-    let words = text.split(' ');
-    let coloredText = "";
-    const colors = ['blue', 'red', 'orange', 'purple', 'cyan'];
-    let colorIndex = 0;
-
-    // Duyệt qua từng nhóm keywords
-    for (const groupName in keywords) {
-        const group = keywords[groupName];
-
-        for (let i = 0; i < words.length; i++) {
-            let word = words[i];
-            let wordLowercase = word.toLowerCase();
-
-            // Kiểm tra xem từ có nằm trong nhóm này không
-            if (group.includes(wordLowercase)) {
-                coloredText += `<span class="keyword" style="color:${colors[colorIndex]}">${word}</span> `;
-                colorIndex = (colorIndex + 1) % colors.length;
-            } else {
-                coloredText += word + " ";
-            }
-        }
-    }
-
-    return coloredText;
-}
 
 const questions = [
     {
@@ -1278,82 +1251,120 @@ const questions = [
     }
 ];
 
-const questionTable = document.getElementById("questionTable");
-
-
-// Hàm tạo HTML cho một câu hỏi
-function createQuestionRow(question) {
-    const row = document.createElement("tr");
-
-    // Kiểm tra xem câu hỏi có hình ảnh hay không
-    let imageHTML = '';
-    if (question.image) {
-        imageHTML = `<img src="${question.image}" alt="">`;
+// Hàm tô màu từ khóa
+function highlightKeywords(text, keywords) {
+    let words = text.split(/[\s\-]+/);
+    let coloredText = "";
+    const colors = ['blue', 'red', 'orange', 'purple', 'cyan'];
+    let colorIndex = 0;
+  
+    // Duyệt qua từng nhóm keywords
+    for (const groupName in keywords) {
+      const group = keywords[groupName];
+  
+      for (let i = 0; i < words.length; i++) {
+        let word = words[i];
+        let wordLowercase = word.toLowerCase();
+  
+        // Kiểm tra xem từ có nằm trong nhóm này không
+        if (group.includes(wordLowercase)) {
+          coloredText += `<span class="keyword" style="color:${colors[colorIndex]}">${word}</span> `;
+          colorIndex = (colorIndex + 1) % colors.length;
+        } else {
+          // Kiểm tra xem từ có được nối bởi dấu cách không
+          if (word.includes(' ')) {
+            // Tách từ và kiểm tra từng từ
+            const subWords = word.split(' ');
+            let isMatch = false; // Biến cờ kiểm tra xem có từ nào khớp không
+            for (const subWord of subWords) {
+              if (group.includes(subWord.toLowerCase())) {
+                isMatch = true;
+                break;
+              }
+            }
+            if (isMatch) {
+              coloredText += `<span class="keyword" style="color:${colors[colorIndex]}">${word}</span> `;
+              colorIndex = (colorIndex + 1) % colors.length;
+            } else {
+              coloredText += word + " ";
+            }
+          } else {
+            coloredText += word + " ";
+          }
+        }
+      }
     }
-
+  
+    return coloredText;
+  }
+  
+  const questionTable = document.getElementById("questionTable");
+  
+  // Hàm tạo HTML cho một câu hỏi
+  function createQuestionRow(question) {
+    const row = document.createElement("tr");
+    const answerButton = document.createElement("button");
+    const meaningButton = document.createElement("button");
+  
+    // Kiểm tra xem câu hỏi có hình ảnh hay không
+    let imageHTML = "";
+    if (question.image) {
+      imageHTML = `<img src="${question.image}" alt="">`;
+    }
+  
+    answerButton.textContent = "Xem đáp án";
+    answerButton.addEventListener("click", function() {
+      toggleAnswer(this);
+    });
+  
+    meaningButton.textContent = "Xem ý nghĩa";
+    meaningButton.addEventListener("click", function() {
+      toggleMeaning(this);
+    });
+  
     row.innerHTML = `
-        <td style="width: 10%; text-align: center;">
-            <h1>${question.id}</h1>
-        </td>
-        <td style="width: 80%;">
-            <h1>${highlightKeywords(question.jp, question.keywords)}</h1>
-            <h2>${highlightKeywords(question.romaji, question.keywords)}</h2>
-            <h3 class="meaning" style="display: none;">${highlightKeywords(question.meaning, question.keywords)}</h3>
-            ${imageHTML} <button onclick="toggleMeaning(this)">Xem ý nghĩa</button>
-        </td>
-        <td style="width: 10%; text-align: center;">
-            <button onclick="toggleAnswer(this)">Xem đáp án</button>
-            <h1 class="answer" style="display: none;">${question.answer}</h1>
-        </td>
-    `;
+          <td style="width: 10%; text-align: center;">
+              <h1>${question.id}</h1>
+          </td>
+          <td style="width: 80%;">
+              <h1>${highlightKeywords(question.jp, question.keywords)}</h1>
+              <h2>${highlightKeywords(question.romaji, question.keywords)}</h2>
+              <h3 class="meaning" style="display: none;">${highlightKeywords(question.meaning, question.keywords)}</h3>
+              ${imageHTML}
+              ${meaningButton.outerHTML}
+          </td>
+          <td style="width: 10%; text-align: center;">
+              ${answerButton.outerHTML}
+              <h1 class="answer" style="display: none;">${question.answer}</h1>
+          </td>
+      `;
+  
     return row;
-}
-
-// Thêm câu hỏi vào bảng
-questions.forEach(question => {
+  }
+  
+  // Thêm câu hỏi vào bảng
+  questions.forEach(question => {
     questionTable.appendChild(createQuestionRow(question));
-});
-
-// Xử lý sự kiện click cho nút "Hiển thị toàn bộ ý nghĩa"
-const showH3Button = document.getElementById("showH3");
-showH3Button.addEventListener("click", function () {
+  });
+  
+  // Xử lý sự kiện click cho nút "Hiển thị toàn bộ ý nghĩa"
+  const showH3Button = document.getElementById("showH3");
+  showH3Button.addEventListener("click", function () {
     const h3Elements = document.querySelectorAll(".meaning");
     h3Elements.forEach(h3 => {
-        h3.style.display = "block";
+      h3.style.display = "block";
     });
     this.disabled = true;
-});
-
-// Xử lý sự kiện click cho nút "Hiển thị tất cả kết quả"
-const showKqButton = document.getElementById("showKq");
-showKqButton.addEventListener("click", function () {
+  });
+  
+  // Xử lý sự kiện click cho nút "Hiển thị tất cả kết quả"
+  const showKqButton = document.getElementById("showKq");
+  showKqButton.addEventListener("click", function () {
     const h1Elements = document.querySelectorAll(".answer");
     h1Elements.forEach(h1 => {
-        h1.style.display = "block";
+      h1.style.display = "block";
     });
     this.disabled = true;
-});
-
-// Hàm xử lý sự kiện click cho nút "Xem đáp án"
-function toggleAnswer(button) {
-    var answer = button.parentNode.querySelector(".answer");
-    if (answer.style.display === "none") {
-        answer.style.display = "block";
-        button.textContent = "Ẩn đáp án";
-    } else {
-        answer.style.display = "none";
-        button.textContent = "Xem đáp án";
-    }
-}
-
-// Hàm xử lý sự kiện click cho nút "Xem ý nghĩa"
-function toggleMeaning(button) {
-    var meaning = button.parentNode.querySelector(".meaning");
-    if (meaning.style.display === "none") {
-        meaning.style.display = "block";
-        button.textContent = "Ẩn ý nghĩa";
-    } else {
-        meaning.style.display = "none";
-        button.textContent = "Xem ý nghĩa";
-    }
-}
+  });
+  
+  // Hàm xử lý sự kiện click
