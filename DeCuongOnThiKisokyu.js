@@ -1,20 +1,25 @@
 // Hàm tô màu từ khóa
 function highlightKeywords(text, keywords) {
-    let highlightedText = text;
-  
-    // Duyệt qua các nhóm từ khóa
-    for (const groupName in keywords) {
-      const group = keywords[groupName];
-      const color = groupName === "group1" ? "blue" : groupName === "group2" ? "red" : "orange"; // Xác định màu dựa trên tên nhóm
-      // Duyệt qua các từ khóa trong mỗi nhóm
-      group.forEach(keyword => {
-        // Tìm và thay thế từ khóa bằng thẻ span có màu
-        highlightedText = highlightedText.replace(new RegExp(keyword, "g"), `<span style="color: ${color}">${keyword}</span>`);
-      });
-    }
-  
-    return highlightedText;
-  }
+    let highlightedText = "";
+    const words = text.split(/\s+/); // Tách văn bản thành các từ
+
+    words.forEach(word => {
+        let highlightedWord = word;
+        for (const groupName in keywords) {
+            const group = keywords[groupName];
+            const color = groupName === "group1" ? "blue" : groupName === "group2" ? "red" : groupName === "group3" ? "blueviolet" : "orange";
+
+            if (group.includes(word)) {
+                highlightedWord = `<span style="color: ${color}">${word}</span>`;
+                break; // Thoát khỏi vòng lặp khi tìm thấy từ khóa
+            }
+        }
+        highlightedText += highlightedWord + " "; // Nối từ đã tô màu vào văn bản kết quả
+    });
+
+    return highlightedText.trim();
+}
+
 const questions = [
     {
         id: 1,
@@ -23,7 +28,7 @@ const questions = [
         meaning: "Khi may vải mỏng thì chỉnh chân vịt đè chặt .",
         answer: "ꓫ",
         keywords: {
-            group1: ["うすい", "usui", "mỏng"],
+            group1: ["うすい", "Usui", "mỏng"],
             group2: ["つよく", "tsuyoku", "chặt"]
         },
         image: null
@@ -1267,31 +1272,31 @@ const questions = [
         image: null
     }
 ];
-  
-  const questionTable = document.getElementById("questionTable");
-  
-  // Hàm tạo HTML cho một câu hỏi
-  function createQuestionRow(question) {
+
+const questionTable = document.getElementById("questionTable");
+
+// Hàm tạo HTML cho một câu hỏi
+function createQuestionRow(question) {
     const row = document.createElement("tr");
     const answerButton = document.createElement("button");
     const meaningButton = document.createElement("button");
-  
+
     // Kiểm tra xem câu hỏi có hình ảnh hay không
     let imageHTML = "";
     if (question.image) {
-      imageHTML = `<img src="${question.image}" alt="">`;
+        imageHTML = `<img src="${question.image}" alt="">`;
     }
-  
+
     answerButton.textContent = "Xem đáp án";
-    answerButton.addEventListener("click", function() {
-      toggleAnswer(this);
+    answerButton.addEventListener("click", function () {
+        toggleAnswer(this);
     });
-  
+
     meaningButton.textContent = "Xem ý nghĩa";
-    meaningButton.addEventListener("click", function() {
-      toggleMeaning(this);
+    meaningButton.addEventListener("click", function () {
+        toggleMeaning(this);
     });
-  
+
     row.innerHTML = `
            <td style="width: 10%; text-align: center;">
             <h1>${question.id}</h1>
@@ -1307,37 +1312,37 @@ const questions = [
             <h1 class="answer" style="display: none;">${question.answer}</h1>
         </td>
     `;
-  
+
     return row;
-  }
-  
-  // Thêm câu hỏi vào bảng
-  questions.forEach(question => {
+}
+
+// Thêm câu hỏi vào bảng
+questions.forEach(question => {
     questionTable.appendChild(createQuestionRow(question));
-  });
-  
-  // Xử lý sự kiện click cho nút "Hiển thị toàn bộ ý nghĩa"
-  const showH3Button = document.getElementById("showH3");
-  showH3Button.addEventListener("click", function () {
+});
+
+// Xử lý sự kiện click cho nút "Hiển thị toàn bộ ý nghĩa"
+const showH3Button = document.getElementById("showH3");
+showH3Button.addEventListener("click", function () {
     const h3Elements = document.querySelectorAll(".meaning");
     h3Elements.forEach(h3 => {
-      h3.style.display = "block";
+        h3.style.display = "block";
     });
     this.disabled = true;
-  });
-  
-  // Xử lý sự kiện click cho nút "Hiển thị tất cả kết quả"
-  const showKqButton = document.getElementById("showKq");
-  showKqButton.addEventListener("click", function () {
+});
+
+// Xử lý sự kiện click cho nút "Hiển thị tất cả kết quả"
+const showKqButton = document.getElementById("showKq");
+showKqButton.addEventListener("click", function () {
     const h1Elements = document.querySelectorAll(".answer");
     h1Elements.forEach(h1 => {
-      h1.style.display = "block";
+        h1.style.display = "block";
     });
     this.disabled = true;
-  });
-  
-  // Hàm xử lý sự kiện click
-  // Hàm xử lý sự kiện click cho nút "Xem đáp án"
+});
+
+// Hàm xử lý sự kiện click
+// Hàm xử lý sự kiện click cho nút "Xem đáp án"
 function toggleAnswer(button) {
     var answer = button.parentNode.querySelector(".answer");
     if (answer.style.display === "none") {
