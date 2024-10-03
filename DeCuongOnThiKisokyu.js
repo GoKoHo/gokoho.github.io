@@ -950,7 +950,7 @@ const questions = [
         romaji: "Hogogu wo tsukete sagyouwo shinikui tokiwa hogoguwo tsukenakutemo yoidesu.",
         meaning: "Khi mang đồ-bảo-hộ mà khó-làm-việc , bạn có thể không mặc đồ bảo hộ.",
         answer: "ꓫ",
-        keywords: ["ほごぐ", "hogoku", "đồ-bảo-hộ", "しにくい", "shinikui", "khó-làm-việc"]
+        keywords: ["ほごぐ", "hogogu", "đồ-bảo-hộ", "しにくい", "shinikui", "khó-làm-việc"]
     },
     {
         id: 105,
