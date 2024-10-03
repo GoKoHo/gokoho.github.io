@@ -1209,12 +1209,14 @@ const questions = [
     },
     {
         id: 101,
-        jp: "めうち は　あいじるしと　さいだんのときの ずれどめに　つかいます。",
-        romaji: "Meuchi wa aijirushi to saidanzuno tokino zuredome ni tsukaimasu.",
-        meaning: "Dùi-lỗ được sử dụng để đánh dấu và chống lệch trong quá trình cắt.",
+        jp: "めうち は あいじるし と さいだん の とき の ずれどめ に つかいます。",
+        romaji: "Meuchi wa aijirushi to saidan no toki no zuredome ni tsukaimasu.",
+        meaning: "Dùi lỗ được sử dụng để đánh dấu và chống lệch trong quá trình cắt.",
         answer: "ꓫ",
         keywords: {
-            group1: ["めうち", "meuchi", "dùi lỗ"]
+            group1: ["めうち", "meuchi", "dùi", "lỗ"],
+            group2: ["あいじるし", "aijirushi", "đánh", "dấu"],
+            group3: ["ずれどめ", "zuredome", "chống", "lệch"]
         },
         image: null
     },
@@ -1222,45 +1224,45 @@ const questions = [
         id: 102,
         jp: "けんたんき は　きじを　さいだんするものです。",
         romaji: "Kentanki wa kijiwo saidan surumono desu.",
-        meaning: "Máy-kiểm-tra-vải là dụng cụ dùng để cắt vải.",
+        meaning: "Máy kiểm tra vải là dụng cụ dùng để cắt vải.",
         answer: "ꓫ",
         keywords: {
-            group1: ["けんたんき", "kentanki", "máy kiểm tra vải"]
+            group1: ["けんたんき", "kentanki", "máy", "kiểm", "tra", "vải"]
         },
         image: null
     },
     {
         id: 103,
-        jp: "たばこ は きめられた ところで　すいます。",
+        jp: "たばこ は きめられた ところ で すいます。",
         romaji: "Tabako wa kimerareta tokoro de suimasu.",
-        meaning: "Hút thuốc lá ở khu vực được-chỉ-định .",
+        meaning: "Hút thuốc lá ở khu vực được chỉ định .",
         answer: "◯",
         keywords: {
-            group1: ["きめられた", "kimerareta", "được chỉ định"]
+            group1: ["きめられた", "kimerareta", "được", "chỉ", "định"]
         },
         image: null
     },
     {
         id: 104,
-        jp: "ほごぐ をつけて　さぎょうを しにくい ときは　ほごぐをつけなくてもいいです。",
-        romaji: "Hogogu wo tsukete sagyouwo shinikui tokiwa hogoguwo tsukenakutemo yoidesu.",
-        meaning: "Khi mang đồ-bảo-hộ mà khó-làm-việc , bạn có thể không mặc đồ bảo hộ.",
+        jp: "ほごぐ をつけて　さぎょうを しにくい ときは　ほごぐ を つけなくて もいいです。",
+        romaji: "Hogogu wo tsukete sagyouwo shinikui tokiwa hogogu wo tsukenakutemo yoidesu.",
+        meaning: "Khi mang đồ bảo hộ mà khó làm việc , bạn có thể không mặc đồ bảo hộ .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ほごぐ", "hogogu", "đồ bảo hộ"],
-            group2: ["しにくい", "shinikui", "khó làm việc"]
+            group1: ["ほごぐ", "hogogu", "đồ", "bảo", "hộ"],
+            group2: ["しにくい", "shinikui", "khó", "làm", "việc"]
         },
         image: null
     },
     {
         id: 105,
-        jp: "ヒューズ がきれたときは　どうせん で　たいおうしてもいいです。",
+        jp: "ヒューズ が きれた ときは　どうせん で　たいおうして もいいです。",
         romaji: "Hyu-zu ga kiretatoki wa dousen de taiou shitemoiidesu.",
-        meaning: "Khi cầu-chì bị đứt, bạn có thể khắc phục bằng cách nối dây-dẫn.",
+        meaning: "Khi cầu chì bị đứt, bạn có thể khắc phục bằng cách nối dây dẫn .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ヒューズ", "hyu zu", "cầu chì"],
-            group2: ["どうせん", "dousen", "dây dẫn"]
+            group1: ["ヒューズ", "hyu-zu", "cầu", "chì"],
+            group2: ["どうせん", "dousen", "dây", "dẫn"]
         },
         image: null
     }
