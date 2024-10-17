@@ -1270,6 +1270,31 @@ const questions = [
             group2: ["どうせん", "dousen", "dây", "dẫn"]
         },
         image: null
+    },
+    {
+        id: 106,
+        jp: "ビニロン や ナイロン は てんねんせんい です。",
+        romaji: "Nairon ya Biniron wa tennen sen i desu.",
+        meaning: "Nylon và vinylon là sợi tự nhiên.",
+        answer: "ꓫ",
+        keywords: {
+            group1: ["ナイロン", "Nairon", "Nylon"],
+            group2: ["ビニロン", "Biniron", "vinylon"],
+            group3: ["てんねんせんい", "tennen", "sen", "i", "sợi", "tự", "nhiên."]
+        },
+        image: null
+    },
+    {
+        id: 107,
+        jp: "きゃたつ を つかって さぎょうするときは きゃたつ の いちばんうえ に たって も よいです。",
+        romaji: "Kyatatsu wo tukatte sagho wo surutoki wa kyatatsu no ichiban ueni tattemo yoidesu.",
+        meaning: "Khi làm việc với thang , bạn có thể đứng ở phía trên cùng của thang .",
+        answer: "ꓫ",
+        keywords: {
+            group1: ["きゃたつ", "Kyatatsu", "kyatatsu", "thang"],
+            group2: ["いちばんうえ", "ichiban", "ueni", "phía", "trên", "cùng"]
+        },
+        image: null
     }
 ];
 
