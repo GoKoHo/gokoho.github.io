@@ -52,7 +52,7 @@ const questions = [
         meaning: "Khi may vải mỏng , chỉ và kim to thì tốt.",
         answer: "ꓫ",
         keywords: {
-            group1: ["うすい", "usui", "mỏng"],
+            group1: ["うすい", "Usui", "mỏng"],
             group2: ["ふとく", "futoku", "to"]
         },
         image: null
@@ -64,7 +64,7 @@ const questions = [
         meaning: "Khi may vải mỏng , chỉ và kim nhỏ thì tốt.",
         answer: "◯",
         keywords: {
-            group1: ["うすい", "usui", "mỏng"],
+            group1: ["うすい", "Usui", "mỏng"],
             group2: ["ほそく", "hosoku", "nhỏ"]
         },
         image: null
@@ -130,12 +130,12 @@ const questions = [
     },
     {
         id: 10,
-        jp: "こうじようシートの アイレットの かんかくは 60cmいか です。",
-        romaji: "Koujiyou shi-to no airetto no kankaku wa 60cm-ika desu.",
-        meaning: "Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là 60cm-trở-xuống.",
+        jp: "こうじようシートの アイレットの かんかくは 60cm いか です。",
+        romaji: "Koujiyou shi-to no airetto no kankaku wa 60cm ika desu.",
+        meaning: "Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là 60cm trở xuống.",
         answer: "ꓫ",
         keywords: {
-            group1: ["60cmいか", "60cm-ika", "60cm trở xuống."]
+            group1: ["60cm", "いか", "ika", "trở", "xuống."]
         },
         image: null
     },
