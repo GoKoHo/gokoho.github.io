@@ -143,11 +143,11 @@ const questions = [
         id: 11,
         jp: "シートに アイレットリング を う つときは うら に ざがねが くる ように うちます。",
         romaji: "Shiito airettoringu wo utsutokiwa ura ni zaganega kuru youni uchimasu.",
-        meaning: "Khi dập lỗ-khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt-trái.",
+        meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt trái.",
         answer: "◯",
         keywords: {
-            group1: ["アイレットリング", "airettoringu", "lỗ khoen"],
-            group2: ["うら", "ura", "mặt trái"]
+            group1: ["アイレットリング", "airettoringu", "lỗ", "khoen"],
+            group2: ["うら", "ura", "mặt", "trái"]
         },
         image: null
     },
@@ -155,7 +155,7 @@ const questions = [
         id: 12,
         jp: "シートに アイレットリング を う つときは おもて に ざがねが くる ように うちます。",
         romaji: "Shiito airettoringu wo utsutokiwa omote ni zaganega kuru youni uchimasu.",
-        meaning: "Khi dập lỗ-khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt-phải.",
+        meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt phải.",
         answer: "ꓫ",
         keywords: {
             group1: ["アイレットリング", "airettoringu", "lỗ khoen"],
