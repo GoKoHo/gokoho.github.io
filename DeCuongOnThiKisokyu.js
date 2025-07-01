@@ -143,7 +143,7 @@ const questions = [
         id: 11,
         jp: "シートに アイレットリング を う つときは うら に ざがねが くる ように うちます。",
         romaji: "Shiito airettoringu wo utsutokiwa ura ni zaganega kuru youni uchimasu.",
-        meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt trái.",
+        meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt trái .",
         answer: "◯",
         keywords: {
             group1: ["アイレットリング", "airettoringu", "lỗ", "khoen"],
@@ -158,8 +158,8 @@ const questions = [
         meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt phải.",
         answer: "ꓫ",
         keywords: {
-            group1: ["アイレットリング", "airettoringu", "lỗ khoen"],
-            group2: ["おもて", "omote", "mặt phải"]
+            group1: ["アイレットリング", "airettoringu", "lỗ", "khoen"],
+            group2: ["おもて", "omote", "mặt", "phải"]
         },
         image: null
     },
@@ -167,45 +167,47 @@ const questions = [
         id: 13,
         jp: " ミシンの うわいと が きれる げんいん には はり の ふりょう が あります。",
         romaji: "Mishin no uwaito ga kireru genin niwa hari no huryou ga arimasu.",
-        meaning: "Trong các nguyên nhân gây đứt chỉ-trên của máy may, có nguyên nhân do kim bị hỏng.",
+        meaning: "Trong các nguyên nhân gây đứt chỉ trên của máy may, có nguyên nhân do kim bị hỏng.",
         answer: "◯",
         keywords: {
-            group1: ["うわいと", "uwaito", "chỉ trên"]
+            group1: ["うわいと", "uwaito", "chỉ", "trên"],
+            group2: ["げんいん", "genin", "nguyên", "nhân"]
         },
         image: null
     },
     {
         id: 14,
         jp: " ミシンの したいと が きれる げんいん には はりの ふりょう が あります。",
-        romaji: "Mishin no shita-ito ga kireru genin niwa hari no furyo ga arimasu.",
-        meaning: "Nguyên nhân chỉ-dưới của máy may bị đứt là do kim không tốt.",
+        romaji: "Mishin no shitaito ga kireru genin niwa hari no furyo ga arimasu.",
+        meaning: "Nguyên nhân chỉ dưới của máy may bị đứt là do kim không tốt.",
         answer: "◯",
         keywords: {
-            group1: ["したいと", "shita-ito", "chỉ dưới"]
+            group1: ["したいと", "shitaito", "chỉ", "dưới"],
+            group2: ["げんいん", "genin", "Nguyên", "nhân"]
         },
         image: null
     },
     {
         id: 15,
         jp: " はんぷには たていと と よこいと が あります。",
-        romaji: "Hanpuniwa tate-ito to yoko-ito ga arimasu.",
-        meaning: "Vải dù có sợi-dọc và sợi-ngang .",
+        romaji: "Hanpuniwa tateito to yokoito ga arimasu.",
+        meaning: "Vải dù có sợi dọc và sợi ngang .",
         answer: "◯",
         keywords: {
-            group1: ["たていと", "tate-ito", "sợi dọc"],
-            group2: ["よこいと", "yoko-ito", "sợi ngang"]
+            group1: ["たていと", "tateito", "dọc"],
+            group2: ["よこいと", "yokoito", "ngang"]
         },
         image: null
     },
     {
         id: 16,
         jp: " はんぷには たていと と よこいと が ありません。",
-        romaji: "Hanpuniwa tate-ito to yoko-ito ga arimasen.",
-        meaning: "Vải dù không có sợi-dọc và sợi-ngang .",
+        romaji: "Hanpuniwa tateito to yokoito ga arimasen.",
+        meaning: "Vải dù không có sợi dọc và sợi ngang .",
         answer: "ꓫ",
         keywords: {
-            group1: ["たていと", "tate-ito", "sợi dọc"],
-            group2: ["よこいと", "yoko-ito", "sợi ngang"]
+            group1: ["たていと", "tateito", "dọc"],
+            group2: ["よこいと", "yokoito", "ngang"]
         },
         image: null
     },
@@ -213,11 +215,11 @@ const questions = [
         id: 17,
         jp: " これは みつおり ( みつまき ）ぬい です。",
         romaji: "Korewa mitsuori ( mitsumaki ) nui desu.",
-        meaning: "Đây là may-gấp-2-lần (có 3 lớp)",
+        meaning: "Đây là may gấp 2 lần ( có 3 lớp )",
         answer: "ꓫ",
         keywords: {
-            group1: ["みつおり", "mitsuori", "may gấp 2 lần"],
-            group2: ["みつまき", "mitsumaki", "3 lớp"]
+            group1: ["みつおり", "mitsuori", "may", "gấp", "2", "lần"],
+            group2: ["みつまき", "mitsumaki", "có", "3", "lớp"]
         },
         image: "hinh anh 100 cau/honnui.jpg"
     },
@@ -225,10 +227,10 @@ const questions = [
         id: 18,
         jp: " これは ひらぬい です。",
         romaji: "Kore wa hiranui desu.",
-        meaning: "Đây là may-song-song (sử dụng máy 2 kim, và may đường chỉ thẳng)",
+        meaning: "Đây là may song song (sử dụng máy 2 kim, và may đường chỉ thẳng)",
         answer: "◯",
         keywords: {
-            group1: ["ひらぬい", "hiranui", "may song song"]
+            group1: ["ひらぬい", "hiranui", "may", "song"]
         },
         image: "hinh anh 100 cau/honnui.jpg"
     },
@@ -236,32 +238,32 @@ const questions = [
         id: 19,
         jp: " これは ひらぬい です。",
         romaji: "Kore wa hiranui desu.",
-        meaning: "Đây là may-song-song (sử dụng máy 2 kim, và may đường chỉ thẳng)",
+        meaning: "Đây là may song song (sử dụng máy 2 kim, và may đường chỉ thẳng)",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひらぬい", "hiranui", "may song song"]
+            group1: ["ひらぬい", "hiranui", "may", "song"]
         },
         image: "hinh anh 100 cau/mistuori.jpg"
     },
     {
         id: 20,
-        jp: " ほんぬいミシンには 2ほんばり は ありません。",
+        jp: " ほんぬいミシンには 2 ほんばり は ありません。",
         romaji: "Honnui mishin niwa nihonbari wa arimasen.",
-        meaning: "Máy may cơ bản không có máy hai-kim .",
+        meaning: "Máy may cơ bản không có máy hai kim .",
         answer: "ꓫ",
         keywords: {
-            group1: ["2ほんばり", "nihonbari", "hai kim"]
+            group1: ["2", "ほんばり", "nihonbari", "hai", "kim"]
         },
         image: null
     },
     {
         id: 21,
-        jp: " ほんぬいミシンには 2ほんばり も あります。",
+        jp: " ほんぬいミシンには 2 ほんばり も あります。",
         romaji: "Honnui mishin niwa nihonbari mo arimasu.",
-        meaning: "Máy may cơ bản cũng có máy hai-kim .",
+        meaning: "Máy may cơ bản cũng có máy hai kim .",
         answer: "◯",
         keywords: {
-            group1: ["2ほんばり", "nihonbari", "hai kim"]
+            group1: ["2", "ほんばり", "nihonbari", "hai", "kim"]
         },
         image: null
     },
@@ -272,7 +274,7 @@ const questions = [
         meaning: "Khi may vải dày , nên để tốc độ quay của máy may chậm thì tốt.",
         answer: "◯",
         keywords: {
-            group1: ["あつい", "atsui", "dày"],
+            group1: ["あつい", "Atsui", "dày"],
             group2: ["おそく", "osoku", "chậm"]
         },
         image: null
@@ -280,12 +282,12 @@ const questions = [
     {
         id: 23,
         jp: "これは しゃもんおり ( あやおり ) です",
-        romaji: "Korewa shamon-ori ( ayaori ) desu.",
-        meaning: "Đây là dệt-thoi-vân-chéo ( long-2 ).",
+        romaji: "Korewa shamonori ( ayaori ) desu.",
+        meaning: "Đây là dệt thoi vân chéo ( long 2 ).",
         answer: "◯",
         keywords: {
-            group1: ["しゃもんおり", "shamon ori", "dệt thoi vân chéo"],
-            group2: ["あやおり", "ayaori", "long 2"]
+            group1: ["しゃもんおり", "shamonori", "dệt", "thoi", "vân", "chéo"],
+            group2: ["あやおり", "ayaori", "long", "2"]
         },
         image: "hinh anh 100 cau/shamonori.jpg"
     },
@@ -293,22 +295,21 @@ const questions = [
         id: 24,
         jp: "これは ひらおり です。",
         romaji: "Kore wa hiraori desu.",
-        meaning: "Đây là vải-dệt-thoi ( long-1 ).",
+        meaning: "Đây là vải dệt thoi ( long nhất ).",
         answer: "◯",
         keywords: {
-            group1: ["ひらおり", "hiraori", "vải dệt thoi"],
-            group2: ["long 1"]
+            group1: ["ひらおり", "hiraori", "vải", "dệt", "thoi", "long", "nhất"]
         },
         image: "hinh anh 100 cau/hiraori.png"
     },
     {
         id: 25,
         jp: "これ は しゅすおり です。",
-        romaji: "kore wa shusu-ori desu.",
-        meaning: "Đây là dệt-vân-đoạn ( long-4 )",
+        romaji: "kore wa shusuori desu.",
+        meaning: "Đây là dệt vân đoạn ( long tư )",
         answer: "ꓫ",
         keywords: {
-            group1: ["しゅすおり", "shusu ori", "dệt vân đoạn"],
+            group1: ["しゅすおり", "shusuori", "dệt", "vân", "đoạn", "long", "tư"],
             group2: ["long 4"]
         },
         image: "hinh anh 100 cau/shamonori.jpg"
