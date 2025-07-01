@@ -40,7 +40,7 @@ const questions = [
         meaning: "Khi may vải dày thì chỉnh chân vịt đè chặt .",
         answer: "◯",
         keywords: {
-            group1: ["あつい", "atsui", "dày"],
+            group1: ["あつい", "Atsui", "dày"],
             group2: ["つよく", "tsuyoku", "chặt"]
         },
         image: null
