@@ -25,11 +25,12 @@ const questions = [
         id: 1,
         jp: "うすい ぬの を ぬうとき は おさえ を つよく します。",
         romaji: "Usui nuno wo nuutoki wa osae wo tsuyoku shimasu.",
-        meaning: "Khi may vải mỏng thì chỉnh chân vịt đè chặt .",
+        meaning: "Khi may vải MỎNG thì chỉnh CHÂN VỊT đè CHẶT .",
         answer: "ꓫ",
         keywords: {
-            group1: ["うすい", "Usui", "mỏng"],
-            group2: ["つよく", "tsuyoku", "chặt"]
+            group1: ["うすい", "Usui", "MỎNG"],
+            group2: ["つよく", "tsuyoku", "CHẶT"],
+            group3: ["おさえ", "osae", "CHÂN", "VỊT"]
         },
         image: null
     },
@@ -37,11 +38,12 @@ const questions = [
         id: 2,
         jp: "あつい ぬの を ぬうとき は おさえ を つよく します。",
         romaji: "Atsui nuno wo nuu toki wa osae wo tsuyoku shimasu.",
-        meaning: "Khi may vải dày thì chỉnh chân vịt đè chặt .",
+        meaning: "Khi may vải DÀY thì chỉnh CHÂN VỊT đè CHẶT .",
         answer: "◯",
         keywords: {
-            group1: ["あつい", "Atsui", "dày"],
-            group2: ["つよく", "tsuyoku", "chặt"]
+            group1: ["あつい", "Atsui", "DÀY"],
+            group2: ["つよく", "tsuyoku", "CHẶT"],
+            group3: ["おさえ", "osae", "CHÂN", "VỊT"]
         },
         image: null
     },
@@ -49,11 +51,12 @@ const questions = [
         id: 3,
         jp: "うすい きじ を ぬうとき は いと や はり を ふとく すると よいです。",
         romaji: "Usui kiji wo nuutoki wa ito ya hari wo futoku suruto yoidesu.",
-        meaning: "Khi may vải mỏng , chỉ và kim to thì tốt.",
+        meaning: "Khi may vải MỎNG , CHỈ VÀ KIM TO thì tốt.",
         answer: "ꓫ",
         keywords: {
-            group1: ["うすい", "Usui", "mỏng"],
-            group2: ["ふとく", "futoku", "to"]
+            group1: ["うすい", "Usui", "MỎNG"],
+            group2: ["ふとく", "futoku", "TO"],
+            group3: ["いと", "や", "はり", "ito", "ya", "hari", "CHỈ", "VÀ", "KIM"]
         },
         image: null
     },
@@ -61,11 +64,12 @@ const questions = [
         id: 4,
         jp: "うすい きじ を ぬうとき は いと や はり を ほそく すると よいです。",
         romaji: "Usui kiji wo nuutoki wa ito ya hari wo hosoku suruto yoidesu.",
-        meaning: "Khi may vải mỏng , chỉ và kim nhỏ thì tốt.",
+        meaning: "Khi may vải MỎNG , CHỈ VÀ KIM NHỎ thì tốt.",
         answer: "◯",
         keywords: {
-            group1: ["うすい", "Usui", "mỏng"],
-            group2: ["ほそく", "hosoku", "nhỏ"]
+            group1: ["うすい", "Usui", "MỎNG"],
+            group2: ["ほそく", "hosoku", "NHỎ"],
+            group3: ["いと", "や", "はり", "ito", "ya", "hari", "CHỈ", "VÀ", "KIM"]
         },
         image: null
     },
@@ -73,11 +77,11 @@ const questions = [
         id: 5,
         jp: "ミシンいと は ばんごう が おおきく なるほど ふとく なります。",
         romaji: "Mishin ito wa bangou ga ookiku naruhodo futoku narimasu.",
-        meaning: "Chỉ máy may số càng lớn thì sợi chỉ càng to .",
+        meaning: "Chỉ máy may số càng LỚN thì sợi chỉ càng TO .",
         answer: "ꓫ",
         keywords: {
-            group1: ["おおきく", "ookiku", "lớn"],
-            group2: ["ふとく", "futoku", "to"]
+            group1: ["おおきく", "ookiku", "LỚN"],
+            group2: ["ふとく", "futoku", "TO"]
         },
         image: null
     },
@@ -85,11 +89,11 @@ const questions = [
         id: 6,
         jp: "ミシンいと は ばんごう が おおきく なるほど ほそく なります。",
         romaji: "Mishin ito wa bangou ga ookiku naruhodo hosoku narimasu.",
-        meaning: "Chỉ máy may có số càng lớn thì chỉ càng mảnh .",
+        meaning: "Chỉ máy may có số càng LỚN thì chỉ càng MẢNH .",
         answer: "◯",
         keywords: {
-            group1: ["おおきく", "ookiku", "lớn"],
-            group2: ["ほそく", "hosoku", "mảnh"]
+            group1: ["おおきく", "ookiku", "LỚN"],
+            group2: ["ほそく", "hosoku", "MẢNH"]
         },
         image: null
     },
@@ -97,11 +101,11 @@ const questions = [
         id: 7,
         jp: "この ワイヤロープ は つかっては いけません 。",
         romaji: "Kono waiyaropu wa tsukattewa ikemasen .",
-        meaning: "Dây cáp này không được sử dụng.",
+        meaning: "DÂY CÁP này KHÔNG ĐƯỢC sử dụng.",
         answer: "◯",
         keywords: {
-            group1: ["ワイヤロープ", "waiyaropu", "dây", "cáp"],
-            group2: ["いけません", "ikemasen", "không", " được"]
+            group1: ["ワイヤロープ", "waiyaropu", "DÂY", "CÁP"],
+            group2: ["いけません", "ikemasen", "KHÔNG", "ĐƯỢC"]
         },
         image: "hinh anh 100 cau/waiyaropu.jpg"
     },
@@ -109,22 +113,22 @@ const questions = [
         id: 8,
         jp: "この ワイヤロープ は つかって も よいです。",
         romaji: "Kono waiya-ropu wa tsukattemo yoidesu.",
-        meaning: "Dây cáp này dùng cũng được.",
+        meaning: "DÂY CÁP này dùng cũng ĐƯỢC .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ワイヤロープ", "waiya-ropu", "dây", "cáp"],
-            group2: ["よいです。", "yoidesu.", "được."]
+            group1: ["ワイヤロープ", "waiyaropu", "DÂY", "CÁP"],
+            group2: ["よいです。", "yoidesu.", "ĐƯỢC"]
         },
         image: "hinh anh 100 cau/waiyaropu.jpg"
     },
     {
         id: 9,
-        jp: "こうじようシート の アイレット の かんかく は 90cm いか です。",
-        romaji: "Koujiyou shi-to no airetto no kankaku wa 90cm ika desu.",
-        meaning: "Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là 90cm trở xuống.",
+        jp: "こうじよう シート の アイレット の かんかく は 90cm いか です。",
+        romaji: "Koujiyou shito no airetto no kankaku wa 90cm ika desu.",
+        meaning: "Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là 90cm TRỞ XUỐNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["90cm", "いか", "ika", "trở", "xuống."]
+            group1: ["90cm", "いか", "90cm", "ika", "TRỞ", "XUỐNG"]
         },
         image: null
     },
@@ -132,10 +136,10 @@ const questions = [
         id: 10,
         jp: "こうじようシートの アイレットの かんかくは 60cm いか です。",
         romaji: "Koujiyou shi-to no airetto no kankaku wa 60cm ika desu.",
-        meaning: "Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là 60cm trở xuống.",
+        meaning: "Khoảng cách giữa các khoen lỗ của tấm bạt dùng cho công trường là 60cm TRỞ XUỐNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["60cm", "いか", "ika", "trở", "xuống."]
+            group1: ["60cm", "いか", "60cm", "ika", "TRỞ", "XUỐNG"]
         },
         image: null
     },
@@ -143,11 +147,11 @@ const questions = [
         id: 11,
         jp: "シートに アイレットリング を うつときは うら に ざがねが くる ように うちます。",
         romaji: "Shiito airettoringu wo utsutokiwa ura ni zaganega kuru youni uchimasu.",
-        meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt trái .",
+        meaning: "Khi dập LỖ KHOEN trên tấm bạt, dập sao cho đế khoen đế nằm ở MẶT TRÁI .",
         answer: "◯",
         keywords: {
-            group1: ["アイレットリング", "airettoringu", "lỗ", "khoen"],
-            group2: ["うら", "ura", "mặt", "trái"]
+            group1: ["アイレットリング", "airettoringu", "LỖ", "KHOEN"],
+            group2: ["うら", "ura", "MẶT", "TRÁI"]
         },
         image: null
     },
@@ -155,11 +159,11 @@ const questions = [
         id: 12,
         jp: "シートに アイレットリング を うつときは おもて に ざがねが くる ように うちます。",
         romaji: "Shiito airettoringu wo utsutokiwa omote ni zaganega kuru youni uchimasu.",
-        meaning: "Khi dập lỗ khoen trên tấm bạt, dập sao cho đế khoen đế nằm ở mặt phải.",
+        meaning: "Khi dập LỖ KHOEN trên tấm bạt, dập sao cho đế khoen đế nằm ở MẶT PHẢI .",
         answer: "ꓫ",
         keywords: {
-            group1: ["アイレットリング", "airettoringu", "lỗ", "khoen"],
-            group2: ["おもて", "omote", "mặt", "phải"]
+            group1: ["アイレットリング", "airettoringu", "LỖ", "KHOEN"],
+            group2: ["おもて", "omote", "MẶT", "PHẢI"]
         },
         image: null
     },
@@ -167,11 +171,11 @@ const questions = [
         id: 13,
         jp: " ミシンの うわいと が きれる げんいん には はり の ふりょう が あります。",
         romaji: "Mishin no uwaito ga kireru genin niwa hari no huryou ga arimasu.",
-        meaning: "Trong các nguyên nhân gây đứt chỉ trên của máy may, có nguyên nhân do kim bị hỏng.",
+        meaning: "Trong các nguyên nhân gây đứt CHỈ TRÊN của máy may, có NGUYÊN NHÂN do kim bị hỏng.",
         answer: "◯",
         keywords: {
-            group1: ["うわいと", "uwaito", "chỉ", "trên"],
-            group2: ["げんいん", "genin", "nguyên", "nhân"]
+            group1: ["うわいと", "uwaito", "CHỈ", "TRÊN"],
+            group2: ["げんいん", "genin", "NGUYÊN", "NHÂN"]
         },
         image: null
     },
@@ -179,23 +183,24 @@ const questions = [
         id: 14,
         jp: " ミシンの したいと が きれる げんいん には はりの ふりょう が あります。",
         romaji: "Mishin no shitaito ga kireru genin niwa hari no furyo ga arimasu.",
-        meaning: "Nguyên nhân chỉ dưới của máy may bị đứt là do kim không tốt.",
+        meaning: "NGUYÊN NHÂN CHỈ DƯỚI của máy may bị đứt là do kim không tốt.",
         answer: "◯",
         keywords: {
-            group1: ["したいと", "shitaito", "chỉ", "dưới"],
-            group2: ["げんいん", "genin", "Nguyên", "nhân"]
+            group1: ["したいと", "shitaito", "CHỈ", "DƯỚI"],
+            group2: ["げんいん", "genin", "NGUYÊN", "NHÂN"]
         },
         image: null
     },
     {
         id: 15,
-        jp: " はんぷには たていと と よこいと が あります。",
-        romaji: "Hanpuniwa tateito to yokoito ga arimasu.",
-        meaning: "Vải dù có sợi dọc và sợi ngang .",
+        jp: " はんぷには たていと と よこいと が あります 。",
+        romaji: "Hanpuniwa tateito to yokoito ga arimasu .",
+        meaning: "Vải dù CÓ sợi DỌC và sợi NGANG .",
         answer: "◯",
         keywords: {
-            group1: ["たていと", "tateito", "dọc"],
-            group2: ["よこいと", "yokoito", "ngang"]
+            group1: ["たていと", "tateito", "DỌC"],
+            group2: ["よこいと", "yokoito", "NGANG"],
+            group3: ["あります", " arimasu", "CÓ"]
         },
         image: null
     },
@@ -203,11 +208,12 @@ const questions = [
         id: 16,
         jp: " はんぷには たていと と よこいと が ありません。",
         romaji: "Hanpuniwa tateito to yokoito ga arimasen.",
-        meaning: "Vải dù không có sợi dọc và sợi ngang .",
+        meaning: "Vải dù KHÔNG CÓ sợi DỌC và sợi NGANG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["たていと", "tateito", "dọc"],
-            group2: ["よこいと", "yokoito", "ngang"]
+            group1: ["たていと", "tateito", "DỌC"],
+            group2: ["よこいと", "yokoito", "NGANG"],
+            group3: ["ありません", " arimasen", "KHÔNG", "CÓ"]
         },
         image: null
     },
@@ -215,11 +221,11 @@ const questions = [
         id: 17,
         jp: " これは みつおり ( みつまき ）ぬい です。",
         romaji: "Korewa mitsuori ( mitsumaki ) nui desu.",
-        meaning: "Đây là may gấp 2 lần ( có 3 lớp )",
+        meaning: "Đây là MAY GẤP 2 lần ( CÓ 3 LỚP )",
         answer: "ꓫ",
         keywords: {
-            group1: ["みつおり", "mitsuori", "may", "gấp", "2", "lần"],
-            group2: ["みつまき", "mitsumaki", "có", "3", "lớp"]
+            group1: ["みつおり", "mitsuori", "MAY", "GẤP", "2"],
+            group2: ["みつまき", "mitsumaki", "CÓ", "3", "LỚP"]
         },
         image: "hinh anh 100 cau/honnui.jpg"
     },
@@ -227,10 +233,10 @@ const questions = [
         id: 18,
         jp: " これは ひらぬい です。",
         romaji: "Kore wa hiranui desu.",
-        meaning: "Đây là may song song (sử dụng máy 2 kim, và may đường chỉ thẳng)",
+        meaning: "Đây là MAY SONG SONG (sử dụng máy 2 kim, và may đường chỉ thẳng).",
         answer: "◯",
         keywords: {
-            group1: ["ひらぬい", "hiranui", "may", "song"]
+            group1: ["ひらぬい", "hiranui", "MAY", "SONG", "SONG"]
         },
         image: "hinh anh 100 cau/honnui.jpg"
     },
@@ -238,44 +244,47 @@ const questions = [
         id: 19,
         jp: " これは ひらぬい です。",
         romaji: "Kore wa hiranui desu.",
-        meaning: "Đây là may song song (sử dụng máy 2 kim, và may đường chỉ thẳng)",
+        meaning: "Đây là MAY SONG SONG (sử dụng máy 2 kim, và may đường chỉ thẳng).",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひらぬい", "hiranui", "may", "song"]
+            group1: ["ひらぬい", "hiranui", "MAY", "SONG", "SONG"]
         },
         image: "hinh anh 100 cau/mistuori.jpg"
     },
     {
         id: 20,
-        jp: " ほんぬいミシン には 2 ほんばり は ありません。",
-        romaji: "Honnui mishin niwa nihonbari wa arimasen.",
-        meaning: "Máy may cơ bản không có máy hai kim .",
+        jp: "ほんぬいミシン には 2 ほんばり は ありません 。",
+        romaji: "Honnui mishin niwa nihonbari wa arimasen .",
+        meaning: "Máy may cơ bản KHÔNG CÓ máy HAI KIM .",
         answer: "ꓫ",
         keywords: {
-            group1: ["2", "ほんばり", "nihonbari", "hai", "kim"]
+            group1: ["2", "ほんばり", "nihonbari", "HAI", "KIM"],
+            group2: ["ありません", "arimasen", "KHÔNG", "CÓ"]
         },
         image: null
     },
     {
         id: 21,
-        jp: " ほんぬいミシン には 2 ほんばり も あります。",
-        romaji: "Honnui mishin niwa nihonbari mo arimasu.",
-        meaning: "Máy may cơ bản cũng có máy hai kim .",
+        jp: " ほんぬいミシン には 2 ほんばり も あります 。",
+        romaji: "Honnui mishin niwa nihonbari mo arimasu .",
+        meaning: "Máy may cơ bản cũng CÓ máy HAI KIM .",
         answer: "◯",
         keywords: {
-            group1: ["2", "ほんばり", "nihonbari", "hai", "kim"]
+            group1: ["2", "ほんばり", "nihonbari", "HAI", "KIM"],
+            group2: ["あります", "arimasu", "CÓ"]
         },
         image: null
     },
     {
         id: 22,
         jp: " あつい きじを ぬうときは ミシン の かいてんすうを おそく すると よいです。",
-        romaji: "Atsui kijiwo nuutokiwa mishinno kaiten suuwo osoku suruto yoidesu.",
-        meaning: "Khi may vải dày , nên để tốc độ quay của máy may chậm thì tốt.",
+        romaji: "Atsui kijiwo nuutokiwa mishinno kaiten suuwo osoku suruto yoidesu .",
+        meaning: "Khi may vải DÀY , nên để tốc độ quay của máy may CHẬM THÌ TỐT .",
         answer: "◯",
         keywords: {
-            group1: ["あつい", "Atsui", "dày"],
-            group2: ["おそく", "osoku", "chậm"]
+            group1: ["あつい", "Atsui", "DÀY"],
+            group2: ["おそく", "osoku", "CHẬM"],
+            group3: ["よいです", "yoidesu", "THÌ", "TỐT"]
         },
         image: null
     },
@@ -283,10 +292,10 @@ const questions = [
         id: 23,
         jp: "これは しゃもんおり ( あやおり ) です",
         romaji: "Korewa shamonori ( ayaori ) desu.",
-        meaning: "Đây là dệt thoi vân chéo ( long 2 ).",
+        meaning: "Đây là DỆT THOI VÂN CHÉO ( long 2 ).",
         answer: "◯",
         keywords: {
-            group1: ["しゃもんおり", "shamonori", "dệt", "thoi", "vân", "chéo"],
+            group1: ["しゃもんおり", "shamonori", "DỆT", "THOI", "VÂN", "CHÉO"],
             group2: ["あやおり", "ayaori", "long", "2"]
         },
         image: "hinh anh 100 cau/shamonori.jpg"
@@ -295,10 +304,10 @@ const questions = [
         id: 24,
         jp: "これは ひらおり です。",
         romaji: "Kore wa hiraori desu.",
-        meaning: "Đây là vải dệt thoi ( long nhất ).",
+        meaning: "Đây là VẢI DỆT THOI ( long nhất ).",
         answer: "◯",
         keywords: {
-            group1: ["ひらおり", "hiraori", "vải", "dệt", "thoi", "long", "nhất"]
+            group1: ["ひらおり", "hiraori", "VẢI", "DỆT", "THOI", "long", "nhất"]
         },
         image: "hinh anh 100 cau/hiraori.png"
     },
@@ -306,11 +315,10 @@ const questions = [
         id: 25,
         jp: "これ は しゅすおり です。",
         romaji: "kore wa shusuori desu.",
-        meaning: "Đây là dệt vân đoạn ( long tư )",
+        meaning: "Đây là DỆT VÂN ĐOẠN ( long tư )",
         answer: "ꓫ",
         keywords: {
-            group1: ["しゅすおり", "shusuori", "dệt", "vân", "đoạn", "long", "tư"],
-            group2: ["long 4"]
+            group1: ["しゅすおり", "shusuori", "DỆT", "VÂN", "ĐOẠN", "long", "tư"]
         },
         image: "hinh anh 100 cau/shamonori.jpg"
     },
@@ -318,10 +326,10 @@ const questions = [
         id: 26,
         jp: "これは らっせるおり です。",
         romaji: "Kore wa rasseru ori desu.",
-        meaning: "Đây là dệt russel ( len dệt kim )",
+        meaning: "Đây là DỆT RUSSEL ( len dệt kim )",
         answer: "ꓫ",
         keywords: {
-            group1: ["らっせるおり", "rasseru", "ori", "dệt", "russel", "len", "kim"]
+            group1: ["らっせるおり", "rasseru", "ori", "DỆT", "RUSSEL", "len", "dệt", "kim"]
         },
         image: "hinh anh 100 cau/shamonori.jpg"
     },
@@ -329,21 +337,21 @@ const questions = [
         id: 27,
         jp: "これ は ドームがたテント です。",
         romaji: "Kore wa domugata tento desu.",
-        meaning: "Đây là lều dạng mái vòm .",
+        meaning: "Đây là lều DẠNG MÁI VÒM .",
         answer: "◯",
         keywords: {
-            group1: ["ドームがたテント", "domugata", "tento", "dạng", "mái", "vòm"]
+            group1: ["ドームがたテント", "domugata", "tento", "DẠNG", "MÁI", "VÒM"]
         },
         image: "hinh anh 100 cau/domugata.jpg"
     },
     {
         id: 28,
-        jp: "これは こていしき テント です。",
+        jp: "これは こていしきテント です。",
         romaji: "Korewa koteishiki tento desu.",
-        meaning: "Đây là lều dạng cố định .",
+        meaning: "Đây là lều DẠNG CỐ ĐỊNH .",
         answer: "◯",
         keywords: {
-            group1: ["こていしき", "テント", "koteishiki", "tento", "cố", "định"]
+            group1: ["こていしきテント", "koteishiki", "tento", "DẠNG", "CỐ", "ĐỊNH"]
         },
         image: "hinh anh 100 cau/kouteishikitento.png"
     },
@@ -351,10 +359,10 @@ const questions = [
         id: 29,
         jp: "これは そうしょくよう テント です。",
         romaji: "Korewa soushoku youtento desu.",
-        meaning: "Đây là lều trang trí .",
+        meaning: "Đây là LỀU TRANG TRÍ .",
         answer: "◯",
         keywords: {
-            group1: ["そうしょくよう", "テント", "soushokuyou", "tento", "lều", "trang", "trí"]
+            group1: ["そうしょくよう", "テント", "soushokuyou", "tento", "LỀU", "TRANG", "TRÍ"]
         },
         image: "hinh anh 100 cau/soushoku.jpg"
     },
@@ -362,10 +370,10 @@ const questions = [
         id: 30,
         jp: "これ は ひよけ テント です。",
         romaji: "Kore wa hiyoke tento desu.",
-        meaning: "Đây là lều che nắng .",
+        meaning: "Đây là LỀU CHE NẮNG .",
         answer: "◯",
         keywords: {
-            group1: ["ひよけ", "hiyoke", "che", "nắng"]
+            group1: ["ひよけ", "テント", "hiyoke", "tento", "LỀU", "CHE", "NẮNG"]
         },
         image: "hinh anh 100 cau/hiyoke.jpg"
     },
@@ -373,11 +381,11 @@ const questions = [
         id: 31,
         jp: "これは しゅうかいよう くみたてテント です。",
         romaji: "Kore wa shukaiyou kumitate tento desu.",
-        meaning: "Đây là lều chữ A dạng lắp ráp , dùng cho tập thể.",
+        meaning: "Đây là LỀU CHỮ A dạng lắp ráp , DÙNG CHO TẬP THỂ .",
         answer: "◯",
         keywords: {
-            group1: ["しゅうかいよう", "shukaiyou", "dùng", "cho", "tập", "thể"],
-            group2: ["くみたてテント", "kumitate tento", "lều", "chữ", "A", "lắp", "ráp"]
+            group1: ["しゅうかいよう", "shukaiyou", "DÙNG", "CHO", "TẬP", "THỂ"],
+            group2: ["くみたてテント", "kumitate", "tento", "LỀU", "CHỮ", "A"]
         },
         image: "hinh anh 100 cau/shukaiyo.jpg"
     },
@@ -385,11 +393,11 @@ const questions = [
         id: 32,
         jp: "これは テントそうこ の こうぞうず です。",
         romaji: "Korewa tentosouko no kouzouzu desu.",
-        meaning: "Đây là bản vẽ kết cấu của lều nhà kho .",
+        meaning: "Đây là BẢN VẼ KẾT CẤU của LỀU NHÀ KHO .",
         answer: "◯",
         keywords: {
-            group1: ["テントそうこ", "tentosouko", "lều", "nhà", "kho"],
-            group2: ["こうぞうず", "kouzouzu", "bản", "vẽ", "kết", "cấu"]
+            group1: ["テントそうこ", "tentosouko", "LỀU", "NHÀ", "KHO"],
+            group2: ["こうぞうず", "kouzouzu", "BẢN", "VẼ", "KẾT", "CẤU"]
         },
         image: "hinh anh 100 cau/tentosokozu.jpg"
     },
@@ -397,11 +405,11 @@ const questions = [
         id: 33,
         jp: "これは まどよう ひよけ テント です。",
         romaji: "Kore wa madoyou hiyoke tento desu.",
-        meaning: "Đây là lều che nắng , dùng cho cửa sổ .",
+        meaning: "Đây là lều CHE NẮNG , DÙNG CHO CỬA SỔ .",
         answer: "◯",
         keywords: {
-            group1: ["ひよけ テント", "hiyoke tento", "che", "nắng"],
-            group2: ["まどよう", "madoyou", "dùng", "cho", "cửa", "sổ"]
+            group1: ["ひよけ", "テント", "hiyoke", "tento", "CHE", "NẮNG"],
+            group2: ["まどよう", "madoyou", "DÙNG", "CHO", "CỬA", "SỔ"]
         },
         image: "hinh anh 100 cau/madoyo.jpg"
     },
@@ -409,10 +417,10 @@ const questions = [
         id: 34,
         jp: "これは キャンプよう テント です。",
         romaji: "Korewa kyanpuyou tento desu.",
-        meaning: "Đây là lều cắm trại.",
+        meaning: "Đây là LỀU CẮM TRẠI .",
         answer: "◯",
         keywords: {
-            group1: ["キャンプよう", "kyanpuyou", "cắm", "trại"]
+            group1: ["キャンプよう", "テント", "kyanpuyou", "tento", "LỀU", "CẮM", "TRẠI"]
         },
         image: "hinh anh 100 cau/kyanpu.jpg"
     },
@@ -420,10 +428,10 @@ const questions = [
         id: 35,
         jp: "これは かどうしき テント です。",
         romaji: "Korewa kadoshiki tento desu.",
-        meaning: "Đây là liều di động.",
+        meaning: "Đây là LỀU DI ĐỘNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["かどうしき", "kadoshiki", "di", "động"]
+            group1: ["かどうしき","テント", "kadoshiki", "tento", "LỀU", "DI", "ĐỘNG"]
         },
         image: "hinh anh 100 cau/kouteitento.jpg"
     },
@@ -431,11 +439,11 @@ const questions = [
         id: 36,
         jp: "これは オーニング の ほねぐみ です。",
         romaji: "Korewa ooningu no honegumi desu.",
-        meaning: "Đây là khung mái hiên.",
+        meaning: "Đây là KHUNG MÁI HIÊN .",
         answer: "◯",
         keywords: {
-            group1: ["オーニング", "ooningu", "khung"],
-            group2: ["ほねぐみ", "honegumi", "mái", "hiên"]
+            group1: ["オーニング", "ooningu", "MÁI", "HIÊN"],
+            group2: ["ほねぐみ", "honegumi", "KHUNG"]
         },
         image: "hinh anh 100 cau/oningu.jpg"
     },
@@ -443,36 +451,37 @@ const questions = [
         id: 37,
         jp: "オーニング には しゅどうしき と でんどうしき が あります。",
         romaji: "Ooningu niwa shudoushiki to dendoushiki ga arimasu.",
-        meaning: "Mái hiên có loại điều khiển bằng tay quay và có loại điều khiển bằng điện.",
+        meaning: "MÁI HIÊN có loại điều khiển bằng TAY QUAY và có loại điều khiển BẰNG ĐIỆN .",
         answer: "◯",
         keywords: {
-            group1: ["オーニング", "ooningu", "mái", "hiên"],
-            group2: ["しゅどうしき", "shudoushiki", "tay", "quay"],
-            group3: ["でんどうしき", "dendoushiki", "điện"]
+            group1: ["オーニング", "Ooningu", "MÁI", "HIÊN"],
+            group2: ["しゅどうしき", "shudoushiki", "TAY QUAY", "QUAY"],
+            group3: ["でんどうしき", "dendoushiki", "BẰNG", "ĐIỆN"]
         },
         image: null
     },
     {
         id: 38,
-        jp: " まきあげしきテントは おもに ひよけ あめよけ に つかわれます。",
+        jp: "まきあげしきテントは おもに ひよけ あめよけ に つかわれます。",
         romaji: "Makiageshiki tento wa omoni hiyoke ameyoke ni tsukawaremasu.",
-        meaning: "Lều dạng mái bạt cuốn chủ yếu dùng để che nắng che mưa ",
+        meaning: "LỀU DẠNG MÁI BẠT CUỐN chủ yếu dùng để che NẮNG che MƯA .",
         answer: "◯",
         keywords: {
-            group1: ["ひよけ", "hiyoke", "che", "nắng"],
-            group2: ["あめよけ", "ameyoke", "che", "mưa"]
+            group1: ["ひよけ", "hiyoke", "NẮNG"],
+            group2: ["あめよけ", "ameyoke", "MƯA"],
+            group3: ["まきあげしきテント", "Makiageshiki", "tento", "LỀU", "DẠNG", "MÁI", "BẠT", "CUỐN"] 
         },
         image: null
     },
     {
         id: 39,
         jp: "とざんようテント に つかわれる きじは なるべく あつい ものが よいです。",
-        romaji: "Tozanyoutento ni tsukawareru kijiwa kiji wa narubeku atsui mono ga yoidesu.",
-        meaning: "Vải dùng làm lều leo núi nên dùng vải dày",
+        romaji: "Tozanyou tento ni tsukawareru kijiwa kiji wa narubeku atsui mono ga yoidesu.",
+        meaning: "Vải dùng làm LỀU LEO NÚI nên dùng vải DÀY .",
         answer: "ꓫ",
         keywords: {
-            group1: ["とざんようテント", "tozanyoutento", "lều", "leo", "núi"],
-            group2: ["あつい", "atsui", "dày"]
+            group1: ["とざんようテント", "Tozanyou", "tento", "LỀU", "LEO", "NÚI"],
+            group2: ["あつい", "atsui", "DÀY"]
         },
         image: null
     },
@@ -480,12 +489,12 @@ const questions = [
         id: 40,
         jp: "しゅうかいよう テント は おも に うんどうかい や てんじかい など に つかわれます。",
         romaji: "Shukaiyou tentowa omoni undoukai ya tenjikai nado ni tsukawaremasu.",
-        meaning: "Lều tập thể chủ yếu được dùng ở đại hội thể thao, hội chợ triển lãm , v.v.",
+        meaning: "LỀU TẬP THỂ chủ yếu được dùng ở HỘI THAO , hội chợ TRIỂN LÃM , v.v.",
         answer: "◯",
         keywords: {
-            group1: ["しゅうかいよう", "shukaiyou", "lều", "tập", "thể"],
-            group2: ["うんどうかい", "undoukai", "đại", "hội", "thể", "thao"],
-            group3: ["てんじかい", "tenjikai", "hội", "chợ", "triển", "lãm"]
+            group1: ["しゅうかいよう", "Shukaiyou", "LỀU", "TẬP", "THỂ"],
+            group2: ["うんどうかい", "undoukai", "HỘI", "THAO"],
+            group3: ["てんじかい", "tenjikai", "TRIỂN", "LÃM"]
         },
         image: null
     },
@@ -493,58 +502,62 @@ const questions = [
         id: 41,
         jp: "テントそうこ は すべて こていしき です。",
         romaji: "Tentosouko wa subete koteishiki desu.",
-        meaning: "Lều nhà kho, toàn bộ đều là dạng cố định",
+        meaning: "LỀU NHÀ KHO , TOÀN BỘ đều là dạng CỐ ĐỊNH .",
         answer: "ꓫ",
         keywords: {
-            group1: ["テントそうこ", "tentosouko", "lều", "nhà", "kho"],
-            group2: ["こていしき", "koteishiki", "cố", "định"]
+            group1: ["テントそうこ", "Tentosouko", "LỀU", "NHÀ", "KHO"],
+            group2: ["こていしき", "koteishiki", "CỐ", "ĐỊNH"],
+            group3: ["すべて", "subete", "TOÀN", "BỘ"]
         },
         image: null
     },
     {
         id: 42,
         jp: "せんぱくようシート は きょうど や ぼうすいせい は とくに ひつよう ありません。",
-        romaji: "Senpaku you shi--to wa kyodo ya bousuisei wa tokuni hitsuyou arimasen.",
-        meaning: "Tấm bạt che tàu thuyền không cần có độ bền và tính chống thấm.",
+        romaji: "Senpakuyou shi―to wa kyodo ya bousuisei wa tokuni hitsuyou arimasen.",
+        meaning: "Tấm bạt che tàu thuyền KHÔNG CẦN có ĐỘ BỀN và tính CHỐNG THẤM .",
         answer: "ꓫ",
         keywords: {
-            group1: ["きょうど", "kyodo", "độ", "bền"],
-            group2: ["ぼうすいせい", "bousuisei", "chống", "thấm"]
+            group1: ["きょうど", "kyodo", "ĐỘ", "BỀN"],
+            group2: ["ぼうすいせい", "bousuisei", "CHỐNG", "THẤM"],
+            group3: ["ありません", "arimasen", "KHÔNG", "CẦN"]
         },
         image: null
     },
     {
         id: 43,
-        jp: "たちばさみ は てんとじ を １まい ずつ きるのに てきしています。",
-        romaji: "Tachibasami wa tentoji wo ichi mai zutsu kirunoni tekishite imasu.",
-        meaning: "Kéo cắt vải thích hợp để cắt từng tấm vải may lều.",
+        jp: "たちばさみ は てんとじ を １まい ずつ きるのに てきしています 。",
+        romaji: "Tachibasami wa tentoji wo ichi mai zutsu kirunoni tekishiteimasu .",
+        meaning: "KÉO CẮT VẢI THÍCH HỢP để cắt từng tấm vải may lều.",
         answer: "◯",
         keywords: {
-            group1: ["たちばさみ", "tachibasami", "kéo", "cắt", "vải"]
+            group1: ["たちばさみ", "Tachibasami", "KÉO", "CẮT", "VẢI"],
+            group2: ["てきしています", "tekishiteimasu", "THÍCH", "HỢP"]
         },
         image: null
     },
     {
         id: 44,
-        jp: "ちょくせんぬい には ちどりミシン が てきして います。",
-        romaji: "Chokusennui niwa chidorimishin ga tekishite imasu.",
-        meaning: "Để may đường thẳng thì dùng máy may dích dắc là thích hợp.",
+        jp: "ちょくせんぬい には ちどりミシン が てきしています 。",
+        romaji: "Chokusennui niwa chidorimishin ga tekishiteimasu .",
+        meaning: "Để may ĐƯỜNG THẲNG thì dùng máy may DÍCH DẮC là THÍCH HỢP .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ちょくせんぬい", "chokusennui", "đường", "thẳng"],
-            group2: ["ちどりミシン", "chidorimishin", "máy", "may", "dích", "dắc"]
+            group1: ["ちどりミシン", "chidorimishin", "DÍCH", "DẮC"],
+            group2: ["ちょくせんぬい", "Chokusennui", "ĐƯỜNG", "THẲNG"],
+            group3: ["てきしています", "tekishiteimasu", "THÍCH", "HỢP"]
         },
         image: null
     },
     {
         id: 45,
-        jp: "めんはんぷ は あさ から できていま す。",
-        romaji: "Menhanpu wa asa kara dekite imasu.",
-        meaning: "Vải bố được làm từ sợi gai",
+        jp: "めんはんぷ は あさ から できています。",
+        romaji: "Menhanpu wa asa kara dekiteimasu.",
+        meaning: "VẢI BỐ được làm từ SỢ GAI .",
         answer: "ꓫ",
         keywords: {
-            group1: ["めんはんぷ", "menhanpu", "vải", "bố"],
-            group2: ["あさ", "asa", "sợi", "gai"]
+            group1: ["めんはんぷ", "Menhanpu", "VẢI", "BỐ"],
+            group2: ["あさ", "asa", "SỢI", "GAI"]
         },
         image: null
     },
@@ -552,36 +565,36 @@ const questions = [
         id: 46,
         jp: "こうしゅうは ウエルダー を つかうと きは やけど に ちゅういします。",
         romaji: "Koshuha ueruda wo tsukau toki wa yakedo ni chuui shimasu.",
-        meaning: "Khi sử dụng máy hàn cao tần thì phải cẩn thận để tránh bị bỏng",
+        meaning: "Khi sử dụng MÁY HÀN CAO TẦN thì phải CẨN THẬN để tránh bị BỎNG .",
         answer: "◯",
         keywords: {
-            group1: ["こうしゅうは ウエルダー", "koshuha ueruda", "máy", "hàn", "cao", "tần"],
-            group2: ["やけど", "yakedo", "bỏng"],
-            group3: ["ちゅうい", "chuui", "cẩn", "thận"]
+            group1: ["こうしゅうは", "ウエルダー", "Koshuha", "ueruda", "MÁY", "HÀN", "CAO", "TẦN"],
+            group2: ["やけど", "yakedo", "BỎNG"],
+            group3: ["ちゅうい", "chuui", "CẨN", "THẬN"]
         },
         image: null
     },
     {
         id: 47,
         jp: "こうしゅうは ウエルダー は ようちゃくき では ありません。",
-        romaji: "Koushuha ueruda wa youchakuki dewa arimasen .",
-        meaning: "Máy hàn cao tần không phải là máy hàn nóng chảy",
+        romaji: "Koushuha ueruda wa youchakuki dewa arimasen.",
+        meaning: "MÁY HÀN CAO TẦN không phải là máy hàn NÓNG CHẢY .",
         answer: "ꓫ",
         keywords: {
-            group1: ["こうしゅうは ウエルダー", "koshuha ueruda", "máy", "hàn", "cao", "tần"],
-            group2: ["ようちゃくき", "youchakuki", "máy", "hàn", "nóng", "chảy"]
+            group1: ["こうしゅうは", "ウエルダー", "Koshuha", "ueruda", "MÁY", "HÀN", "CAO", "TẦN"],
+            group2: ["ようちゃくき", "youchakuki", "NÓNG", "CHẢY"]
         },
         image: null
     },
     {
         id: 48,
-        jp: "けんちくこうじよう シート には めんはんぷきじ を つかっても よいです。",
+        jp: "けんちくこうじようシート には めんはんぷきじ を つかっても よいです。",
         romaji: "Kenchikukoujiyou shiito niwa menhanpukiji wo tsukattemo yoidesu.",
-        meaning: "Có thể sử dụng vải bố cho các tấm bạt công trình xây dựng .",
+        meaning: "Có thể sử dụng VẢI BỐ cho các TẤM BẠT CÔNG TRÌNH XÂY DỰNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["けんちくこうじようシート", "kenchikukoujiyou shiito", "tấm", "bạt", "công", "trình", "xây", "dựng"],
-            group2: ["めんはんぷきじ", "menhanpukiji", "vải", "bố"]
+            group1: ["けんちくこうじようシート", "Kenchikukoujiyou", "shiito", "TẤM", "BẠT", "CÔNG", "TRÌNH", "XÂY", "DỰNG"],
+            group2: ["めんはんぷきじ", "menhanpukiji", "VẢI", "BỐ"]
         },
         image: null
     },
@@ -589,10 +602,10 @@ const questions = [
         id: 49,
         jp: "めうち は はとめよう の あな を あける どうぐです。",
         romaji: "Meuchi wa hatomeyou no anawo akeru dougudesu.",
-        meaning: "Cây dùi lỗ là dụng cụ để tạo lỗ cho khoen tròn bọc lỗ",
+        meaning: "CÂY DÙI LỖ là dụng cụ để tạo lỗ cho khoen tròn bọc lỗ.",
         answer: "ꓫ",
         keywords: {
-            group1: ["めうち", "meuchi", "cây", "dùi", "lỗ"]
+            group1: ["めうち", "Meuchi", "CÂY", "DÙI", "LỖ"]
         },
         image: null
     },
@@ -600,11 +613,11 @@ const questions = [
         id: 50,
         jp: "これは はとめ うちぐ です。",
         romaji: "Korewa hatome uchigu desu.",
-        meaning: "Đây là dụng cụ dập lỗ khoen",
+        meaning: "Đây là DỤNG CỤ DẬP LỖ KHOEN",
         answer: "◯",
         keywords: {
-            group1: ["はとめ", "hatome", "khoen"],
-            group2: ["うちぐ", "uchigu", "dụng", "cụ", "dập", "lỗ"]
+            group1: ["はとめ", "hatome", "KHOEN"],
+            group2: ["うちぐ", "uchigu", "DỤNG", "CỤ", "DẬP", "LỖ"]
         },
         image: "hinh anh 100 cau/hatomeuchigu.jpg"
     },
@@ -612,12 +625,12 @@ const questions = [
         id: 51,
         jp: "めうち は きじ を きる どうぐ です。",
         romaji: "Meuchi wa kiji wo kiru dougu desu.",
-        meaning: "Cây dùi lỗ là dụng cụ để cắt vải.",
+        meaning: "CAY DÙI LỖ là DỤNG CỤ để CẮT vải.",
         answer: "ꓫ",
         keywords: {
-            group1: ["めうち", "meuchi", "cây", "dùi", "lỗ"],
-            group2: ["きる", "kiru", "cắt"],
-            group3: ["どうぐ", "dougu", "dụng", "cụ"]
+            group1: ["めうち", "Meuchi", "CÂY", "DÙI", "LỖ"],
+            group2: ["きる", "kiru", "CẮT"],
+            group3: ["どうぐ", "dougu", "DỤNG", "CỤ"]
         },
         image: null
     },
@@ -625,22 +638,22 @@ const questions = [
         id: 52,
         jp: "これは ほんぬいミシンの ぬいめ を あらわしています。",
         romaji: "kore wa honnuimishinno nuime wo arawasite imasu.",
-        meaning: "Cái này thể hiện đường may của máy may cơ bản.",
+        meaning: "Cái này thể hiện ĐƯỜNG MAY CỦA MÁY MAY CƠ BẢN .",
         answer: "◯",
         keywords: {
-            group1: ["ほんぬいミシンの ぬいめ", "honnuimishinno nuime", "đường", "may", "của", "máy", "may", "cơ", "bản"]
+            group1: ["ほんぬいミシンの", "ぬいめ", "honnuimishinno", "nuime", "ĐƯỜNG", "MAY", "CỦA", "MÁY", "MAY", "CƠ", "BẢN"]
         },
         image: "hinh anh 100 cau/honnuizu.jpg"
     },
     {
         id: 53,
-        jp: "アイレットリング を うつときは リングより ちいさい あなを あけます。",
-        romaji: "Airettoringu wo utsutoki wa ringu yori chiisai anawo akemasu.",
-        meaning: "Khi dùi lỗ để gắn khoen tròn, thì dùi lỗ nhỏ hơn khoen.",
+        jp: "アイレットリング を うつときは リングより ちいさい あな を あけます。",
+        romaji: "Airettoringu wo utsutoki wa ringu yori chiisai ana wo akemasu.",
+        meaning: "Khi dùi lỗ để gắn KHOEN tròn, thì dùi lỗ nhỏ hơn khoen.",
         answer: "◯",
         keywords: {
-            group1: ["アイレットリング", "airettoringu", "khoen"],
-            group2: ["ちいさい あな", "chiisai", "lổ", "nhỏ"]
+            group1: ["アイレットリング", "Airettoringu", "KHOEN"],
+            group2: ["ちいさい", "あな", "chiisai", "ana", "LỖ", "NHỎ"]
         },
         image: null
     },
@@ -648,25 +661,25 @@ const questions = [
         id: 54,
         jp: "めんはんぷ は いっぱんに ひらおり です。",
         romaji: "Menhanpu wa ippanni hiraori desu.",
-        meaning: "Vải bố, thông thường là vải dệt thoi.",
+        meaning: "VẢI BỐ , thông thường là vải DỆT THOI .",
         answer: "◯",
         keywords: {
-            group1: ["めんはんぷ", "menhanpu", "vải", "bố"],
-            group2: ["ひらおり", "hiraori", "vải", "dệt", "thoi"]
+            group1: ["めんはんぷ", "Menhanpu", "VẢI", "BỐ"],
+            group2: ["ひらおり", "hiraori", "DỆT", "THOI"]
         },
         image: null
     },
     {
         id: 55,
-        jp: "いどうしきあしば （ローリング タワー）の うえ では きゃたつ を つかっても よいです。",
-        romaji: "Idousikiashiba ( rouringu tawaa ) no ue dewa kyatatsu wo tsukattemo yoidesu.",
-        meaning: "Có thể dùng được thang chữ A trên giàn giáo di động.",
+        jp: "いどうしきあしば （ローリング タワー）の うえ では きゃたつ を つかっても よいです 。",
+        romaji: "Idousikiashiba ( rouringu tawaa ) no ue dewa kyatatsu wo tsukattemo yoidesu .",
+        meaning: "CÓ THỂ DÙNG được THANG CHỮ A TRÊN GIÀN GIÁO DI ĐỘNG .",   
         answer: "ꓫ",
         keywords: {
-            group1: ["いどうしきあしば", "idousikiashiba", "giàn", "giáo", "di", "động"],
-            group2: ["うえ", "ue", "trên"],
-            group3: ["きゃたつ", "kyatatsu", "thang", "chữ", "A"],
-            group4: ["つかっても よいです", "tsukattemo yoidesu", "có", "thể", "dùng", "được"]
+            group1: ["いどうしきあしば", "Idousikiashiba", "GIÀN", "GIÁO", "DI", "ĐỘNG"],
+            group2: ["うえ", "ue", "TRÊN"],
+            group3: ["きゃたつ", "kyatatsu", "THANG", "CHỮ", "A"],
+            group4: ["つかっても よいです", "tsukattemo yoidesu", "CÓ", "THỂ", "DÙNG"]
         },
         image: null
     },
@@ -674,52 +687,51 @@ const questions = [
         id: 56,
         jp: "きかいの そうじ や きゅうゆ を するとき は きかいを とめてから します。",
         romaji: "Kikai no souji ya kyuuyu wo surutoki wa kikai wo tometekara shimasu.",
-        meaning: "Dừng máy khi vệ sinh máy hay cung cấp dầu.",
+        meaning: "DỪNG máy khi VỆ SINH máy hay CUNG CẤP dầu.",
         answer: "◯",
         keywords: {
-            group1: ["そうじ", "souji", "vệ", "sinh"],
-            group2: ["きゅうゆ", "kyuuyu", "cung", "cấp", "dầu"],
-            group3: ["とめてから", "tometekara", "dừng"]
+            group1: ["そうじ", "souji", "VỆ", "SINH"],
+            group2: ["きゅうゆ", "kyuuyu", "CUNG", "CẤP"],
+            group3: ["とめてから", "tometekara", "DÙNG"]
         },
         image: null
     },
     {
         id: 57,
-        jp: "この ひょうしき が あるところで は ほごぼう は かぶらなくても よいです。",
-        romaji: "Kono hyoushiki ga arutokoro dewa hogobou wa kaburanakute mo yoidesu.",
-        meaning: "Tại nơi có biển báo này, không cần đội mũ bảo hiểm",
+        jp: "この ひょうしき が あるところで は ほごぼう は かぶらなくても よいです 。",
+        romaji: "Kono hyoushiki ga arutokoro dewa hogobou wa kaburanakute mo yoidesu .",
+        meaning: "Tại nơi có BIỂN BÁO này, KHÔNG CẦN ĐỘI MŨ BẢO HIỂM .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひょうしき", "hyoushiki", "biển", "báo"],
-            group2: ["ほごぼう", "hogobou", "mũ", "bảo", "hiểm"],
-            group3: ["かぶらなくても よいです", "kaburanakute mo yoidesu", "không", "cần", "đội", "mũ", "bảo", "hiểm"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["ほごぼう", "hogobou", "MŨ", "BẢO", "HIỂM"],
+            group3: ["かぶらなくても", "よいです", "kaburanakute", "mo", "yoidesu", "KHÔNG", "CẦN", "DỘI"]
         },
         image: "hinh anh 100 cau/hogobou.jpg"
     },
     {
         id: 58,
-        jp: "この ひょうしき が あるところ では かんでん の きけん は ありません。",
-        romaji: "Kono hyoushiki ga arutokoro dewa kanden no kiken wa arimasen.",
-        meaning: "Tại nơi có biển báo này, không có nguy cơ bị điện giật",
+        jp: "この ひょうしき が あるところ では かんでん の きけん は ありません 。",
+        romaji: "Kono hyoushiki ga arutokoro dewa kanden no kiken wa arimasen .",
+        meaning: "Tại nơi có BIỂN BÁO này, KHÔNG có NGUY CƠ bị ĐIỆN GIẬT .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひょうしき", "hyoushiki", "biể", "báo"],
-            group2: ["かんでん", "kanden", "điện", "giật"],
-            group3: ["きけん", "kiken", "nguy", "cơ"],
-            group4: ["ありません", "arimasen", "không", "có"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["かんでん", "kanden", "ĐIỆN", "GIẬT"],
+            group3: ["きけん", "kiken", "NGUY", "CƠ"],
+            group4: ["ありません", "arimasen", "KHÔNG"]
         },
         image: "hinh anh 100 cau/hyosiki.jpg"
     },
     {
         id: 59,
-        jp: "この ひょうしき が あるところ には はいって も よいです。",
-        romaji: "Kono hyoshiki ga arutokoro niwa haitte mo yoidesu.",
-        meaning: "Nơi có biển báo này thì có thể vào được.",
+        jp: "この ひょうしき が あるところ には はいっても よいです 。",
+        romaji: "Kono hyoshiki ga arutokoro niwa haittemo yoidesu .",
+        meaning: "Nơi có biển báo này thì có thể VÀO ĐƯỢC .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひょうしき", "hyoshiki", "biển báo"],
-            group2: ["はいって", "haitte", "vào"],
-            group3: ["はいって も よいです", "haitte mo yoidesu", "có", "thể", "vào", "được"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["はいっても", "よいです", "haittemo", "yoidesu", "VÀO", "ĐƯỢC"]
         },
         image: "hinh anh 100 cau/hyosikihito.jpg"
     },
@@ -727,50 +739,49 @@ const questions = [
         id: 60,
         jp: "この ひょうしき が あるところは あんぜん です。",
         romaji: "Kono hyoshiki ga arutokoro wa anzen desu.",
-        meaning: "Nơi có biển báo này thì an toàn.",
+        meaning: "Nơi có BIỂN BÁO này thì AN TOÀN .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひょうしき", "hyoshiki", "biển", "báo"],
-            group2: ["あんぜん", "anzen", "an", "toàn"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["あんぜん", "anzen", "AN", "TOÀN"]
         },
         image: "hinh anh 100 cau/hyosiki.jpg"
     },
     {
         id: 61,
         jp: "この ひょうしき が あるところには はいって は いけません。",
-        romaji: "Kono hyoshiki ga arutokoro niwa haitte ha ikemasen.",
-        meaning: "Không được vào chỗ có biển báo này.",
+        romaji: "Kono hyoshiki ga arutokoro niwa haitte ha ikemasen .",
+        meaning: "KHÔNG ĐƯỢC VÀO chỗ có BIỂN BÁO này.",
         answer: "◯",
         keywords: {
-            group1: ["ひょうしき", "hyoshiki", "biển", "báo"],
-            group2: ["はいって", "haitte", "vào"],
-            group3: ["はいって は いけません", "haitte ha ikemasen", "không", "được", "vào"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["はいって", "は", "いけません", "haitte", "ha", "ikemasen", "KHÔNG", "ĐƯỢC", "VÀO"]
         },
         image: "hinh anh 100 cau/hyosikihito.jpg"
     },
     {
         id: 62,
-        jp: "この ひょうしき が あるところ では たばこ を すって も よいです。",
-        romaji: "Kono hyoshiki ga arutokoro dewa tabako wo sutte mo yoidesu.",
-        meaning: "Bạn có thể hút thuốc lá ở chỗ có biển báo này.",
+        jp: "この ひょうしき が あるところ では たばこ を すって も よいです 。",
+        romaji: "Kono hyoshiki ga arutokoro dewa tabako wo sutte mo yoidesu .",
+        meaning: "Bạn CÓ THỂ HÚT THUỐC LÁ ở chỗ có BIỂN BÁO này.",
         answer: "ꓫ",
         keywords: {
-            group1: ["ひょうしき", "hyoshiki", "biển", "báo"],
-            group2: ["たばこ", "tabako", "thuố", "lá"],
-            group3: ["すって も よいです", "sutte mo yoidesu", "có", "thể", "hút"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["たばこ", "tabako", "THUỐC", "LÁ"],
+            group3: ["すって", "も", "よいです", "sutte mo yoidesu", "CÓ", "THỂ", "HÚT"]
         },
         image: "hinh anh 100 cau/hi.jpg"
     },
     {
         id: 63,
-        jp: "この ひょうしき が あるところ では たばこ を すっては いけません。",
-        romaji: "Kono hyoshiki ga arutokoro dewa tabako wo sutte wa ikemasen.",
-        meaning: "Không được hút thuốc lá ở chỗ có biển báo này.",
+        jp: "この ひょうしき が あるところ では たばこ を すって は いけません 。",
+        romaji: "Kono hyoshiki ga arutokoro dewa tabako wo sutte wa ikemasen .",
+        meaning: "KHÔNG ĐƯỢC HÚT THUỐC LÁ ở chỗ có BIỂN BÁO này.",
         answer: "◯",
         keywords: {
-            group1: ["ひょうしき", "hyoshiki", "biển", "báo"],
-            group2: ["たばこ", "tabako", "thuốc", " lá"],
-            group3: ["すっては いけません", "sutte wa ikemasen", "Không", "được", "hút"]
+            group1: ["ひょうしき", "hyoushiki", "BIỂN", "BÁO"],
+            group2: ["たばこ", "tabako", "THUỐC", "LÁ"],
+            group3: ["すって" ,"は", "いけません", "sutte", "wa", "ikemasen", "KHÔNG", "ĐƯỢC", "HÚT"]
         },
         image: "hinh anh 100 cau/tabako.jpg"
     },
@@ -778,12 +789,12 @@ const questions = [
         id: 64,
         jp: "けんちくこうじょう シート には ぼうえん かこう を しなくて も よいです。",
         romaji: "Kenchikukoujiyou shiito niwa bouen kakou wo shinakutemo yoidesu.",
-        meaning: "Không cần thiết phải gia công chống cháy đối với bạt phủ xây dựng.",
+        meaning: "Không cần thiết phải GIA CÔNG CHỐNG CHÁY đối với BẠT PHỦ XÂY DỰNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["けんちくこうじょう シート", "kenchikukoujiyou shiito", "bạt", "phủ", "xây", "dựng"],
-            group2: ["ぼうえん", "bouen", "chống cháy"],
-            group3: ["かこう", "kakou", "gia công"]
+            group1: ["けんちくこうじょう", "シート", "Kenchikukoujiyou", "shiito", "BẠT", "PHỦ", "XÂY", "DỰNG"],
+            group2: ["ぼうえん", "bouen", "CHỐNG", "CHÁY"],
+            group3: ["かこう", "kakou", "GIA", "CÔNG"]
         },
         image: null
     },
@@ -791,10 +802,10 @@ const questions = [
         id: 65,
         jp: "じぬい は 2まい の きじ の おもて を あわせて ぬいます。",
         romaji: "Jinui wa nimai no maji no omote wo awasete nuimasu.",
-        meaning: "JINUI là may ghép mặt trái của hai tấm vải vào nhau (tức là may để sau đó lộn ra mặt phải ).",
+        meaning: "JINUI là may ghép MẶT TRÁI của hai tấm vải vào nhau (tức là may để sau đó lộn ra mặt phải ).",
         answer: "◯",
         keywords: {
-            group1: ["おもて", "omote", "mặt", "phải"]
+            group1: ["おもて", "omote", "MẶT", "TRÁI"]
         },
         image: null
     },
@@ -802,12 +813,11 @@ const questions = [
         id: 66,
         jp: "こうしゅうは ウエルダー は ねっぷう を つかった ようちゃく き です。",
         romaji: "Koushuha ueruda wa neppuu wo tsukatta youchaku ki desu.",
-        meaning: "Máy hàn cao tần là máy hàn nóng chảy sử dụng khí nóng",
+        meaning: "MÁY HÀN CAO TẦN là máy hàn nóng chảy sử dụng KHÍ NÓNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["こうしゅうは ウエルダー", "koshuha ueruda", "máy", "hàn", "cao", "tần"],
-            group2: ["ねっぷう", "neppuu", "khí", "nóng"],
-            group3: ["ようちゃく", "youchaku", "máy", "hàn", "nóng", "chảy"]
+            group1: ["こうしゅうは", "ウエルダー", "Koshuha", "ueruda", "MÁY", "HÀN", "CAO", "TẦN"],
+            group2: ["ねっぷう", "neppuu", "KHÍ", "NÓNG"]
         },
         image: null
     },
@@ -815,12 +825,12 @@ const questions = [
         id: 67,
         jp: "ようちゃく かこう を したときは めどめしょり をします。",
         romaji: "Youchaku kakou wo shitatokiwa mejimeshori wo shimasu.",
-        meaning: "Khi gia công máy hàn nóng chảy, phải xử lý chống rò.",
+        meaning: "Khi GIA CÔNG máy hàn NÓNG CHẢY , phải xử lý CHỐNG RÒ .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ようちゃく", "youchaku", "máy", "hàn", "nóng", "chảy"],
-            group2: ["かこう", "kakou", "gia", "công"],
-            group3: ["めどめしょり", "mejimeshori", "chống", "rò"]
+            group1: ["ようちゃく", "youchaku", "NÓNG", "CHẢY"],
+            group2: ["かこう", "kakou", "GIA", "CÔNG"],
+            group3: ["めどめしょり", "mejimeshori", "CHỐNG", "RÒ"]
         },
         image: null
     },
@@ -828,12 +838,12 @@ const questions = [
         id: 68,
         jp: "ナイロン や ビニロン は かがくせんい です。",
         romaji: "Nairon ya biniron wa kagakuseni desu.",
-        meaning: "Nylon và Vinylon là sợi hóa học",
+        meaning: "Nylon và Vinylon là SỢI HÓA HỌC .",
         answer: "◯",
         keywords: {
-            group1: ["ナイロン", "nairon", "nylon"],
-            group2: ["ビニロン", "biniron", "vinylon"],
-            group3: ["かがくせんい", "kagakuseni", "sợi", "hóa", "học"]
+            group1: ["ナイロン", "Nairon", "Nylon"],
+            group2: ["ビニロン", "biniron", "Vinylon"],
+            group3: ["かがくせんい", "kagakuseni", "SƠI", "HÓA", "HỌC"]
         },
         image: null
     },
@@ -841,48 +851,49 @@ const questions = [
         id: 69,
         jp: "アイレットリング の 25ばん は 30ばん より おおきい です。",
         romaji: "Airettoringu no nijuugoban wa sanjuuban yori ookii desu.",
-        meaning: "Khoen bọc lỗ số 25 lớn hơn khoen số 30",
+        meaning: "KHOEN bọc lỗ số 25 LỚN hơn khoen số 30",
         answer: "ꓫ",
         keywords: {
-            group1: ["アイレットリング", "airettoringu", "khoen"],
-            group2: ["おおきい", "ookii", "lớn"]
+            group1: ["アイレットリング", "Airettoringu", "KHOEN"],
+            group2: ["おおきい", "ookii", "LỚN"]
         },
         image: null
     },
     {
         id: 70,
         jp: "きかい の スイッチ は きかいを つかう ひとが そうさします 。",
-        romaji: "kikai no suicchi wa kikaiwo tsukau hitoga sousashimasu.",
-        meaning: "Công tắc máy được vận hành bởi người sử dụng máy",
+        romaji: "kikai no suicchi wa kikaiwo tsukau hitoga sousashimasu .",
+        meaning: "CÔNG TẮC máy được VẬN HÀNH bởi người sử dụng MÁY .",
         answer: "◯",
         keywords: {
-            group1: ["きかい", "kikai", "máy"],
-            group2: ["スイッチ", "suicchi", "công", "tắc"],
-            group3: ["そうさします", "sousashimasu", "vận", "hành"]
+            group1: ["きかい", "Kikai", "MÁY"],
+            group2: ["スイッチ", "suicchi", "CÔNG", "TẮC"],
+            group3: ["そうさします", "sousashimasu", "VẬN", "HÀNH"]
         },
         image: null
     },
     {
         id: 71,
-        jp: "きじの せっちゃくほうほうで アークしき も あります。",
+        jp: "きじの せっちゃく ほうほう で アークしき も あります。",
         romaji: "Kijino secchaku houhou de akushiki mo arimasu.",
-        meaning: "Trong các phương pháp dán vải, có dán hồ quang",
+        meaning: "Trong các PHƯƠNG PHÁP dán vải, có dán HỒ QUANG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["アークしき", "akushiki", "hồ", "quang"]
+            group1: ["アークしき", "akushiki", "HỒ", "QUANG"],
+            group2: ["ほうほう", "houhou", "PHƯƠNG", "PHÁP"]
         },
         image: null
     },
     {
         id: 72,
-        jp: "こもの の さいだんに は まるばしき は てきしません。",
-        romaji: "Komono no saidanni wa marubashiki wa tekishimasen.",
-        meaning: "Khi cắt các phụ kiện nhỏ, máy cắt lưỡi tròn không thích hợp.",
+        jp: "こもの の さいだんに は まるばしき は てきしません 。",
+        romaji: "Komono no saidanni wa marubashiki wa tekishimasen .",
+        meaning: "Khi cắt các PHỤ KIỆN NHỎ , MÁY CẮT LƯỠI TRÒN KHÔNG THÍCH HỢP .",
         answer: "◯",
         keywords: {
-            group1: ["こもの", "komono", "phụ", "kiện", "nhỏ"],
-            group2: ["まるばしき", "marubashiki", "máy", "cắt", "lưỡi", "tròn"],
-            group3: ["てきしません", "tekishimasen", "không", "thích", "hợp"]
+            group1: ["こもの", "komono", "PHỤ", "KIỆN", "NHỎ"],
+            group2: ["まるばしき", "marubashiki", "MÁY", "CẮT", "LƯỠI", "TRÒN"],
+            group3: ["てきしません", "tekishimasen", "KHÔNG", "THÍCH", "HỢP"]
         },
         image: null
     },
@@ -890,10 +901,10 @@ const questions = [
         id: 73,
         jp: "ずは りょうながれぬい です。",
         romaji: "Zu wa ryounagarenui desu.",
-        meaning: "Hình vẽ bên là may sóng đôi (Ryo nagare nui)",
+        meaning: "Hình vẽ bên là MAY SÓNG ĐÔI .",
         answer: "◯",
         keywords: {
-            group1: ["りょうながれぬい", "ryounagarenui", "may", "sóng", "đôi"]
+            group1: ["りょうながれぬい", "ryounagarenui", "MAY", "SÓNG", "ĐÔI"]
         },
         image: "hinh anh 100 cau/ryonaganui.png"
     },
@@ -901,13 +912,13 @@ const questions = [
         id: 74,
         jp: "うわいと したいと の ちょうし が つよすぎる と ぬいちぢみ に なります。",
         romaji: "Uwaito shitaito no choushi ga tsuyosugiru to nuichijimi ninarimasu.",
-        meaning: "Nếu chỉ trên và chỉ dưới quá chặt sẽ khiến đường may bị rút.",
+        meaning: "Nếu ‍CHỈ TRÊN và chỉ DƯỚI QUÁ CHẶT sẽ khiến đường MAY BỊ RÚT .",
         answer: "◯",
         keywords: {
-            group1: ["うわいと", "uwaito", "chỉ", "trên"],
-            group2: ["したいと", "shitaito", "chỉ", "dưới"],
-            group3: ["つよすぎる", "tsuyosugiru", "quá", "chặt"],
-            group4: ["ぬいちぢみ", "nuichijimi", "may", "bị", "rút"]
+            group1: ["うわいと", "Uwaito", " ‍CHỈ", "TRÊN"],
+            group2: ["したいと", "shitaito", "CHỈ", "DƯỚI"],
+            group3: ["つよすぎる", "tsuyosugiru", "QUÁ", "CHẶT"],
+            group4: ["ぬいちぢみ", "nuichijimi", "MAY", "BỊ", "RÚT"]
         },
         image: null
     },
@@ -915,37 +926,37 @@ const questions = [
         id: 75,
         jp: "テトロン は ポリエステルせんい です。",
         romaji: "Tetoron wa poriesuterusei desu.",
-        meaning: "Tetoron là sợi Polyester",
+        meaning: "Tetoron là sợi Polyester .",
         answer: "◯",
         keywords: {
-            group1: ["テトロン", "tetoron", "tetoron"],
-            group2: ["ポリエステルせんい", "poriesuterusei", "sợi", "polyester"]
+            group1: ["テトロン", "Tetoron", "Tetoron"],
+            group2: ["ポリエステルせんい", "poriesuterusei", "sợi", "Polyester"]
         },
         image: null
     },
     {
         id: 76,
-        jp: "ビニロンいと は ぬいいと には つかいません。",
-        romaji: "Binironito wa nui-ito niwa tsukaimasen.",
-        meaning: "Sợi nylon không dùng làm chỉ may",
+        jp: "ビニロンいと は ぬいいと には つかいません 。",
+        romaji: "Binironito wa nuiito niwa tsukaimasen .",
+        meaning: "Sợi Nylon KHÔNG DÙNG làm CHỈ MAY .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ビニロンいと", "binironito", "sợi", "nylon"],
-            group2: ["ぬいいと", "nuiito", "chỉ", "may"],
-            group3: ["つかいません", "tsukaimasen", "không", "dùng"]
+            group1: ["ビニロンいと", "Binironito", "Sợi", "Nylon"],
+            group2: ["ぬいいと", "nuiito", "CHỈ", "MAY"],
+            group3: ["つかいません", "tsukaimasen", "KHÔNG", "DÙNG"]
         },
         image: null
     },
     {
         id: 77,
         jp: "せんぷうきの はね で ろうどうしゃ に きけん を あたえる おそれ の あるもの は かこい を します。",
-        romaji: "Senpuuki no hane de roudousha ni kiken wo ataeru osore no arumono wa kakoi wo shimasu.",
-        meaning: "Những cánh quạt có thể gây nguy hiểm cho công nhân thì bọc lại.",
+        romaji: "Senpuukino hane de roudousha ni kiken wo ataeru osore no arumono wa kakoi wo shimasu.",
+        meaning: "Những CÁNH QUẠT có thể gây NGUY HIỂM cho công nhân thì BỌC lại.",
         answer: "◯",
         keywords: {
-            group1: ["せんぷうきの はね", "senpuukino hane", "cánh", "quạt"],
-            group2: ["かこい", "kakoi", "bọc"],
-            group3: ["きけん", "kiken", "nguy", "hiểm"]
+            group1: ["せんぷうきの", "はね", "Senpuukino", "hane", "CÁNH", "QUẠT"],
+            group2: ["かこい", "kakoi", "BỌC"],
+            group3: ["きけん", "kiken", "NGUY", "HIỂM"]
         },
         image: null
     },
@@ -953,12 +964,12 @@ const questions = [
         id: 78,
         jp: "こうしょさぎょうしゃ で さぎょう を するとき は あんぜんたい を つかいます。",
         romaji: "Kousho sagyousha de sagyou wo surutoki wa anzentai wo tsukaimasu.",
-        meaning: "Khi làm việc trên xe ở vị trí cao, thì đeo đai an toàn",
+        meaning: "Khi LÀM VIỆC TRÊN XE VỊ TRÍ CAO , thì đeo ĐAI AN TOÀN .",
         answer: "◯",
         keywords: {
-            group1: ["こうしょさぎょうしゃ", "Kousho sagyousha", "trên", "xe", "ở", "vị", "trí", "cao"],
-            group2: ["あんぜんたい", "anzentai", "đai", "an", "toàn"],
-            group3: ["さぎょう", "sagyou", "làm", "việc"]
+            group1: ["こうしょさぎょうしゃ", "Kousho", "sagyousha", "TRÊN", "XE", "VỊ", "TRÍ", "CAO"],
+            group2: ["あんぜんたい", "anzentai", "ĐAI", "AN", "TOÀN"],
+            group3: ["さぎょう", "sagyou", "LÀM", "VIỆC"]
         },
         image: null
     },
@@ -966,11 +977,11 @@ const questions = [
         id: 79,
         jp: "あしば は じょうぶ な もの で なくても つかうこと が できます。",
         romaji: "Ashiba wa joubu namono de nakutemo tsukaukoto ga dekimasu.",
-        meaning: "Bục đứng (giàn giáo) dù không vững chãi cũng dùng được",
+        meaning: "BỤC ĐỨNG (giàn giáo) dù không VỮNG chãi cũng dùng được",
         answer: "ꓫ",
         keywords: {
-            group1: ["あしば", "ashiba", "bục", "đứng"],
-            group2: ["じょうぶ", "joubu", "vững"]
+            group1: ["あしば", "Ashiba", "BỤC", "ĐỨNG"],
+            group2: ["じょうぶ", "joubu", "VỮNG"]
         },
         image: null
     },
@@ -978,12 +989,12 @@ const questions = [
         id: 80,
         jp: "きじの さいだんには かたがみさいだん と じかさいだん が ありま す。",
         romaji: "Kijino saidan niwa katagamisaidan to jikasaidan ga arimasu.",
-        meaning: "Cắt vải thì có cắt theo mẫu rập và cắt trực tiếp.",
+        meaning: "CẮT VẢI thì có cắt theo MẪU RẬP và cắt TRỰC TIẾP .",
         answer: "◯",
         keywords: {
-            group1: ["きじの さいだん", "Kijino saidan", "Cắt", "vải"],
-            group2: ["かたがみさいだん", "katagamisaidan", "mẫu", "rập"],
-            group3: ["じかさいだん", "jikasaidan", "cắt", "trực", "tiếp"]
+            group1: ["きじの", "さいだん", "Kijino", "saidan", "CẮT", "VẢI"],
+            group2: ["かたがみさいだん", "katagamisaidan", "MẪU", "RẬP"],
+            group3: ["じかさいだん", "jikasaidan", "TRỰC", "TIẾP"]
         },
         image: null
     },
@@ -991,12 +1002,12 @@ const questions = [
         id: 81,
         jp: "ハンドタイプ の ようちゃくき には ねっぷうしき と ちょうおんぱしき が あります。",
         romaji: "Handotaipu no youchakuki niwa neppuushiki to chouonpashiki ga arimasu.",
-        meaning: "Máy hàn cầm tay có loại máy hơi nóng và máy siêu âm",
+        meaning: "MÁY HÀN CẦM TAY có loại máy HƠI NÓNG và máy SIÊU ÂM .",
         answer: "◯",
         keywords: {
-            group1: ["ハンドタイプ の ようちゃくき", "Handotaipu no youchakuki", "máy", "hàn", "cầm", "tay"],
-            group2: ["ねっぷうしき", "neppuushiki", "hơi", "nóng"],
-            group3: ["ちょうおんぱしき", "chouonpashiki", "siêu", "âm"]
+            group1: ["ハンドタイプ", "の", "ようちゃくき", "Handotaipu", "no", "youchakuki", "MÁY", "HÀN", "CẦM", "TAY"],
+            group2: ["ねっぷうしき", "neppuushiki", "HƠI", "NÓNG"],
+            group3: ["ちょうおんぱしき", "chouonpashiki", "SIÊU", "ÂM"]
         },
         image: null
     },
@@ -1004,11 +1015,11 @@ const questions = [
         id: 82,
         jp: "ほんぬいの ミシンは うわいと と したいと の からみで ぬいます。",
         romaji: "Honnui no mishin wa uwaito to shitaito no karamide nuimasu.",
-        meaning: "Máy may cơ bản may bằng cách móc giữa chỉ trên và chỉ dưới.",
+        meaning: "Máy may cơ bản may bằng cách móc giữa CHỈ TRÊN và ‍CHỈ DƯỚI .",
         answer: "◯",
         keywords: {
-            group1: ["うわいと", "uwaito", "chỉ", "trên"],
-            group2: ["したいと", "shitaito", "chỉ", "dưới"]
+            group1: ["うわいと", "uwaito", "CHỈ", "TRÊN"],  
+            group2: ["したいと", "shitaito", " ‍CHỈ", "DƯỚI"]
         },
         image: null
     },
@@ -1016,23 +1027,22 @@ const questions = [
         id: 83,
         jp: "ずは かんぬい です",
         romaji: "Zu wa kannui desu.",
-        meaning: "Hình bên là đường may móc xích",
+        meaning: "Hình bên là đường MAY MÓC XÍCH",
         answer: "◯",
         keywords: {
-            group1: ["かんぬい", "kannui", "may", "móc", "xích"]
+            group1: ["かんぬい", "kannui", "MAY", "MÓC", "XÍCH"]
         },
         image: "hinh anh 100 cau/kannui.jpg"
     },
     {
         id: 84,
-        jp: "さいだんず には さいすんした すんぽうを きにゅうします。",
-        romaji: "Saidanzu niwa saisunshita sunpou wo kinyuushimasu.",   
-        meaning: "Trong bản vẽ rập cắt, ghi kích thước khi đo",
+        jp: "さいだんず には さいすんした すんぽうを きにゅうします 。",
+        romaji: "Saidanzu niwa saisunshita sunpou wo kinyuushimasu .",   
+        meaning: "Trong BẢN VẼ RẬP CẮT , GHI KÍCH THƯỚC khi đo.",
         answer: "ꓫ",
         keywords: {
-            group1: ["さいだんず", "saidanzu", "bản", "vẽ", "rập", "cắt"],
-            group2: ["きにゅうします。", "kinyuushimasu", "ghi"],
-            group3: ["すんぽう", "sunpou", "kích", "thước"]
+            group1: ["さいだんず", "Saidanzu", "BẢN", "VẼ", "RẬP", "CẮT"],
+            group2: ["すんぽうを", "きにゅうします", "sunpou", "wo", "kinyuushimasu", "GHI", "KÍCH", "THƯỚC"]
         },
         image: null
     },
@@ -1040,12 +1050,12 @@ const questions = [
         id: 85,
         jp: "うわぬの と したぬの が ずれること を ぬいずれ といいます。",
         romaji: "Uwanuno to shitanuno ga zurerukoto wo nuizure to iidesu.",
-        meaning: "Vải trên và vải dưới bị lệch, gọi là may lệch",
+        meaning: "VẢI TRÊN và ‍VẢI DƯỚI bị lệch, gọi là MAY LỆCH .",
         answer: "◯",
         keywords: {
-            group1: ["うわぬの", "uwanuno", "vải", "trên"],
-            group2: ["したぬの", "shitanuno", "vải", "dưới"],
-            group3: ["ぬいずれ", "nuizure", "may", "lệch"]
+            group1: ["うわぬの", "Uwanuno", "VẢI", "TRÊN"],
+            group2: ["したぬの", "shitanuno", " ‍VẢI", "DƯỚI"],
+            group3: ["ぬいずれ", "nuizure", "MAY", "LỆCH"]
         },
         image: null
     },
@@ -1053,12 +1063,12 @@ const questions = [
         id: 86,
         jp: "めんはんぷ は かがくやくひん に つよい です。",
         romaji: "Menhanpu wa kagakuyakuhin ni tsuyoi desu.",
-        meaning: "Vải bố chịu hóa chất tốt",
+        meaning: "VẢI BỐ chịu HÓA CHẤT TỐT .",
         answer: "ꓫ",
         keywords: {
-            group1: ["めんはんぷ", "men hanpu", "vải", "bố"],
-            group2: ["かがくやくひん", "kagakuyakuhin", "hóa", "chất"],
-            group3: ["つよい", "tsuyoi", "tốt"]
+            group1: ["めんはんぷ", "Menhanpu", "VẢI", "BỐ"],
+            group2: ["かがくやくひん", "kagakuyakuhin", "HÓA", "CHẤT"],
+            group3: ["つよい", "tsuyoi", "TỐT"]
         },
         image: null
     },
@@ -1066,12 +1076,12 @@ const questions = [
         id: 87,
         jp: "きかいの そうじ や きゅうゆ を するとき は きかいを とめてから します。",
         romaji: "Kikaino souji ya kyuuyu wo surutoki wa kikai wo tometekara shimasu.",
-        meaning: "Khi vệ sinh máy hay tra dầu , tắt máy rồi mới làm.",
+        meaning: "Khi VỆ SINH máy hay TRAN DẦU , TẮT MÁY rồi mới làm.",
         answer: "◯",
         keywords: {
-            group1: ["そうじ", "souji", "vệ", "sinh"],
-            group2: ["きゅうゆ", "kyuuyu", "tra", "dầu"],
-            group3: ["とめてから", "tometekara", "tắt", "máy"]
+            group1: ["そうじ", "souji", "VỆ", "SINH"],
+            group2: ["きゅうゆ", "kyuuyu", "TRA", "DẦU"],
+            group3: ["とめてから", "tometekara", "TẮT", "MÁY"]
         },
         image: null
     },
@@ -1079,11 +1089,11 @@ const questions = [
         id: 88,
         jp: "ひ を つかったひと は かならず あと かたづけ をします。",
         romaji: "Hi wo tsukattahito wa kanarazu ato katazuke wo shimasu.",
-        meaning: "Người nào dùng lửa xong phải cất dọn.",
+        meaning: "Người nào dùng LỬA xong phải CẤT DỌN .",
         answer: "◯",
         keywords: {
-            group1: ["ひ", "hi", "lửa"],
-            group2: ["かたづけ", "katazuke", "cất", "dọn"]
+            group1: ["ひ", "Hi", "LỬA"],
+            group2: ["かたづけ", "katazuke", "CẤT", "DỌN"]
         },
         image: null
     },
@@ -1091,47 +1101,49 @@ const questions = [
         id: 89,
         jp: "さぎょうだいの あかるさ は 150ルクス いじょう です。",
         romaji: "Sagyoudai no akarusa wa 150 rukusu ijou desu.",
-        meaning: "Độ sáng của bàn làm việc là hơn 150 Lux",
+        meaning: "ĐỘ SÁNG CỦA BÀN LÀM VIỆC là HƠN 150 Lux",
         answer: "◯",
         keywords: {
-            group1: ["さぎょうだいの あかるさ", "Sagyoudai no akarusa", "Độ", "sáng", "của", "bàn", "làm", "việc"],
-            group2: ["150ルクス", "150 rukusu", "150", "lux"],
-            group3: ["いじょう", "ijou", "hơn"]
+            group1: ["さぎょうだいの", "あかるさ", "Sagyoudai", "no", "akarusa", "DỘ", "SÁNG", "CỦA", "BÀN", "LÀM", "VIỆC"],
+            group2: ["150ルクス", "150", "rukusu", "150", "lux"],
+            group3: ["いじょう", "ijou", "HƠN"]
         },
         image: null
     },
     {
         id: 90,
-        jp: "さぎょう を するときは、 うごき や すければどのような ふくそう を してもよいです。",
+        jp: "さぎょう を するときは、 うごき やすければどのような ふくそう を してもよいです。",
         romaji: "Sagyou wo surutoki wa ugoki yasukere ba donoyou na fukusou wo shitemo yoidesu.",
         meaning: "Khi làm việc, miễn là dễ cử động thì mặc đồ như thế nào cũng được",
         answer: "ꓫ",
         keywords: {
-            group1: ["うごき", "ugoki", "cử", "động"],
-            group2: ["ふくそう", "fukusou", "mặc", "đồ"]
+            group1: ["うごき", "ugoki", "CỬ", "ĐỘNG"],
+            group2: ["ふくそう", "fukusou", "MẶC", "ĐỒ"]
         },
         image: null
     },
     {
         id: 91,
-        jp: "せまい ところでは つうろをかくほしなくて もよいです。",
-        romaji: "Semai tokoro dewa tsuro wo kakuho shinakutemo yoidesu.",
-        meaning: "Ở chỗ hẹp thì không chừa lối đi cũng được",
+        jp: "せまい ところでは つうろを かくほしなくて もよいです。",
+        romaji: "Semai tokoro dewa tsuro wo kakuho shinakute mo yoidesu.",
+        meaning: "Ở chỗ HẸP thì KHÔNG CHỪA LỐI ĐI cũng được.",
         answer: "ꓫ",
         keywords: {
-            group1: ["せまい", "semai", "hẹp"]
+            group1: ["せまい", "Semai", "HẸP"],
+            group2: ["かくほしなくて", "kakuho", "shinakute", "KHÔNG", "CHỪA"],
+            group3: ["つうろ", "tsuro", "LỐI", "ĐI"]
         },
         image: null
     },
     {
         id: 92,
-        jp: "ちどりミシン は ふちぬいよう ミシン です。",
-        romaji: "Chidorimishin wa fuchi-nuiyou mishin desu.",
-        meaning: "Máy may dích dắc là máy dùng để may viền",
+        jp: "ちどりミシン は ふちぬいようミシン です。",
+        romaji: "Chidorimishin wa fuchinuiyou mishin desu.",
+        meaning: "MÁY MAY DÍCH DẮC là máy dùng để ‍MAY VIỀN .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ちどりミシン", "chidorimishin", "máy", "may", "dích", "dắc"],
-            group2: ["ふちぬいよう", "fuchi nuiyou", "may", "viền"]
+            group1: ["ちどりミシン", "Chidorimishin", "MÁY", "MAY", "DÍCH", "DẮC"],
+            group2: ["ふちぬいよう", "fuchinuiyou", " ‍MAY", "VIỀN"]
         },
         image: null
     },
@@ -1139,11 +1151,11 @@ const questions = [
         id: 93,
         jp: "オーバーロック ミシン は ふちぬいよう ミシン です。",
         romaji: "Obarokku mishin wa fuchinuiyou mishin desu.",
-        meaning: "Máy vắt sổ là máy để may viền",
+        meaning: "Máy VẮT SỔ là máy để MAY VIỀN .",
         answer: "◯",
         keywords: {
-            group1: ["オーバーロック", "obarokku", "vắt", "sổ"],
-            group2: ["ふちぬいよう", "fuchinuiyou", "may", "viền"]
+            group1: ["オーバーロック", "Obarokku", "VẮT", "SỔ"],
+            group2: ["ふちぬいよう", "fuchinuiyou", "MAY", "VIỀN"]
         },
         image: null
     },
@@ -1151,10 +1163,10 @@ const questions = [
         id: 94,
         jp: "ミシンを つかう まえ や つかった あと には てんけん を します。",
         romaji: "Mishin wo tsukau mae ya tsukatta ato niwa tenken wo shimasu.",
-        meaning: "Trước và sau khi sử dụng máy may phải kiểm tra máy.",
+        meaning: "Trước và sau khi sử dụng máy may phải KIỂM TRA máy.",
         answer: "◯",
         keywords: {
-            group1: ["てんけん", "tenken", "kiểm", "tra"]
+            group1: ["てんけん", "tenken", "KIỂM", "TRA"]
         },
         image: null
     },
@@ -1162,11 +1174,11 @@ const questions = [
         id: 95,
         jp: "ミシンを つかうときは はりの しょうめん に すわります。",
         romaji: "Mishin wo tsukautoki wa hari no shoumen ni suwari masu.",
-        meaning: "Khi dùng máy may, ngồi trước kim máy may",
+        meaning: "Khi dùng máy may, ngồi TRƯỚC KIM máy may.",
         answer: "◯",
         keywords: {
-            group1: ["しょうめん", "shoumen", "trước"],
-            group2: ["はり", "hari", "kim"]
+            group1: ["しょうめん", "shoumen", "TRƯỚC"],
+            group2: ["はり", "hari", "KIM"]
         },
         image: null
     },
@@ -1174,11 +1186,11 @@ const questions = [
         id: 96,
         jp: "オーバーロック ミシンは ちょくせんぬい ミシンです。",
         romaji: "Obarokku mishin wa chokusennui mishin desu.",
-        meaning: "Máy vắt sổ là máy may đường thẳng.",
+        meaning: "Máy VẮT SỔ là máy may ĐƯỜNG THẲNG .",
         answer: "ꓫ",
         keywords: {
-            group1: ["オーバーロック", "o ba rokku", "vắt", "sổ"],
-            group2: ["ちょくせんぬい", "chokusennui", "đường", "thẳng"]
+            group1: ["オーバーロック", "Obarokku", "VẮT", "SỔ"],
+            group2: ["ちょくせんぬい", "chokusennui", "ĐƯỜNG", "THẲNG"]
         },
         image: null
     },
@@ -1186,13 +1198,13 @@ const questions = [
         id: 97,
         jp: "ミシンを かけるときの しせい が わるい と せいかく に ぬえません。",
         romaji: "Mishin wo kakerutokino shisei ga warui to seikaku ni nuemasen.",
-        meaning: "Tư thế ngồi may không tốt thì không thể may chính xác được.",
+        meaning: "TƯ THẾ ngồi may KHÔNG TỐT thì ‍KHÔNG THỂ MAY CHÍNH XÁC được.",
         answer: "◯",
         keywords: {
-            group1: ["しせい", "shisei", "tư", "thế"],
-            group2: ["わるい", "warui", "không", "tốt"],
-            group3: ["せいかく", "seikaku", "chính", "xác"],
-            group4: ["ぬえません", "nuemasen", "không", "thể", "may"]
+            group1: ["しせい", "shisei", "TƯ", "THẾ"],
+            group2: ["わるい", "warui", "KHÔNG", "TỐT"],
+            group3: ["せいかく", "seikaku", "CHÍCH", "XÁC"],
+            group4: ["ぬえません", "nuemasen", " ‍KHÔNG", "THỂ", "MAY"]
         },
         image: null
     },
@@ -1200,10 +1212,10 @@ const questions = [
         id: 98,
         jp: "ミシンいとの 8ばん は 20ばん より ほそい です。",
         romaji: "Mishin ito no hachiban ha nijuuban yori hosoi desu.",
-        meaning: "Chỉ may số 8 mỏng hơn chỉ may số 20.",
+        meaning: "Chỉ may số 8 MỎNG hơn chỉ may số 20.",
         answer: "ꓫ",
         keywords: {
-            group1: ["ほそい", "hosoi", "mỏng"]
+            group1: ["ほそい", "hosoi", "MỎNG"]
         },
         image: null
     },
@@ -1211,12 +1223,12 @@ const questions = [
         id: 99,
         jp: "ミシン の はりさき が まるく なって いると ぬいずれ の げんいん と なります。",
         romaji: "Mishin no harisaki ga maruku natte iruto nuizure no genin to narimasu.",
-        meaning: "Đầu kim của máy may bị tròn là nguyên nhân may bị lệch",
+        meaning: "Đầu kim của máy may bị TRÒN là NGUYÊN NHÂN may bị LỆCH .",
         answer: "◯",
         keywords: {
-            group1: ["まるく", "maruku", "tròn"],
-            group2: ["ぬいずれ", "nuizure", "lệch"],
-            group3: ["げんいん", "genin", "nguyên", "nhân"]
+            group1: ["まるく", "maruku", "TRÒN"],
+            group2: ["ぬいずれ", "nuizure", "LỆCH"],
+            group3: ["げんいん", "genin", "NGUYÊN", "NHÂN"]
         },
         image: null
     },
@@ -1224,11 +1236,10 @@ const questions = [
         id: 100,
         jp: "これは しゅすおり です。",
         romaji: "Korewa shusuori desu.",
-        meaning: "Đây là dệt vân đoạn (long 4)",
+        meaning: "Đây là dệt VÂN ĐOẠN ( long 4 ).",
         answer: "◯",
         keywords: {
-            group1: ["しゅすおり", "shusu ori", "vân", "đoạn"],
-            group2: ["long 4"]
+            group1: ["しゅすおり", "shusuori", "VÂN", "ĐOẠN", "long", "4"],
         },
         image: "hinh anh 100 cau/shusuori.jpg"
     },
@@ -1236,12 +1247,12 @@ const questions = [
         id: 101,
         jp: "めうち は あいじるし と さいだん の とき の ずれどめ に つかいます。",
         romaji: "Meuchi wa aijirushi to saidan no toki no zuredome ni tsukaimasu.",
-        meaning: "Dùi lỗ được sử dụng để đánh dấu và chống lệch trong quá trình cắt.",
+        meaning: "DÙI LỖ được sử dụng để ĐÁNH DẤU và CHỐNG LỆCH trong quá trình cắt.",
         answer: "ꓫ",
         keywords: {
-            group1: ["めうち", "meuchi", "dùi", "lỗ"],
-            group2: ["あいじるし", "aijirushi", "đánh", "dấu"],
-            group3: ["ずれどめ", "zuredome", "chống", "lệch"]
+            group1: ["めうち", "Meuchi", "DÙI", "LỖ"],
+            group2: ["あいじるし", "aijirushi", "ĐÁNH", "DẤU"],
+            group3: ["ずれどめ", "zuredome", "CHỐNG", "LỆCH"]
         },
         image: null
     },
@@ -1252,7 +1263,7 @@ const questions = [
         meaning: "Máy kiểm tra vải là dụng cụ dùng để cắt vải.",
         answer: "ꓫ",
         keywords: {
-            group1: ["けんたんき", "kentanki", "máy", "kiểm", "tra", "vải"]
+            group1: ["けんたんき", "Kentanki", "MÁY", "KIỂM", "TRA", "VẢI"]
         },
         image: null
     },
@@ -1260,11 +1271,11 @@ const questions = [
         id: 103,
         jp: "たばこ は きめられた ところ で すいます。",
         romaji: "Tabako wa kimerareta tokoro de suimasu.",
-        meaning: "Hút thuốc lá ở khu vực được chỉ định .",
+        meaning: "Hút THUỐC LÁ ở khu vực ĐƯỢC CHỈ ĐỊNH .",
         answer: "◯",
         keywords: {
-            group1: ["たばこ", "Tabako", "thuốc lá"],
-            group2: ["きめられた", "kimerareta", "được", "chỉ", "định"]
+            group1: ["たばこ", "Tabako", "THUỐC", "LÁ"],
+            group2: ["きめられた", "kimerareta", "ĐƯỢC", "CHỈ", "ĐỊNH"]
         },
         image: null
     },
@@ -1272,23 +1283,23 @@ const questions = [
         id: 104,
         jp: "ほごぐ をつけて さぎょうを しにくい ときは ほごぐ を つけなくて もいいです。",
         romaji: "Hogogu wo tsukete sagyouwo shinikui tokiwa hogogu wo tsukenakutemo yoidesu.",
-        meaning: "Khi mang đồ bảo hộ mà khó làm việc , bạn có thể không mặc đồ bảo hộ .",
+        meaning: "Khi mang đồ bảo hộ mà KHÓ LÀM VIỆC , bạn có thể không mặc ĐỒ BẢO HỘ .",
         answer: "ꓫ",
         keywords: { 
-            group1: ["ほごぐ", "hogogu", "đồ", "bảo", "hộ"],
-            group2: ["しにくい", "shinikui", "khó", "làm", "việc"]
+            group1: ["ほごぐ", "hogogu", "ĐỒ", "BẢO", "HỘ"],
+            group2: ["しにくい", "shinikui", "KHÓ", "LÀM", "VIỆC"]
         },
         image: null
     },
     {
         id: 105,
         jp: "ヒューズ が きれた ときは どうせん で たいおうして もいいです。",
-        romaji: "Hyu-zu ga kiretatoki wa dousen de taiou shitemoiidesu.",
-        meaning: "Khi cầu chì bị đứt, bạn có thể khắc phục bằng cách nối dây dẫn .",
+        romaji: "Hyuzu ga kiretatoki wa dousen de taiou shitemoiidesu.",
+        meaning: "Khi CẦU CHÌ bị đứt, bạn có thể khắc phục bằng cách nối DÂY DẪN .",
         answer: "ꓫ",
         keywords: {
-            group1: ["ヒューズ", "hyu-zu", "cầu", "chì"],
-            group2: ["どうせん", "dousen", "dây", "dẫn"]
+            group1: ["ヒューズ", "Hyuzu", "CẦU", "CHÌ"],
+            group2: ["どうせん", "dousen", "DÂY", "DẪN"]
         },
         image: null
     },
@@ -1296,24 +1307,24 @@ const questions = [
         id: 106,
         jp: "ビニロン や ナイロン は てんねんせんい です。",
         romaji: "Nairon ya Biniron wa tennen seni desu.",
-        meaning: "Nylon và vinylon là sợi tự nhiên.",
+        meaning: "Nylon và Vinylon là SỢI TỰ NHIÊN .",
         answer: "ꓫ",
         keywords: {
             group1: ["ナイロン", "Nairon", "Nylon"],
-            group2: ["ビニロン", "Biniron", "vinylon"],
-            group3: ["てんねんせんい", "tennen", "sen", "i", "sợi", "tự", "nhiên."]
+            group2: ["ビニロン", "Biniron", "Vinylon"],
+            group3: ["てんねんせんい", "tennen", "seni", "SỢI", "TỰ", "NHIÊN"]
         },
         image: null
     },
     {
         id: 107,
         jp: "きゃたつ を つかって さぎょうするときは きゃたつ の いちばんうえ に たって も よいです。",
-        romaji: "Kyatatsu wo tukatte sagho wo surutoki wa kyatatsu no ichiban ueni tattemo yoidesu.",
-        meaning: "Khi làm việc với thang , bạn có thể đứng ở phía trên cùng của thang .",
+        romaji: "Kyatatsu wo tukatte sagho wo surutoki wa kyatatsu no ichiban ue ni tattemo yoidesu.",
+        meaning: "Khi làm việc với THANG , bạn có thể đứng ở PHÍA TRÊN CÙNG của thang .",
         answer: "ꓫ",
         keywords: {
-            group1: ["きゃたつ", "Kyatatsu", "kyatatsu", "thang"],
-            group2: ["いちばんうえ", "ichiban", "ueni", "phía", "trên", "cùng"]
+            group1: ["きゃたつ", "Kyatatsu", "THANG"],
+            group2: ["いちばんうえ", "ichiban", "ue", "PHÍA", "TRÊN", "CÙNG"]  
         },
         image: null
     }
