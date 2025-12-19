@@ -553,7 +553,7 @@ const questions = [
         id: 45,
         jp: "めんはんぷ は あさ から できています。",
         romaji: "Menhanpu wa asa kara dekiteimasu.",
-        meaning: "VẢI BỐ được làm từ SỢ GAI .",
+        meaning: "VẢI BỐ được làm từ SỢi GAI .",
         answer: "ꓫ",
         keywords: {
             group1: ["めんはんぷ", "Menhanpu", "VẢI", "BỐ"],
@@ -726,7 +726,7 @@ const questions = [
     {
         id: 59,
         jp: "この ひょうしき が あるところ には はいっても よいです 。",
-        romaji: "Kono hyoshiki ga arutokoro niwa haittemo yoidesu .",
+        romaji: "Kono hyoushiki ga arutokoro niwa haittemo yoidesu .",
         meaning: "Nơi có biển báo này thì có thể VÀO ĐƯỢC .",
         answer: "ꓫ",
         keywords: {
@@ -738,7 +738,7 @@ const questions = [
     {
         id: 60,
         jp: "この ひょうしき が あるところは あんぜん です。",
-        romaji: "Kono hyoshiki ga arutokoro wa anzen desu.",
+        romaji: "Kono hyoushiki ga arutokoro wa anzen desu.",
         meaning: "Nơi có BIỂN BÁO này thì AN TOÀN .",
         answer: "ꓫ",
         keywords: {
@@ -750,7 +750,7 @@ const questions = [
     {
         id: 61,
         jp: "この ひょうしき が あるところには はいって は いけません。",
-        romaji: "Kono hyoshiki ga arutokoro niwa haitte ha ikemasen .",
+        romaji: "Kono hyoushiki ga arutokoro niwa haitte ha ikemasen .",
         meaning: "KHÔNG ĐƯỢC VÀO chỗ có BIỂN BÁO này.",
         answer: "◯",
         keywords: {
@@ -762,7 +762,7 @@ const questions = [
     {
         id: 62,
         jp: "この ひょうしき が あるところ では たばこ を すって も よいです 。",
-        romaji: "Kono hyoshiki ga arutokoro dewa tabako wo sutte mo yoidesu .",
+        romaji: "Kono hyoushiki ga arutokoro dewa tabako wo sutte mo yoidesu .",
         meaning: "Bạn CÓ THỂ HÚT THUỐC LÁ ở chỗ có BIỂN BÁO này.",
         answer: "ꓫ",
         keywords: {
@@ -775,7 +775,7 @@ const questions = [
     {
         id: 63,
         jp: "この ひょうしき が あるところ では たばこ を すって は いけません 。",
-        romaji: "Kono hyoshiki ga arutokoro dewa tabako wo sutte wa ikemasen .",
+        romaji: "Kono hyoushiki ga arutokoro dewa tabako wo sutte wa ikemasen .",
         meaning: "KHÔNG ĐƯỢC HÚT THUỐC LÁ ở chỗ có BIỂN BÁO này.",
         answer: "◯",
         keywords: {
@@ -912,11 +912,11 @@ const questions = [
         id: 74,
         jp: "うわいと したいと の ちょうし が つよすぎる と ぬいちぢみ に なります。",
         romaji: "Uwaito shitaito no choushi ga tsuyosugiru to nuichijimi ninarimasu.",
-        meaning: "Nếu ‍CHỈ TRÊN và chỉ DƯỚI QUÁ CHẶT sẽ khiến đường MAY BỊ RÚT .",
+        meaning: "Nếu CHỈ TRÊN và CHỈ DƯỚI QUÁ CHẶT sẽ khiến đường MAY BỊ RÚT .",
         answer: "◯",
         keywords: {
-            group1: ["うわいと", "Uwaito", " ‍CHỈ", "TRÊN"],
-            group2: ["したいと", "shitaito", "CHỈ", "DƯỚI"],
+            group1: ["うわいと", "Uwaito", "CHỈ", "TRÊN"],
+            group2: ["したいと", "shitaito", "DƯỚI"],
             group3: ["つよすぎる", "tsuyosugiru", "QUÁ", "CHẶT"],
             group4: ["ぬいちぢみ", "nuichijimi", "MAY", "BỊ", "RÚT"]
         },
@@ -1015,11 +1015,11 @@ const questions = [
         id: 82,
         jp: "ほんぬいの ミシンは うわいと と したいと の からみで ぬいます。",
         romaji: "Honnui no mishin wa uwaito to shitaito no karamide nuimasu.",
-        meaning: "Máy may cơ bản may bằng cách móc giữa CHỈ TRÊN và ‍CHỈ DƯỚI .",
+        meaning: "Máy may cơ bản may bằng cách móc giữa CHỈ TRÊN và CHỈ DƯỚI .",
         answer: "◯",
         keywords: {
-            group1: ["うわいと", "uwaito", "CHỈ", "TRÊN"],  
-            group2: ["したいと", "shitaito", " ‍CHỈ", "DƯỚI"]
+            group1: ["うわいと", "uwaito", "TRÊN"],  
+            group2: ["したいと", "shitaito", "DƯỚI"]
         },
         image: null
     },
@@ -1054,7 +1054,7 @@ const questions = [
         answer: "◯",
         keywords: {
             group1: ["うわぬの", "Uwanuno", "VẢI", "TRÊN"],
-            group2: ["したぬの", "shitanuno", " ‍VẢI", "DƯỚI"],
+            group2: ["したぬの", "shitanuno", " ‍VẢI", "DƯỚI"], 
             group3: ["ぬいずれ", "nuizure", "MAY", "LỆCH"]
         },
         image: null
@@ -1076,7 +1076,7 @@ const questions = [
         id: 87,
         jp: "きかいの そうじ や きゅうゆ を するとき は きかいを とめてから します。",
         romaji: "Kikaino souji ya kyuuyu wo surutoki wa kikai wo tometekara shimasu.",
-        meaning: "Khi VỆ SINH máy hay TRAN DẦU , TẮT MÁY rồi mới làm.",
+        meaning: "Khi VỆ SINH máy hay TRA DẦU , TẮT MÁY rồi mới làm.",
         answer: "◯",
         keywords: {
             group1: ["そうじ", "souji", "VỆ", "SINH"],
@@ -1114,7 +1114,7 @@ const questions = [
         id: 90,
         jp: "さぎょう を するときは、 うごき やすければどのような ふくそう を してもよいです。",
         romaji: "Sagyou wo surutoki wa ugoki yasukere ba donoyou na fukusou wo shitemo yoidesu.",
-        meaning: "Khi làm việc, miễn là dễ cử động thì mặc đồ như thế nào cũng được",
+        meaning: "Khi làm việc, miễn là dễ CỬ ĐỘNG thì MẶC ĐỒ như thế nào cũng được",
         answer: "ꓫ",
         keywords: {
             group1: ["うごき", "ugoki", "CỬ", "ĐỘNG"],
@@ -1196,8 +1196,8 @@ const questions = [
     },
     {
         id: 97,
-        jp: "ミシンを かけるときの しせい が わるい と せいかく に ぬえません。",
-        romaji: "Mishin wo kakerutokino shisei ga warui to seikaku ni nuemasen.",
+        jp: "ミシンを かけるときの しせい が わるい と せいかく に ぬえません 。",
+        romaji: "Mishin wo kakerutokino shisei ga warui to seikaku ni nuemasen .",
         meaning: "TƯ THẾ ngồi may KHÔNG TỐT thì ‍KHÔNG THỂ MAY CHÍNH XÁC được.",
         answer: "◯",
         keywords: {
@@ -1260,7 +1260,7 @@ const questions = [
         id: 102,
         jp: "けんたんき は きじを さいだんするものです。",
         romaji: "Kentanki wa kijiwo saidan surumono desu.",
-        meaning: "Máy kiểm tra vải là dụng cụ dùng để cắt vải.",
+        meaning: "MÁY KIỂM TRA VẢI là dụng cụ dùng để cắt vải.",
         answer: "ꓫ",
         keywords: {
             group1: ["けんたんき", "Kentanki", "MÁY", "KIỂM", "TRA", "VẢI"]
